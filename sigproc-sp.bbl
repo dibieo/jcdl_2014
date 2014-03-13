@@ -1,0 +1,110 @@
+\begin{thebibliography}{10}
+
+\bibitem{adar2007we}
+E.~Adar, D.~S. Weld, B.~N. Bershad, and S.~S. Gribble.
+\newblock Why we search: visualizing and predicting user behavior.
+\newblock In {\em Proceedings of the 16th international conference on World
+  Wide Web}, pages 161--170. ACM, 2007.
+
+\bibitem{agrawal}
+R.~Agrawal, R.~Srikant, et~al.
+\newblock Fast algorithms for mining association rules.
+\newblock In {\em Proc. 20th int. conf. very large data bases, VLDB}, volume
+  1215, pages 487--499, 1994.
+
+\bibitem{angeletou2011modelling}
+S.~Angeletou, M.~Rowe, and H.~Alani.
+\newblock Modelling and analysis of user behaviour in online communities.
+\newblock In {\em The Semantic Web--ISWC 2011}, pages 35--50. Springer, 2011.
+
+\bibitem{Attenberg:2009}
+J.~Attenberg, S.~Pandey, and T.~Suel.
+\newblock Modeling and predicting user behavior in sponsored search.
+\newblock In {\em Proceedings of the 15th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '09, pages 1067--1076, New York,
+  NY, USA, 2009. ACM.
+
+\bibitem{brandtzaeg2010towards}
+P.~B. Brandtz{\ae}g.
+\newblock Towards a unified media-user typology (mut): A meta-analysis and
+  review of the research literature on media-user typologies.
+\newblock {\em Computers in Human Behavior}, 26(5):940--956, 2010.
+
+\bibitem{fuller1975concerns}
+F.~F. Fuller.
+\newblock Concerns of teachers: A developmental conceptualization.
+\newblock {\em Teaching Effectiveness: Its Meaning, Assessment, and
+  Improvement}, page 175, 1975.
+
+\bibitem{hall1979concerns}
+G.~E. Hall.
+\newblock The concerns-based approach to facilitating change.
+\newblock {\em Educational Horizons}, 57(4):202--08, 1979.
+
+\bibitem{han2006data}
+J.~Han, M.~Kamber, and J.~Pei.
+\newblock {\em Data mining: concepts and techniques}.
+\newblock Morgan kaufmann, 2006.
+
+\bibitem{legris2003people}
+P.~Legris, J.~Ingham, and P.~Collerette.
+\newblock Why do people use information technology? a critical review of the
+  technology acceptance model.
+\newblock {\em Information \& management}, 40(3):191--204, 2003.
+
+\bibitem{marchionini}
+M.~H. Marchionini~Gary.
+\newblock The roles of digital libraries in teaching and learning.
+\newblock {\em Communications of the ACM}, 38(4):67--75, 1995.
+
+\bibitem{maullunderstanding}
+K.~E. Maull, M.~G. Saldivar, and T.~Sumner.
+\newblock Understanding digital library adoption: A use diffusion approach.
+
+\bibitem{montgomery2004modeling}
+A.~L. Montgomery, S.~Li, K.~Srinivasan, and J.~C. Liechty.
+\newblock Modeling online browsing and path analysis using clickstream data.
+\newblock {\em Marketing Science}, 23(4):579--595, 2004.
+
+\bibitem{ram1990conceptualization}
+S.~Ram and H.-S. Jung.
+\newblock The conceptualization and measurement of product usage.
+\newblock {\em Journal of the Academy of Marketing Science}, 18(1):67--76,
+  1990.
+
+\bibitem{rogers2010diffusion}
+E.~M. Rogers.
+\newblock {\em Diffusion of innovations}.
+\newblock Simon and Schuster, 2010.
+
+\bibitem{Saldivar:2012}
+M.~G. Saldivar.
+\newblock {\em Teacher Adoption of a Web-based Instructional Planning System}.
+\newblock PhD thesis, Boulder, CO, USA, 2012.
+\newblock AAI3508034.
+
+\bibitem{shih2004beyond}
+C.-F. Shih and A.~Venkatesh.
+\newblock Beyond adoption: development and application of a use-diffusion
+  model.
+\newblock {\em Journal of Marketing}, 68(1):59--72, 2004.
+
+\bibitem{straub2009understanding}
+E.~T. Straub.
+\newblock Understanding technology adoption: Theory and future directions for
+  informal learning.
+\newblock {\em Review of Educational Research}, 79(2):625--649, 2009.
+
+\bibitem{sumner:team}
+T.~Sumner and C.~Team.
+\newblock Customizing science instruction with educational digital libraries.
+\newblock In {\em Proceedings of the 10th annual joint conference on Digital
+  libraries}, pages 353--356. ACM, 2010.
+
+\bibitem{Xu}
+B.~Xu.
+\newblock {\em Understanding Teacher Users of a Digital Library Service: A
+  Clustering Approach}.
+\newblock PhD thesis, Utah State University, 2011.
+
+\end{thebibliography}

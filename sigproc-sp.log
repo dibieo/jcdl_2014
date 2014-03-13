@@ -1,0 +1,891 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  13 MAR 2014 08:30
+entering extended mode
+**sigproc-sp.tex
+(C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\OVO\Desktop\JCDL_latex\acm_proc_article-sp.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks17
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+Document Class 'acm_proc_article-sp' <22nd. April '09>. Modified by G.K.M. Tobi
+n
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions to Gerry Murray -- murray@hq.acm.org ******
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+\aucount=\count92
+\originalaucount=\count93
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count94
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count95
+\subtitletext=\toks22
+\savesection=\count96
+\sectioncntr=\count97
+\c@figure=\count98
+\c@table=\count99
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count100
+Document Class: acm_proc_article-sp 2009/04/22 - V3.2SP - based on esub2acm.sty
+ <23 April 96>
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count101
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count102
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count103
+\c@section=\count104
+\c@subsection=\count105
+\c@subsubsection=\count106
+\c@paragraph=\count107
+
+Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1236.
+\bibindent=\dimen122
+\colcntr=\count108
+\saveb@x=\box29
+\copyrtyr=\toks32
+\acmcopyr=\toks33
+\boilerplate=\toks34
+\copyrightetc=\toks35
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen123
+\captionmargin@=\dimen124
+\captionwidth=\dimen125
+\caption@tempdima=\dimen126
+\caption@indent=\dimen127
+\caption@parindent=\dimen128
+\caption@hangindent=\dimen129
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip \baselineskip \
+setbox \@tempboxa \hbox {\textbf {#1: #2}} \ifdim \wd \@tempboxa >\hsize \textb
+f {#1: #2}\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil }\par \fi .
+\c@ContinuedFloat=\count109
+)
+\c@KVtest=\count110
+\sf@farskip=\skip46
+\sf@captopadj=\dimen130
+\sf@capskip=\skip47
+\sf@nearskip=\skip48
+\c@subfigure=\count111
+\c@subfigure@save=\count112
+\c@lofdepth=\count113
+\c@subtable=\count114
+\c@subtable@save=\count115
+\c@lotdepth=\count116
+\sf@top=\skip49
+\sf@bottom=\skip50
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty"
+Package: pstricks 2013/12/12 v0.60 LaTeX wrapper for `PSTricks' (RN,HV)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\base\pstricks.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+\XKV@depth=\count117
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\base\pst-fp.tex"
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count118
+\pstFP@xia=\count119
+\pstFP@xib=\count120
+\pstFP@xfa=\count121
+\pstFP@xfb=\count122
+\pstFP@rega=\count123
+\pstFP@regb=\count124
+\pstFP@regs=\count125
+\pstFP@times=\count126
+)
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-comm
+on.tex
+\pgfutil@everybye=\toks38
+)
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.code
+.tex
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfilte
+red.code.tex
+\pgfkeys@tmptoks=\toks41
+))
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.code.
+tex
+\pgffor@iter=\dimen131
+\pgffor@skip=\dimen132
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+)
+\psLoopIndex=\count127
+
+`PSTricks' v2.49b  <2013/12/21> (tvz)
+\pst@dima=\dimen133
+\pst@dimb=\dimen134
+\pst@dimc=\dimen135
+\pst@dimd=\dimen136
+\pst@dimg=\dimen137
+\pst@dimh=\dimen138
+\pst@dimm=\dimen139
+\pst@dimn=\dimen140
+\pst@dimo=\dimen141
+\pst@dimp=\dimen142
+\pst@hbox=\box30
+\pst@ibox=\box31
+\pst@boxg=\box32
+\pst@cnta=\count128
+\pst@cntb=\count129
+\pst@cntc=\count130
+\pst@cntd=\count131
+\pst@cntg=\count132
+\pst@cnth=\count133
+\pst@cntm=\count134
+\pst@cntn=\count135
+\pst@cnto=\count136
+\pst@cntp=\count137
+\@zero=\count138
+\pst@toks=\toks44
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\base\pstricks.con")
+\psunit=\dimen143
+\psxunit=\dimen144
+\psyunit=\dimen145
+\pst@C@@rType=\count139
+\pslinewidth=\dimen146
+\psk@startLW=\dimen147
+\psk@endLW=\dimen148
+\pst@customdefs=\toks45
+\pslinearc=\dimen149
+\pst@symbolStep=\dimen150
+\pst@symbolWidth=\dimen151
+\pst@symbolLinewidth=\dimen152
+\everypsbox=\toks46
+\psframesep=\dimen153
+\pslabelsep=\dimen154
+\sh@wgridXunit=\dimen155
+\sh@wgridYunit=\dimen156
+\pst@shift=\dimen157
+)
+File: pstricks.tex 2013/12/21 v2.49b `PSTricks' (tvz,hv)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\base\pst-fp.tex")
+File: pst-fp.tex 2013/12/21 v2.49b `PST-fp' (hv)
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `pdf' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\newfloat.sty
+Package: newfloat 2013/05/11 v1.1-91 Defining new floating environments (AR)
+)
+Package newfloat Info: New float `copyrightbox' with options `' on input line 3
+8.
+\c@copyrightbox=\count140
+\newfloat@ftype=\count141
+Package newfloat Info: float type `copyrightbox'=8 on input line 38.
+\c@locopyrightboxdepth=\count142
+
+(C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count143
+\scratchdimen=\dimen158
+\scratchbox=\box33
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen159
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks48
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\auto-pst-pdf\auto-pst-pdf.st
+y
+Package: auto-pst-pdf 2009/04/26 v0.6 Wrapper for pst-pdf
+ (C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\ifplatform\ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty"
+Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
+))
+\c@app@runs=\count149
+runsystem(echo " ")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(echo "auto-pst-pdf: Auxiliary LaTeX compilation")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(del "sigproc-sp-autopp.log")...executed.
+
+runsystem(del "sigproc-sp-autopp.aux")...executed.
+
+runsystem(latex -disable-write18 -jobname="sigproc-sp-autopp" -interaction=batc
+hmode  "\let \APPmakepictures \empty \input  sigproc-sp.tex")...executed.
+
+
+
+Package auto-pst-pdf Warning: 
+    Creation of sigproc-sp-autopp.dvi failed.
+This warning occured on input line 124.
+
+
+Package auto-pst-pdf Warning: 
+    Could not create sigproc-sp-pics.pdf. Auxiliary files not deleted.
+This warning occured on input line 124.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(echo "auto-pst-pdf: End auxiliary LaTeX compilation")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\pst-pdf\pst-pdf.sty
+Package: pst-pdf 2008/10/09 v1.1v PS graphics for pdfLaTeX (RN,HjG)
+\c@pspicture=\count150
+Package pst-pdf Info: MODE: 1 (pdfTeX mode) on input line 214.
+\ppf@output=\toks49
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\preview\preview.sty
+Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
+\pr@snippet=\count151
+\pr@box=\box34
+\pr@output=\toks50
+
+Preview: Fontsize 9pt
+Preview: PDFoutput 1
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\environ\environ.sty
+Package: environ 2013/04/01 v0.3 A new environment syntax
+
+(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))))
+LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 123.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+Overfull \hbox (1.26794pt too wide) in paragraph at lines 133--134
+\T1/aer/m/n/9 H.4 [\T1/aer/bx/n/9 Information Sys-tems Ap-pli-ca-tions\T1/aer/m
+/n/9 ]: Mis-cel-la-neous;
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/OVO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+]
+
+LaTeX Warning: Citation `xu' on page \thepage  undefined on input line 149.
+
+
+LaTeX Warning: Citation `xu' on page \thepage  undefined on input line 166.
+
+[2]
+Overfull \hbox (2.35638pt too wide) in paragraph at lines 196--197
+\T1/aer/m/n/9 ning tool called the Cur-ricu-lum Cus-tomiza-tion Ser-vice (CCS)
+ []
+
+
+Overfull \hbox (2.61684pt too wide) in paragraph at lines 196--197
+\T1/aer/m/n/9 brary re-sources and community-contributed re-sources. These
+ []
+
+[3] <./ccsimage.png, id=19, 951.555pt x 541.27219pt>
+File: ./ccsimage.png Graphic file (type png)
+ <use ./ccsimage.png>
+Package pdftex.def Info: ./ccsimage.png used on input line 202.
+(pdftex.def)             Requested size: 240.0pt x 136.51529pt.
+
+
+Package caption Warning: \label without proper \caption on input line 228.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `usagefeatures' on page \thepage  undefined on input l
+ine 225.
+
+[4 <C:/Users/OVO/Desktop/JCDL_latex/ccsimage.png>]
+<./process_flow.png, id=26, 722.7pt x 542.025pt>
+File: ./process_flow.png Graphic file (type png)
+ <use ./process_flow.png>
+Package pdftex.def Info: ./process_flow.png used on input line 262.
+(pdftex.def)             Requested size: 240.0pt x 180.00188pt.
+
+Overfull \hbox (23.81326pt too wide) in paragraph at lines 272--282
+[][] 
+ []
+
+
+Package caption Warning: \label without proper \caption on input line 301.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `usertypology' on page \thepage  undefined on input li
+ne 299.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+[]\T1/aer/m/n/9 high
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]\T1/aer/m/n/9 Low
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]\T1/aer/m/n/9 High
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+[]\T1/aer/m/n/9 High
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]\T1/aer/m/n/9 Mid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]\T1/aer/m/n/9 High
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+[]\T1/aer/m/n/9 High
+ []
+
+
+Overfull \hbox (2.35626pt too wide) in paragraph at lines 308--308
+[]\T1/aer/m/n/9 Low(0.781)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]\T1/aer/m/n/9 High
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+[]\T1/aer/m/n/9 High
+ []
+
+
+Overfull \hbox (6.97319pt too wide) in paragraph at lines 309--309
+[]\T1/aer/m/n/9 Low(1.6524)| 
+ []
+
+
+Overfull \hbox (2.35626pt too wide) in paragraph at lines 310--310
+[]\T1/aer/m/n/9 Low(6.438)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+[]\T1/aer/m/n/9 High
+ []
+
+
+Overfull \hbox (16.59558pt too wide) in paragraph at lines 303--314
+[][] 
+ []
+
+[5 <C:/Users/OVO/Desktop/JCDL_latex/process_flow.png>]
+Overfull \hbox (25.91522pt too wide) in paragraph at lines 333--333
+[]\T1/aer/m/n/9 Num_sessions| 
+ []
+
+
+Overfull \hbox (2.47081pt too wide) in paragraph at lines 333--333
+[]\T1/aer/m/n/9 IR_actv| 
+ []
+
+
+Overfull \hbox (30.83844pt too wide) in paragraph at lines 333--333
+[]\T1/aer/m/n/9 My_Stuff_Actv| 
+ []
+
+
+Overfull \hbox (30.52296pt too wide) in paragraph at lines 333--333
+[]\T1/aer/m/n/9 Publisher_actv| 
+ []
+
+
+Overfull \hbox (41.43091pt too wide) in paragraph at lines 333--333
+[]\T1/aer/m/n/9 Shared_stuff_actv| 
+ []
+
+
+Overfull \hbox (34.76912pt too wide) in paragraph at lines 332--344
+[][] 
+ []
+
+
+Overfull \hbox (25.91522pt too wide) in paragraph at lines 353--353
+[]\T1/aer/m/n/9 Num_sessions| 
+ []
+
+
+Overfull \hbox (2.47081pt too wide) in paragraph at lines 353--353
+[]\T1/aer/m/n/9 IR_actv| 
+ []
+
+
+Overfull \hbox (30.83844pt too wide) in paragraph at lines 353--353
+[]\T1/aer/m/n/9 My_Stuff_Actv| 
+ []
+
+
+Overfull \hbox (30.52296pt too wide) in paragraph at lines 353--353
+[]\T1/aer/m/n/9 Publisher_actv| 
+ []
+
+
+Overfull \hbox (41.43091pt too wide) in paragraph at lines 353--353
+[]\T1/aer/m/n/9 Shared_stuff_actv| 
+ []
+
+
+Overfull \hbox (34.76912pt too wide) in paragraph at lines 352--364
+[][] 
+ []
+
+
+Overfull \hbox (25.91522pt too wide) in paragraph at lines 378--378
+[]\T1/aer/m/n/9 Num_sessions| 
+ []
+
+
+Overfull \hbox (2.47081pt too wide) in paragraph at lines 378--378
+[]\T1/aer/m/n/9 IR_actv| 
+ []
+
+
+Overfull \hbox (30.83844pt too wide) in paragraph at lines 378--378
+[]\T1/aer/m/n/9 My_Stuff_Actv| 
+ []
+
+
+Overfull \hbox (30.52296pt too wide) in paragraph at lines 378--378
+[]\T1/aer/m/n/9 Publisher_actv| 
+ []
+
+
+Overfull \hbox (41.43091pt too wide) in paragraph at lines 378--378
+[]\T1/aer/m/n/9 Shared_stuff_actv| 
+ []
+
+
+Overfull \hbox (34.76912pt too wide) in paragraph at lines 377--389
+[][] 
+ []
+
+
+Overfull \hbox (3.78668pt too wide) in paragraph at lines 401--404
+[]\T1/aer/m/n/9 A min-i-mum sup-port is ap-plied to item-sets(transactions)
+ []
+
+[6]
+Overfull \hbox (11.82574pt too wide) in paragraph at lines 423--430
+$\OML/cmm/m/it/9 Publisher[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/c
+mr/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/
+n/9 96)2\OML/cmm/m/it/9 :Publisher[]ctivity \OT1/cmr/m/n/9 =$
+ []
+
+
+Overfull \hbox (77.3045pt too wide) in paragraph at lines 423--430
+$\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Number[]f[]essions \
+OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/
+cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)3\OML/cmm/m/it/9 :Number[]f[]e
+ssions \OT1/cmr/m/n/9 =$
+ []
+
+
+Overfull \hbox (66.3562pt too wide) in paragraph at lines 423--430
+$\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Publisher[]ctivity \
+OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/
+cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)4\OML/cmm/m/it/9 :Publisher[]c
+tivity \OT1/cmr/m/n/9 =$
+ []
+
+
+Overfull \hbox (20.06326pt too wide) in paragraph at lines 423--430
+$\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Hours[]pent \OT1/cmr
+/m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/cmr/m/n
+/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)5\OML/cmm/m/it/9 :Hours[]pent \OT1/cm
+r/m/n/9 =$
+ []
+
+
+Overfull \hbox (4.50821pt too wide) in paragraph at lines 423--430
+$\OML/cmm/m/it/9 highPublisher[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\O
+T1/cmr/m/n/9 29 ==\OML/cmm/m/it/9 > Number[]f[]essions \OT1/cmr/m/n/9 =$
+ []
+
+
+Overfull \hbox (35.85837pt too wide) in paragraph at lines 423--430
+$\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\
+OML/cmm/m/it/9 :\OT1/cmr/m/n/9 93)6\OML/cmm/m/it/9 :Number[]f[]essions \OT1/cmr
+/m/n/9 = \OML/cmm/m/it/9 highPublisher[]ctivity \OT1/cmr/m/n/9 =$
+ []
+
+
+Overfull \hbox (48.68388pt too wide) in paragraph at lines 423--430
+$\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29 ==\OML/cmm/m/it/9 > Hours[]pent \OT1/cmr
+/m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n
+/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 93)7\OML/cmm/m/it/9 :Number[]f[]essions 
+\OT1/cmr/m/n/9 =$
+ []
+
+
+Overfull \hbox (29.30154pt too wide) in paragraph at lines 440--441
+[]$\OML/cmm/m/it/9 Hours[]pent \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 lowPublisher[]c
+tivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 midShared[]tuff[]ctivity \OT1/cmr/m/n/9
+ =$
+ []
+
+
+Overfull \hbox (6.79987pt too wide) in paragraph at lines 450--453
+$\OML/cmm/m/it/9 My[]tuff[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\OT1/cmr
+/m/n/9 26\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/
+9 96)2\OML/cmm/m/it/9 :Publisher[]ctivity \OT1/cmr/m/n/9 =$
+ []
+
+
+Overfull \hbox (1.58818pt too wide) in paragraph at lines 450--453
+$\OML/cmm/m/it/9 lowShared[]tuff[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\
+OT1/cmr/m/n/9 27 ==\OML/cmm/m/it/9 > My[]tuff[]ctivity \OT1/cmr/m/n/9 =$
+ []
+
+
+Overfull \hbox (59.25526pt too wide) in paragraph at lines 450--453
+$\OML/cmm/m/it/9 low\OT1/cmr/m/n/9 26\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\O
+ML/cmm/m/it/9 :\OT1/cmr/m/n/9 96)3\OML/cmm/m/it/9 :Interactive[]esource[]ct \OT
+1/cmr/m/n/9 = \OML/cmm/m/it/9 lowShared[]tuff[]ctivity \OT1/cmr/m/n/9 =$
+ []
+
+(C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.bbl
+LaTeX Font Info:    Try loading font information for T1+aett on input line 1.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Overfull \hbox (4.79341pt too wide) in paragraph at lines 1--1
+\T1/aer/m/n/9 Additional au-thors: John Smith (The Thørväld Group, email:
+ []
+
+
+Overfull \hbox (22.39977pt too wide) in paragraph at lines 1--1
+\T1/aett/m/n/9 jsmith@affiliation.org\T1/aer/m/n/9 ) and Julius P. Kumquat (The
+ Kumquat
+ []
+
+[7])
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 41.
+See the caption package documentation for explanation.
+
+[8
+
+] (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7206 strings out of 493921
+ 108514 string characters out of 3144882
+ 214145 words of memory out of 3000000
+ 10322 multiletter control sequences out of 15000+200000
+ 51713 words of font info for 72 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 44i,13n,75p,2264b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on sigproc-sp.pdf (8 pages, 298866 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,784 @@
+% THIS IS SIGPROC-SP.TEX - VERSION 3.1
+% WORKS WITH V3.2SP OF ACM_PROC_ARTICLE-SP.CLS
+% APRIL 2009
+%
+% It is an example file showing how to use the 'acm_proc_article-sp.cls' V3.2SP
+% LaTeX2e document class file for Conference Proceedings submissions.
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V3.2SP) *DOES NOT* produce:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) Page numbering
+% ---------------------------------------------------------------------------------------------------------------
+% It is an example which *does* use the .bib file (from which the .bbl file
+% is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission,
+% you need to 'insert'  your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% Questions regarding SIGS should be sent to
+% Adrienne Griscti ---> griscti@acm.org
+%
+% Questions/suggestions regarding the guidelines, .tex and .cls files, etc. to
+% Gerald Murray ---> murray@hq.acm.org
+%
+% For tracking purposes - this is V3.1SP - APRIL 2009
+
+\documentclass{acm_proc_article-sp}
+\usepackage{epstopdf}
+\usepackage{graphicx}
+\usepackage{amssymb, amsmath}
+\graphicspath{{images/}}
+
+\usepackage{subfig}
+\usepackage[pdf]{pstricks}
+
+\DeclareCaptionType{copyrightbox}
+
+\captionsetup[figure]{position=t}
+\captionsetup[subfigure]{position=b}
+\usepackage[pdf]{pstricks}
+
+\begin{document}
+
+\title{A computational approach for understanding and predicting user behavior}
+
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{8} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Ben Trovato\titlenote{Dr.~Trovato insisted his name be first.}\\
+       \affaddr{Institute for Clarity in Documentation}\\
+       \affaddr{1932 Wallamaloo Lane}\\
+       \affaddr{Wallamaloo, New Zealand}\\
+       \email{trovato@corporation.com}
+% 2nd. author
+\alignauthor
+G.K.M. Tobin\titlenote{The secretary disavows
+any knowledge of this author's actions.}\\
+       \affaddr{Institute for Clarity in Documentation}\\
+       \affaddr{P.O. Box 1212}\\
+       \affaddr{Dublin, Ohio 43017-6221}\\
+       \email{webmaster@marysville-ohio.com}
+% 3rd. author
+\alignauthor Lars Th{\o}rv{\"a}ld\titlenote{This author is the
+one who did all the really hard work.}\\
+       \affaddr{The Th{\o}rv{\"a}ld Group}\\
+       \affaddr{1 Th{\o}rv{\"a}ld Circle}\\
+       \affaddr{Hekla, Iceland}\\
+       \email{larst@affiliation.org}
+}
+% There's nothing stopping you putting the seventh, eighth, etc.
+% author on the opening page (as the 'third row') but we ask,
+% for aesthetic reasons that you place these 'additional authors'
+% in the \additional authors block, viz.
+\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
+email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
+(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+\date{30 July 1999}
+% Just remember to make sure that the TOTAL number of authors
+% is the number that will appear on the first page PLUS the
+% number that will appear in the \additionalauthors section.
+
+\maketitle
+\begin{abstract}
+\textit{TODO: Working on this, still very preliminary...}
+
+In this paper, we present a computational approach for understanding and predicting the behavior of Earth Science educators using an online curriculum planning tool incorporating digital library resources. This paper expands on prior work on understanding educators' adoption and use of digital library resources \cite{maullunderstanding}, by extending the use-diffusion based methodology for characterizing use and understanding the trends that occur within user behaviors. . Furthermore, we show that a user's long-term behavior can be predicted to a certain extent from small window of time.
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{H.4}{Information Systems Applications}{Miscellaneous}
+%A category including the fourth, optional field follows...
+\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+
+\terms{Theory}
+
+\keywords{ACM proceedings, \LaTeX, text tagging} % NOT required for Proceedings
+
+\section{Introduction}
+In today's classroom, educational digital libraries play an important role of supporting educators in customizing their instruction to meet the diverse needs of students\cite{sumner:team}. 
+They provide educators with high quality resources to supplement classic teaching materials such as textbooks and teaching guides. Also, digital libraries provide learners with avenues for informal learning--learning outside the classroom--as a way of augmenting knowledge and experiences gained in the classroom \cite{marchionini}. Given the importance of educational digital libraries to learning and teaching, it is necessary to improve our understanding of how resources within these libraries are used.  This knowledge would be beneficial in providing library providers and managers with information on how to support and improve the information needs of library patrons.
+
+Understanding technology use spans far beyond the realm of digital libraries. In marketing science there has been extensive research into technology adoption and use. A  theoretical framework for understanding technology use is the use-diffusion framework proposed by Shih and Venkatesh.Use-diffusion characterizes the uses of a product in two dimensions: the frequency of use and variety of use \cite{shih2004beyond}.  For example, following the use-diffusion model, the usage patterns of Facebook users can be characterized based on the amount of time spent on the Facebook platform and the various types of actions performed during that time. Other theories of use consider a user's content preference in addition to usage frequency and variety \cite{brandtzaeg2010towards}. We discuss the use-diffusion as well as other paradigms of technology use in greater detail in section 4. 
+
+Within the realm of digital libraries, recent research has focused on computational approaches for determining the usage behaviors of educators. Inspired by theories of technology use from Shih and Venkatesh and Ram and Jung \cite{shih2004beyond, ram1990conceptualization}, Maull et al. \cite{maullunderstanding} developed a use diffusion-based methodology for understanding how a group of middle and high school Earth Science educators used an online curriculum customization tool incorporating digital library resources \cite{maullunderstanding}. They used computational techniques such as clustering and clickstream entropy to produce user typologies \cite{maullunderstanding}. A user typology refers to the categorization of aggregate user behaviors into distinct user types \cite{brandtzaeg2010towards}. Each user type gives an overview of the manner of use of members of that type \cite{brandtzaeg2010towards}. For example a user of type \textit{power user} is one who spends a lot of time on a product and also uses it in a variety of contexts. Similar to the work of Maull et al. \cite{maullunderstanding}, Xu et al. studied the different unique user typologies that developed from teacher use of a educational digital library service, the Instructional Architect \cite{Xu}. 
+
+While, current usage theories give insight into user types, they do not account for the evolution of such behavior. For example, a user of the type \textit{power user} (spends a lot of time on a product and exercises most of its features) after a year of using a product, may not have exhibited this behavior from first use. We hypothesize that user behaviors as described by user types are not static but dynamic. In fact, Shih and Venkatesh posit a similar hypothesis in elaborating on user types they discover \cite{shih2004beyond}. In this research, we aim at shedding light on the evolution of a user type by understanding how the patterns of use that describe it change over time and what frequent patterns can be observed within it. Using a market-basket analysis type approach to analyze the usage patterns of users within a user type, we get a better understanding of the unique patterns of use that exist within that type. This would help in understanding the correlations that occur within specific user types. For example, when a user of a type \textit{power user} spends a high/low amount of time on the system, what actions are they likely to be performing etc.
+
+Furthermore, current research on digital library use is mostly retrospective, i.e. a user's behavior is determined after a set period of use. Studies \cite{maullunderstanding,xu} were based on a year of use. We can however go a step further by predicting a user's behavior based on knowledge of a user typology. This could be especially useful for new users of the system as this knowledge can help system providers/managers with information on how to influence their behavior in one way or the other. In our domain (educational digital library resources), this could mean implementing better professional development (PD) training or accessibility to resources.  In this paper, we develop computational models for predicting the long-term usage behaviors of users from small windows of time. This knowledge would be beneficial in providing library administrators/managers with timely information on what system changes/user training would improve the use of their platforms.
+
+\textit{We state final results here}I state my results here and paper organization....
+
+\section{RELATED WORK}
+This research draws upon theoretical models and computational approaches of determining technology use. We examine these theories in this section
+\subsection{Theoretical models of technology use}
+Technology use research follows from a rich history of work in technology adoption. Technology adoption occurs when a user decides an innovation is of utility and decides to use it \cite{straub2009understanding}. Most research on technology adoption is focused on factors that influence a user's decision to adopt an innovation. They include Roger's innovation diffusion theory where the five "adopter categories", a user's propensity to adopt an innovation and the spread of that innovation within a social system are examined \cite{rogers2010diffusion}. Other models of technology adoption include the concerns based model which focuses on an an individual's specific reasoning behind adopting an innovation \cite{fuller1975concerns, hall1979concerns} and the technology acceptance model \cite{legris2003people} which takes into account the influence of an individual's self efficacy and expertise in deciding whether to adopt a technology or not \cite{legris2003people}.
+
+However technology adoption models do not account for how a technology is being used. Knowledge of how a product is used or not being used is key for manufacturers in making improvements/changes to the product. This need has led to the rise of theories that explain actual technology use.
+
+A key theory on technology use is the theory of use-diffusion. Originally proposed by Ram and Jung\cite{ram1990conceptualization}, it measures technology use on two dimensions: frequency and variety. Usage frequency refers to how often a product is being used while variety refers to the different applications or contexts within which a product is being used. For example, usage frequency for an Ipad will be based on how long it is being used while usage variety encompasses the various applications it is used for e.g. games, word processing, camera etc. Through self-report questionnaires and a dairy study \footnote{A diary study is a study method common in the fields of anthropology, psychology and Human Computer Interaction (HCI) in which users log their interactions with a product. It provides a great way for researchers to context longitudinal data on a user's experience with a product.}
+
+The work of Ram and Jung was expanded on by Shih and Venkatesh \cite{shih2004beyond}. Using the use-diffusion methodology to describe the behavior of users using a household technology, they discover a user typology of four distinct user types: \textit{intense use, non-specialized use, specialized use, and limited use}.
+Users of type \textit{intense use} are characterized by high frequency and a high variety of use. Users of type \textit{specialized use} are characterized by a high frequency but a low variety of use. An example of this could be an administrative assistant who spends a lot of time on a computer but only uses it for processing word documents. Users of type \textit{limited use} are characterized by low frequency and variety of use. Users of type \textit{Non-specialized use} are characterized by a high variety of use and low frequency.
+
+\subsection{Computational approaches for determining user typologies}
+Recent research has focused on extending theoretical foundations on user typologies to educational contexts. Rather than determining user types solely based on self-reported usage as is the case in \cite{shih2004beyond,ram1990conceptualization}, these computational approaches generate a typology of user behavior via clustering of actual usage. Clustering is a data mining technique for automatically grouping related items into bins. Clustering algorithms normally group data based on two measures: the similarity between the data objects within the same cluster (minimal intra-cluster distance), and the dissimilarity between the data objects of different clusters (maximal inter-cluster distance) \cite{han2006data}. Xu \cite{xu} examined the use of clustering techniques to generate fine grained user typologies within a web based instructional tool known as the Instructional Architect (IA). The IA is an educational digital library service designed to facilitate the creation of simple instructional projects using web resources from the National Science Digital Library (NSDL) and the web in general[9]. Projects created can be kept as private, shared with just students and other teachers or made publicly available on the web. Three clusters of users were discovered namely: key brokers, insular classroom practitioners and ineffective islanders \cite{Xu}.  Key brokers frequently browsed projects created by other users in IA and their own projects also received a lot of attention from other users; their public projects were of especial high quality \cite{Xu}.Insular classroom practitioners did not create high quality projects because their projects were characterized by very little content and links to external resources. They had little interest in viewing projects created by other IA users and most of the projects they created were limited to use with students in their classrooms. Ineffective islanders were characterized by publishing a single project of supposedly good quality but these projects were not shared with neither students nor the public \cite{Xu}.
+
+Working with the Curriculum Customization Service (CCS)--an online curriculum planning tool incorporating digital library resources \cite{sumner:team}, Maull et al. \cite{maullunderstanding} develop a typology of user behaviors observed in the CCS. This typology is inspired by a use-diffusion methodology and characterizes use based on the frequency and variety type metrics observable through server logs. These metrics include the a user's number of session, hours spent, and variety based metrics include areas of the CCS that were accessed such as Interactive Resources, Publisher material, shared stuff and my stuff. We provide detailed explanation of these features in section 4. 
+
+Our work is based on the same context as Maull et al.\cite{maullunderstanding} .This work furthers Maull et al. \cite{maullunderstanding} use-diffusion based methodology of understanding technology use in two ways: 
+\begin{enumerate}
+\item This work provides a deeper understanding of how usage features that characterize user types trend within the time period of the observed user type. Furthermore, this work introduces a market-basket analysis of usage features to understand how usage features correlate with each other within each user type. Thus this answers the question of when a user is doing X, what else are they likely to be also doing.
+
+\item This works explores computational models to predict an educator's behavior from small windows of time. It aims to answer the question of can we predict a user's type at the end of a year from an early window of usage say the first month?
+\end{enumerate}
+
+\subsection{Predicting User Behavior}
+Predicting user behavior on the web has been of major research interest in recent times. This primarily due to the need to improve user experience.  Research studies have looked into the correlation between different the online activities of users in order to understand how one influences the other \cite{adar2007we}. For example, this could be the likelihood a user purchasing an item after reading reviews or a blog post about it \cite{adar2007we}. Other research have explored online user behavior at a much lower level of granularity such as the likelihood of a user clicking on a sponsored search result \footnote{Sponsored search results are advertisements displayed by search engines next to the actual search results returned. They are major revenue source for most web search engines.} \cite{Attenberg:2009}. Attenberg et al. \cite{Attenberg:2009} show that a user's click through behavior on sponsored search results can be predicted with a decent degree of accuracy based on the user's search query,result and prior behavior. User behavior on sponsored search result is determined by the number of additional clicks made and time spent on sponsored results.
+
+In this paper, we aim at exploring user behavior prediction in the context of an online planning tool incorporating digital library resources. We aim at identifying the most predictive features of a user's eventual user type and the earliest window of time within which a user's behavior can be accurately predicted.
+
+\section{RESEARCH QUESTIONS}
+The specific research questions to be addressed in this paper are as follows:
+\begin{enumerate}
+\item Does the usage pattern which describe a user type remain the same or does it vary and if so how?
+\\In this question we introduce a framework for characterizing user types and examine how the usage patterns (in terms of usage features) that describe a user type change from time to time
+\item What are the frequent usage patterns that can be observed within a user type?
+\\This question gets at what usage features go together within a particular user type. It would provide a better understanding of what users of a particular type are likely doing when doing something else.
+\item How well can computational models predict a user's eventual user type from smaller time windows?
+\\We examine a set of classifiers for predicting the user type of users at the end of a school year from earlier time frames such as
+the first month of use and first semester of use. We aim to discover what time frame and usage features are best predictive of a user's user type
+\end{enumerate}
+
+
+\section{RESEARCH CONTEXT}
+The research questions outlined in this proposal will be examined in the context of an instructional curriculum planning tool called the Curriculum Customization Service (CCS) \cite{sumner:team}. The CCS is a web based instructional planning tool which provides primarily middle and high school Earth Science teachers with access to digital versions of their class room text book, curriculum-relevant high quality, digital library resources and community-contributed resources. These resources are used in a multitude of pedagogical scenarios: from lesson planning to in-class projection and demonstration to customizing instruction to meet the needs of a diverse group of learners \cite{Saldivar:2012}. Educators use the CCS as a supplement to other instructional aids such as text books and teaching guides. Deployed since the fall of 2009, the CCS is now being used in six school districts across Colorado and Utah. The CCS is instrumented to capture the click actions of users. Click actions being tracked include all unique page elements such as clicks on links, toggles, tabs, and buttons. The aggregate data collected from the clicking activity of users is collectively known as clickstream. Clickstream data is useful in not only useful in showing a user's navigational path i.e. pages clicked on during a visit to a website , and click actions performed within a specific page (i.e. page elements that were clicked on within a particular page), but also a user browsing behavior \cite{montgomery2004modeling}. Clickstream analysis has proved to be very useful in developing user typologies from online usage as illustrated by Maull et al. \cite{maullunderstanding} with the CCS and Xu et al.\cite{Xu} with the Instructional Architect. The clickstream data under analysis for this research includes information such as the user identity (user id), time stamp, specific system components clicked on (within the CCS this could be an interactive resource from a digital library such as DLESE or a user-contributed resource), session length. A series of clicks performed over a period of time constitutes a session—and a session is delineated by 45 minutes of inactivity or termination of the session by logging out.
+
+\begin{figure}
+\caption{Snapshot of the CCS platform highlighting its main capabilities: Publisher materials (EarthComm Activities tab), Digital library resources (Interactive Resources tab), personalization capabilities(My Stuff tab) and community features (Shared stuff tab). The Interactive Resource tab is opened in this figure showing the top recommended digital resources}
+\label{fig:ccsimage}
+
+\includegraphics[width=1 \linewidth]{./ccsimage}
+\end{figure}
+
+
+\subsection{Data}
+Our analysis  on the clickstream of a large urban school district with 80 science educators who used the CCS during the 2011-2012 school year. About 20,000 click actions were registered by users in the CCS by users in this district
+
+\subsubsection{Feature selection}
+Our study in this research is based on six features. These features cover the four core areas of the CCS which are: (1) Digital library resources, (2)Publisher material, (3)Community contributed resources (4)Personalization
+ 
+\textbf{Digital Library resources}:
+A core aim of the CCS is to enable users customize instruction with high-quality digital library resources. The CCS is designed to automatically pull educational resources from digital libraries such as the Digital Library for Earth System Education (DLESE) and align these resources to a curriculum and educational standards. Within the CCS' interface, these resources are collectively referred to as interactive resources(IR resources). IR resources are sub-grouped into four categories depending on its type. They are : Top Picks, Animations, Images/Visuals and Inquiry with Data. 
+
+\textbf{Publisher Materials}:
+Publisher materials are digitized versions of primarily paper-based instructional materials. Publisher materials include a digitized version of the student textbook, and supplemental teaching materials such as instructional support materials, teaching tips and embedded assessments. Access to digitized version of classic teaching materials within the CCS makes curriculum planning and in-class usage more accessible and convenient.
+
+\textbf{Personalization}:
+The CCS provides a host of personalization features which we refer to as \textbf{My Stuff}. As users go through the CCS platform, My Stuff features they can save publisher materials, digital library and community-shared resources to their My Stuff area. In addition to saving other system components, users can also upload their own resources to My Stuff and retrieve as needed at a later time.
+
+\textbf{Community Features}:
+The CCS promotes social behavior such as sharing resources among users. For each section of the curriculum, users are able to share resources such as documents, links and rich media with others. Other users who find these resources useful can use or save these resources in My Stuff for later use.
+
+\section{CHARACTERIZING USER TYPES}\label{charusertypes}
+Before proceeding with our analysis on understanding and predicting the evolution of user types, we introduce a framework for characterizing the user types of a typology. We follow a similar approach to generating a user typology as Maull et al \cite{maullunderstanding}.The expectation maximization (EM) clustering algorithm is applied to the usage logs of all users during the months of September - May to generate a typology of user behaviors. Typically, the school calendar runs from August-June, but usage in August and June are partial as school begins in late August and ends in early June. Thus, we omit them from our analysis. We examine usage through six  features which cover the main components of the CCS platform. These features are highlighted in table \ref{usagefeatures} with the feature type i.e. whether this a frequency or variety based feature indicated in parenthesis.
+
+\begin{table}
+\label{usagefeatures}
+\centering
+\caption{CCS usage features that characterize a user type}
+\begin{tabular}{|l|l|} 
+\hline
+Num & Feature \\ \hline
+1 & Total number of sessions (frequency) \\ \hline
+2 & Total number of hours spent on the site (variety) \\ \hline
+3 & Total "My Stuff" activity (variety) \\ \hline
+4 & Total activity within publisher material (variety)\\ \hline
+5 & Total Shared stuff activity (variety) \\ \hline
+6 & Total Interactive Resources activity (variety)	\\ \hline
+\end{tabular}
+\end{table}
+
+In prior computational approaches for generating user typologies, user types discovered via clustering are labeled in a manual ad-hoc fashion \cite{maullunderstanding, Xu}. There are no set rules for mapping a cluster to a specific user type. In this work we introduce an equal frequency binning discretization based approach for mapping clusters to a specific user type. Discretization based framework has successfully been used in defining feature values that describe user type archetypes by  \cite{brandtzaeg2010towards} and by Angeletou et al. \cite{angeletou2011modelling} in characterizing the behaviors of users in an online discussion forum. 
+
+The discretization works as follows:
+
+\begin{enumerate}
+
+\item For each usage feature, we perform equal frequency discretization on its continuous into three bins: low, medium and high. Using a naive binning approach such as splitting a feature range into thirds can lead to large frequency skews within a single bin. Equal frequency binning avoids this and provides a distribution-dependent notion of levels \cite{han2006data}.  
+
+\item We use the user types developed by Maull et al. \cite{maullunderstanding} and their discretized user types as archetypes for characterizing usage as illustrated in table \ref{maull_features}
+
+\item The EM algorithm is run against the total usage to generate unique clusters. The output of EM clustering is a set of clusters(user types) with the cluster mean value for each feature. The usage feature value for each cluster is discretized into low, mid and high bins. 
+
+\item We attempt to map the discretized feature values to each of the user type archetypes from Maull et al. \cite{maullunderstanding}. If a mapping to a user type does not exist, we introduce a new label that describes the cluster based on its feature values.
+
+
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics[width=1 \linewidth]{./process_flow}
+\caption{Process flow of labeling a cluster with a user type}
+\label{fig:process_flow}
+\end{figure}
+
+\textit{insert table showing the discretized usage feature of each user type illustrated by Maull et al.}
+
+\begin{table}
+\caption{Discretized feature values from cluster results of Maull et al. \cite{maullunderstanding}}
+\label{maull_features}
+\begin{tabular}{|l|l|l|l|l|l|} \\ \hline
+% Add cluster label for cluster columns here
+Feature & 1 & 2 & 3 & 4 & 5 \\ \hline
+Sessions & Low & Mid-High & High & High & High \\ \hline
+Hours & Low & Mid-High & High & High & High \\ \hline
+IR Activity & Low & Low-mid & High & Mid & Low \\ \hline
+My Stuff Activity & Low & Mid-High & High & Mid & High \\ \hline
+Shared Stuff Activity & Low & High & High & High & High \\ \hline
+Publisher Activity & Low & Low & High & Mid & Low \\ \hline
+\end{tabular}
+\end{table}
+
+%\begin{table}
+%\centering
+%\caption{CCS usage features that characterize a user type}
+%\begin{tabular}{|l|l|l|l|l|l|l|}} \hline
+% User type & Number of sessions & Hours & IR_activity & Shared_stuff_activity & My_stuff_actv & Publisher_actv \\ \hline
+%\textbf{Intense Use "Ardent Power User"} & High & High & High & High & High & High \\ \hline
+%\textbf{Limited Use "Uninterested Non-Adopter"} & Low & Low & Low & Low & Low & Low \\ \hline
+%\textbf{Specialized Use "Community seeker specialist"} & Mid-High & Low-Mid & Mid-High & High & Low & Low \\ \hline
+%\textbf{Specialized use "Interactive resource specialist} & Mid-High & High & Low-Mid & Low-Mid & Low-mid \\ \hline
+%\textbf{Non-specialized use "Moderage Generalist} & Mid & Mid & Mid & Mid & Mid & Mid \\ \hline
+%\end{tabular}
+%\end{table}
+
+\subsection{User typology}
+
+After clustering usage for all users we get a user typology as shown in table \ref{usertypology}:
+\begin{table}
+\label{usertypology}
+\caption{Output of clustering experiments}
+\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+\hline Feature & 1 &  2 & 3 \\ 
+\hline num\_sessions & low(4.048)& high(97.2)  & high (26.5)  \\ 
+\hline hours & Low (0.649) & High (17.802) & High (3.946)  \\ 
+\hline ir\_activity & Mid (3.867) & High (80.199) & High (18.275) \\ 
+\hline my\_stuff\_activity &  Low(0.781)  & High (10.2) & High (9.645)  \\ 
+\hline shared\_stuff\_activity & Low(1.6524) & High(21.6) & High(39.6) \\
+\hline publisher\_activity & Low(6.438) & High (162) & High (40.045)  \\
+\hline \textbf{N} & 32 & 5 & 43
+
+\end{tabular}
+\end{table} 
+
+There were three clusters generated from our user type experiments
+
+\textbf{Cluster 1}: With all it's features with a value of \textit{low} apart from interactive resources with a value of mid, this cluster is closest to the user archetype of limited use "uninterested adopter." An introspection into the login frequency of members of this type, reveals that a good portion of users stopped using the CCS after the first few months of the school year.
+
+\textbf{Cluster 2}: The usage pattern of cluster 2 with all feature values having a value of high is most closely correlated to that of the power user archetype.
+
+\textbf{Cluster 3}: This cluster of users also have a high rating on average in all usage features. However, the values of each of these features are in the low range of the high value bin. On average users in this clusters are not as intensely engaged with the CCS platform as the power users in cluster 2. We would categorize these users as Community Seeker specialists, because they feature higher use of Shared Stuff compared to users of the other two clusters (in terms of mean number of clicks).
+
+\section{USAGE PATTERN TRENDS}
+We explore the trend in usage pattern on a feature-by-feature basis. In this analysis we look into how the values of each usage feature per user type changes on three levels: semester to semester, every two months and month to month. This would give a good idea of which usage features remain relatively stable (in terms of use) and which vary per user type. This knowledge would be particularly useful in detecting strong features that define a user type. For example, if the power user type always has a high value in  publisher material activity, this  might point to the fact that a high value in publisher material activity is a strong predictor of a 'power user' user type.
+\subsection{Limited use user type}
+\subsubsection{Semester-Semester trends}
+\subsubsection{Bi-monthly trends}
+\subsubsection{Monthly trends}
+\begin{table}
+\caption{Monthly usage feature trends in the limited user type}
+\begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ & Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+\textbf{Sept} & low                                    & mid   & mid         & low             & mid            & low                 \\  \hline
+\textbf{Oct}   & low                                    & mid   & mid         & low             & low            & mid                 \\  \hline
+\textbf{Nov}  & mid                                    & mid   & mid         & low             & mid            & low                 \\  \hline
+\textbf{Dec}  & low                                    & mid   & high        & mid             & mid            & mid                 \\  \hline
+\textbf{Jan}   & mid                                    & mid   & mid         & low             & mid            & low                 \\ \hline
+\textbf{Feb}  & mid                                    & mid   & low         & low             & mid            & low                 \\  \hline
+\textbf{Mar}     & mid                                    & low   & mid         & mid             & mid            & mid                 \\ \hline
+\textbf{Apr}     & low                                    & mid   & mid         & low             & mid            & low                 \\ \hline
+\textbf{May}       & low                                    & mid   & low         & low             & low            &                    
+\end{tabular}
+\end{table}
+In this user type, the hours spent and publisher activity features seem to be very stable and hence good predictors of membership within ----. The other features number of sessions, shared stuff activity, interactive resource activity tend to vary quite a bit from month to month.
+
+\subsection{Community Seeker user type}
+\subsubsection{Semester-Semester trends}
+\subsubsection{Bi-monthly trends}
+\subsubsection{Monthly trends}
+\begin{table}
+\begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ & Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+\textbf{Sept} & mid                                    & mid   & mid         & mid             & mid            & high                \\
+\textbf{Oct}   & mid                                    & mid   & mid         & mid             & mid            & high                \\
+\textbf{Nov}  & high                                   & high  & high        & high            & mid            & high                \\
+\textbf{Dec}  & high                                   & mid   & mid         & mid             & mid            & high                \\
+\textbf{Jan}   & high                                   & high  & high        & high            & high           & mid                 \\
+\textbf{Feb}  & mid                                    & mid   & high        & high            & mid            & high                \\
+\textbf{Mar}     & high                                   & mid   & high        & high            & mid            & mid                 \\
+\textbf{Apr}     & mid                                    & mid   & high        & high            & mid            & high                \\
+\textbf{May}       & mid                                    & high  & mid         & mid             & high           & mid                
+\end{tabular}
+\end{table}
+All usage features apart from interactive resource activity tend to vary quite a bit from month to month. Though, further introspection indicates that users in this category rank in the high range of mid interactive resource activity.
+
+\subsection {Power user user type}
+Within the 'power user' user type, usage features were examined in a semester-semester, bi-monthly and monthly basis.
+
+\subsubsection{Semester-Semester trends}
+
+\subsubsection{Trends every two months}
+\subsubsection{Monthly trends}
+\begin{table}
+\caption{Usage features month-month in the Power User user type}
+\label{cluster1month}
+\begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ & Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+\textbf{Sept} & high                                   & high  & high        & mid             & high           & high                \\ \hline
+\textbf{Oct}   & high                                   & high  & high        & high            & high           & mid                 \\ \hline
+\textbf{Nov}  & high                                   & high  & mid         & mid             & high           & mid                 \\ \hline
+\textbf{Dec}  & high                                   & high  & high        & low             & high           & mid                 \\ \hline
+\textbf{Jan}   & high                                   & high  & high        & high            & high           & high                \\ \hline
+\textbf{Feb}  & high                                   & high  & low         & mid             & high           & mid                 \\ \hline
+\textbf{Mar}     & high                                   & high  & high        & mid             & high           & high                \\ \hline
+\textbf{Apr}     & high                                   & high  & mid         & low             & high           & low                 \\ \hline
+\textbf{May}       & high                                   & high  & low         & low             & high           & mid                
+\end{tabular}
+\end{table}
+From \ref{cluster1month}, it is clear that the number of sessions, hours and my stuff activity varies remain constantly high across all months. This indicates that a value of high in these three features is a strong predictor of membership within this cluster.  The values of interactive resource activity, my Stuff activity and shared stuff Activity vary quite a bit within the school year.
+
+\section{FREQUENT PATTERNS OF USE}
+The aim of this study is to understand what actions of members of a specific user type usually go together. As an example, we would like to understand what members of the 'power user' user type are likely doing when they spend a high amount of time on publisher materials. This would give a good understanding of what usage feature correlations occur within a user type.
+
+We take a market basket analysis approach to understanding the frequent patterns that occur within each user type. Market basket analysis is a data mining approach for understanding consumer behavior through their transaction patterns \cite{han2006data}. It seeks to uncover meaningful and interesting associations in customer purchase data. A canonical example of the use of  market basket analysis is a grocery store analyzing consumer purchases to understand what items shoppers usually purchased together. Upon discovery that beer and diapers occur frequently in consumer purchases, the store may decide to place these items next to each other or have a group sale of both items together to further encourage this shopping behavior.
+
+To implement a market basket analysis on user behavior, we consider each member of a user type's monthly usage as a 6-item transaction (a transaction can also be referred to as an itemset) of the form \{num\_session, hours\_spent ir\_actv, shared\_stuff, my\_stuff, pub\_stuff \} representing each of the usage features we analyze. Each item has a discretized value of either high, medium or low as described in section \ref{charusertypes}. Finally, we run the Apriori frequent pattern mining algorithm on all transactions within a user type to find frequent patterns that are interesting. Apriori is a seminal algorithm introduced by Agrawal and Srikant \cite{agrawal} for performing fast frequent itemset minning in large transaction databases to discover association rules of the form $\mathbf{{X} \Longrightarrow {Y}}$ where $\mathbf{X, Y \subseteq I}$. $\mathbf{I}$ is an itemset of the form $\mathbf{I = \{a,b,c,d,\}}$ within the set of transactions $\mathbf{D}$.
+The association rules generation process of the Apriori algorithm can be summarized in two steps:
+
+\begin{enumerate}
+\item A minimum support is applied to itemsets(transactions) to find all \textit{frequent itemsets} in the set of transactions.
+The support, $\mathbf{supp(X)}$ of an itemset $X$, is defined as the proportion of itemsets in the data set which contain the 
+itemset.
+
+
+
+$supp\left(X\right) = \frac{number of transactions which contain the itemset X}{total number of transactions}$
+
+
+
+\item A minimum confidence constraint is applied to the frequent itemsets to form rules. The confidence of a rule is the probability of finding the antecedent(RHS) of a rule given it's precedent(LHS).
+
+Formally, $conf(X \Longrightarrow Y) = \frac{supp\left(X \cup Y\right)}{supp\left(X\right)}$. 
+For example a rule $\mathbf{milk,diapers \Longrightarrow {beer}}$ with a support of 65\% indicates that the rule is correct for 65\% of all transactions containing milk and diapers.
+ A rule is identified as \textit{strong} (i.e. a likely occurrence) if it meets the minimum support and confidence levels.
+\end{enumerate}
+
+In our analysis we set a minimum support and confidence level of 0.9 for strong rules. We do this to generate the most likely rules and constrain the size of frequent items generated by the Apriori algorithm.
+
+\subsection {Frequent patterns within the Power User user type}
+We ran the Apriori algorithm on the set of all transactions of all users in the power user type and the ten strong rules (rules meeting the minimum support of 0.5 and minimum confidence of 0.9 thresholds) were generated. They are as follows:
+
+ $1. Number_of_sessions=high Hours_spent=high 28 ==> Publisher_activity=high 27    conf:(0.96)
+ 2. Publisher_activity=high 31 ==> Number_of_sessions=high 29    conf:(0.94)
+ 3. Number_of_sessions=high 31 ==> Publisher_activity=high 29    conf:(0.94)
+ 4. Publisher_activity=high 31 ==> Hours_spent=high 29    conf:(0.94)
+ 5. Hours_spent=high Publisher_activity=high 29 ==> Number_of_sessions=high 27    conf:(0.93)
+ 6. Number_of_sessions=high Publisher_activity=high 29 ==> Hours_spent=high 27    conf:(0.93)
+ 7. Number_of_sessions=high 31 ==> Hours_spent=high 28    conf:(0.9)$
+
+As a reminder, members of this user type  are categorized by a usage pattern: \{ \}
+As expected, most rules show strong correlations between usage features with a 'high' rating.
+Rules (2) \& (3) indicate an interesting correlation between My Stuff Activity and Publisher Activity. It indicates that per month usage of the CCS, when most users have a high frequency of use (spend alot of time on the CCS relative to everyone else), they are likely to be spending most of their time on publisher materials rather than My Stuff activity.
+
+\subsection {Frequent patterns within the Community seeker user type}
+On average, members of this group did not exhibit consistent usage of the CCS compared to the power user group. A small proportion of users did not use the CCS during every month under analysis.
+
+Only one strong association rule was generated from running Apriori on the set of transactions from this dataset:
+
+$Hours_spent=low Publisher_activity=mid Shared_stuff_activity=low 27 ==> Interactive_Resource_Act=low 25    conf:(0.93)$
+
+This pattern is interesting as users within this group are more inclined to use shared stuff resources. However, when they spend a low amount of time on the system, they are more likely to be accessing publisher material than shared stuff materials.
+
+\subsection {Frequent patterns within the limited use user type}
+This cluster represents the sets of limited users i.e., users whom had a low frequency and variety of use. 
+Although this group features a large of users (n=32), there were only 70 transactions recorded during the 9 month study period, an average of 2.19 transactions per user. There were many users within this group who either registered use only in the month of September and stopped using the system or had very sparse use throughout the school year.
+
+Three association strong association rules were discovered for members of this group. They are:
+
+$ 1. Hours_spent=low Shared_stuff_activity=low 27 ==> My_Stuff_Activity=low 26    conf:(0.96)
+ 2. Publisher_activity=low Shared_stuff_activity=low 27 ==> My_Stuff_Activity=low 26    conf:(0.96)
+ 3. Interactive_Resource_Act=low Shared_stuff_activity=low 34 ==> My_Stuff_Activity=low 31    conf:(0.91)$
+
+Though not particularly interesting, these rules re-emphasize the fact that members of this user type had very low system usage.
+
+ \section {PREDICTING USER BEHAVIOR}
+This study would look at machine learning classifiers for predicting a user's behavior from small windows of time. The goal of this study is two fold:
+\begin{enumerate}
+\item Determine the earliest window of time that provides the best prediction of a user's eventual class
+\item Determine the usage feature(s) that are most predictive of a user's eventual type
+
+\end{enumerate}
+\section{LIMITATIONS}
+
+\section{DISCUSSION AND CONCLUSION}
+
+%\subsection{Math Equations}
+%You may want to display math equations in three distinct styles:
+%inline, numbered or non-numbered display.  Each of
+%the three are discussed in the next sections.
+%
+%\subsubsection{Inline (In-text) Equations}
+%A formula that appears in the running text is called an
+%inline or in-text formula.  It is produced by the
+%\textbf{math} environment, which can be
+%invoked with the usual \texttt{{\char'134}begin. . .{\char'134}end}
+%construction or with the short form \texttt{\$. . .\$}. You
+%can use any of the symbols and structures,
+%from $\alpha$ to $\omega$, available in
+%\LaTeX\cite{Lamport:LaTeX}; this section will simply show a
+%few examples of in-text equations in context. Notice how
+%this equation: \begin{math}\lim_{n\rightarrow \infty}x=0\end{math},
+%set here in in-line math style, looks slightly different when
+%set in display style.  (See next section).
+%
+%\subsubsection{Display Equations}
+%A numbered display equation -- one set off by vertical space
+%from the text and centered horizontally -- is produced
+%by the \textbf{equation} environment. An unnumbered display
+%equation is produced by the \textbf{displaymath} environment.
+%
+%Again, in either environment, you can use any of the symbols
+%and structures available in \LaTeX; this section will just
+%give a couple of examples of display equations in context.
+%First, consider the equation, shown as an inline equation above:
+%\begin{equation}\lim_{n\rightarrow \infty}x=0\end{equation}
+%Notice how it is formatted somewhat differently in
+%the \textbf{displaymath}
+%environment.  Now, we'll enter an unnumbered equation:
+%\begin{displaymath}\sum_{i=0}^{\infty} x + 1\end{displaymath}
+%and follow it with another numbered equation:
+%\begin{equation}\sum_{i=0}^{\infty}x_i=\int_{0}^{\pi+2} f\end{equation}
+%just to demonstrate \LaTeX's able handling of numbering.
+%
+%\subsection{Citations}
+%Citations to articles \cite{bowman:reasoning, clark:pct, braams:babel, herlihy:methodology},
+%conference
+%proceedings \cite{clark:pct} or books \cite{salas:calculus, Lamport:LaTeX} listed
+%in the Bibliography section of your
+%article will occur throughout the text of your article.
+%You should use BibTeX to automatically produce this bibliography;
+%you simply need to insert one of several citation commands with
+%a key of the item cited in the proper location in
+%the \texttt{.tex} file \cite{Lamport:LaTeX}.
+%The key is a short reference you invent to uniquely
+%identify each work; in this sample document, the key is
+%the first author's surname and a
+%word from the title.  This identifying key is included
+%with each item in the \texttt{.bib} file for your article.
+%
+%The details of the construction of the \texttt{.bib} file
+%are beyond the scope of this sample document, but more
+%information can be found in the \textit{Author's Guide},
+%and exhaustive details in the \textit{\LaTeX\ User's
+%Guide}\cite{Lamport:LaTeX}.
+%
+%This article shows only the plainest form
+%of the citation command, using \texttt{{\char'134}cite}.
+%This is what is stipulated in the SIGS style specifications.
+%No other citation format is endorsed.
+%
+%\subsection{Tables}
+%Because tables cannot be split across pages, the best
+%placement for them is typically the top of the page
+%nearest their initial cite.  To
+%ensure this proper ``floating'' placement of tables, use the
+%environment \textbf{table} to enclose the table's contents and
+%the table caption.  The contents of the table itself must go
+%in the \textbf{tabular} environment, to
+%be aligned properly in rows and columns, with the desired
+%horizontal and vertical rules.  Again, detailed instructions
+%on \textbf{tabular} material
+%is found in the \textit{\LaTeX\ User's Guide}.
+%
+%Immediately following this sentence is the point at which
+%Table 1 is included in the input file; compare the
+%placement of the table here with the table in the printed
+%dvi output of this document.
+%
+%\begin{table}
+%\centering
+%\caption{Frequency of Special Characters}
+%\begin{tabular}{|c|c|l|} \hline
+%Non-English or Math&Frequency&Comments\\ \hline
+%\O & 1 in 1,000& For Swedish names\\ \hline
+%$\pi$ & 1 in 5& Common in math\\ \hline
+%\$ & 4 in 5 & Used in business\\ \hline
+%$\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
+%\hline\end{tabular}
+%\end{table}
+%
+%To set a wider table, which takes up the whole width of
+%the page's live area, use the environment
+%\textbf{table*} to enclose the table's contents and
+%the table caption.  As with a single-column table, this wide
+%table will ``float" to a location deemed more desirable.
+%Immediately following this sentence is the point at which
+%Table 2 is included in the input file; again, it is
+%instructive to compare the placement of the
+%table here with the table in the printed dvi
+%output of this document.
+%
+%
+%\begin{table*}
+%\centering
+%\caption{Some Typical Commands}
+%\begin{tabular}{|c|c|l|} \hline
+%Command&A Number&Comments\\ \hline
+%\texttt{{\char'134}alignauthor} & 100& Author alignment\\ \hline
+%\texttt{{\char'134}numberofauthors}& 200& Author enumeration\\ \hline
+%\texttt{{\char'134}table}& 300 & For tables\\ \hline
+%\texttt{{\char'134}table*}& 400& For wider tables\\ \hline\end{tabular}
+%\end{table*}
+%% end the environment with {table*}, NOTE not {table}!
+%
+%\subsection{Figures}
+%Like tables, figures cannot be split across pages; the
+%best placement for them
+%is typically the top or the bottom of the page nearest
+%their initial cite.  To ensure this proper ``floating'' placement
+%of figures, use the environment
+%\textbf{figure} to enclose the figure and its caption.
+%
+%This sample document contains examples of \textbf{.eps}
+%and \textbf{.ps} files to be displayable with \LaTeX.  More
+%details on each of these is found in the \textit{Author's Guide}.
+%
+%\begin{figure}
+%\centering
+%\epsfig{file=fly.eps}
+%\caption{A sample black and white graphic (.eps format).}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\epsfig{file=fly.eps, height=1in, width=1in}
+%\caption{A sample black and white graphic (.eps format)
+%that has been resized with the \texttt{epsfig} command.}
+%\end{figure}
+%
+%
+%As was the case with tables, you may want a figure
+%that spans two columns.  To do this, and still to
+%ensure proper ``floating'' placement of tables, use the environment
+%\textbf{figure*} to enclose the figure and its caption.
+%
+%Note that either {\textbf{.ps}} or {\textbf{.eps}} formats are
+%used; use
+%the \texttt{{\char'134}epsfig} or \texttt{{\char'134}psfig}
+%commands as appropriate for the different file types.
+%
+%\subsection{Theorem-like Constructs}
+%Other common constructs that may occur in your article are
+%the forms for logical constructs like theorems, axioms,
+%corollaries and proofs.  There are
+%two forms, one produced by the
+%command \texttt{{\char'134}newtheorem} and the
+%other by the command \texttt{{\char'134}newdef}; perhaps
+%the clearest and easiest way to distinguish them is
+%to compare the two in the output of this sample document:
+%
+%This uses the \textbf{theorem} environment, created by
+%the\linebreak\texttt{{\char'134}newtheorem} command:
+%\newtheorem{theorem}{Theorem}
+%\begin{theorem}
+%Let $f$ be continuous on $[a,b]$.  If $G$ is
+%an antiderivative for $f$ on $[a,b]$, then
+%\begin{displaymath}\int^b_af(t)dt = G(b) - G(a).\end{displaymath}
+%\end{theorem}
+%
+%The other uses the \textbf{definition} environment, created
+%by the \texttt{{\char'134}newdef} command:
+%\newdef{definition}{Definition}
+%\begin{definition}
+%If $z$ is irrational, then by $e^z$ we mean the
+%unique number which has
+%logarithm $z$: \begin{displaymath}{\log e^z = z}\end{displaymath}
+%\end{definition}
+%
+%\begin{figure}
+%\centering
+%\psfig{file=rosette.ps, height=1in, width=1in,}
+%\caption{A sample black and white graphic (.ps format) that has
+%been resized with the \texttt{psfig} command.}
+%\end{figure}
+%
+%Two lists of constructs that use one of these
+%forms is given in the
+%\textit{Author's  Guidelines}.
+%
+%\begin{figure*}
+%\centering
+%\epsfig{file=flies.eps}
+%\caption{A sample black and white graphic (.eps format)
+%that needs to span two columns of text.}
+%\end{figure*}
+%and don't forget to end the environment with
+%{figure*}, not {figure}!
+% 
+%There is one other similar construct environment, which is
+%already set up
+%for you; i.e. you must \textit{not} use
+%a \texttt{{\char'134}newdef} command to
+%create it: the \textbf{proof} environment.  Here
+%is a example of its use:
+%\begin{proof}
+%Suppose on the contrary there exists a real number $L$ such that
+%\begin{displaymath}
+%\lim_{x\rightarrow\infty} \frac{f(x)}{g(x)} = L.
+%\end{displaymath}
+%Then
+%\begin{displaymath}
+%l=\lim_{x\rightarrow c} f(x)
+%= \lim_{x\rightarrow c}
+%\left[ g{x} \cdot \frac{f(x)}{g(x)} \right ]
+%= \lim_{x\rightarrow c} g(x) \cdot \lim_{x\rightarrow c}
+%\frac{f(x)}{g(x)} = 0\cdot L = 0,
+%\end{displaymath}
+%which contradicts our assumption that $l\neq 0$.
+%\end{proof}
+%
+%Complete rules about using these environments and using the
+%two different creation commands are in the
+%\textit{Author's Guide}; please consult it for more
+%detailed instructions.  If you need to use another construct,
+%not listed therein, which you want to have the same
+%formatting as the Theorem
+%or the Definition\cite{salas:calculus} shown above,
+%use the \texttt{{\char'134}newtheorem} or the
+%\texttt{{\char'134}newdef} command,
+%respectively, to create it.
+%
+%\subsection*{A {\secit Caveat} for the \TeX\ Expert}
+%Because you have just been given permission to
+%use the \texttt{{\char'134}newdef} command to create a
+%new form, you might think you can
+%use \TeX's \texttt{{\char'134}def} to create a
+%new command: \textit{Please refrain from doing this!}
+%Remember that your \LaTeX\ source code is primarily intended
+%to create camera-ready copy, but may be converted
+%to other forms -- e.g. HTML. If you inadvertently omit
+%some or all of the \texttt{{\char'134}def}s recompilation will
+%be, to say the least, problematic.
+
+%\section{Conclusions}
+%This paragraph will end the body of this sample document.
+%Remember that you might still have Acknowledgments or
+%Appendices; brief samples of these
+%follow.  There is still the Bibliography to deal with; and
+%we will make a disclaimer about that here: with the exception
+%of the reference to the \LaTeX\ book, the citations in
+%this paper are to articles which have nothing to
+%do with the present subject and are used as
+%examples only.
+%\end{document}  % This is where a 'short' article might terminate
+
+%ACKNOWLEDGMENTS are optional
+\section{Acknowledgments}
+This section is optional; it is a location for you
+to acknowledge grants, funding, editing assistance and
+what have you.  In the present case, for example, the
+authors would like to thank Gerald Murray of ACM for
+his help in codifying this \textit{Author's Guide}
+and the \textbf{.cls} and \textbf{.tex} files that it describes.
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{sigproc-sp}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+%\balancecolumns
+%\appendix
+%%Appendix A
+%\section{Headings in Appendices}
+%The rules about hierarchical headings discussed above for
+%the body of the article are different in the appendices.
+%In the \textbf{appendix} environment, the command
+%\textbf{section} is used to
+%indicate the start of each Appendix, with alphabetic order
+%designation (i.e. the first is A, the second B, etc.) and
+%a title (if you include one).  So, if you need
+%hierarchical structure
+%\textit{within} an Appendix, start with \textbf{subsection} as the
+%highest level. Here is an outline of the body of this
+%document in Appendix-appropriate form:
+%\subsection{Introduction}
+%\subsection{The Body of the Paper}
+%\subsubsection{Type Changes and  Special Characters}
+%\subsubsection{Math Equations}
+%\paragraph{Inline (In-text) Equations}
+%\paragraph{Display Equations}
+%\subsubsection{Citations}
+%\subsubsection{Tables}
+%\subsubsection{Figures}
+%\subsubsection{Theorem-like Constructs}
+%\subsubsection*{A Caveat for the \TeX\ Expert}
+%\subsection{Conclusions}
+%\subsection{Acknowledgments}
+%\subsection{Additional Authors}
+%This section is inserted by \LaTeX; you do not insert it.
+%You just add the names and information in the
+%\texttt{{\char'134}additionalauthors} command at the start
+%of the document.
+
+\end{document}
