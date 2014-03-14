@@ -325,7 +325,28 @@ There were three clusters generated from our user type experiments
 We explore the trend in usage pattern on a feature-by-feature basis. In this analysis we look into how the values of each usage feature per user type changes on three levels: semester to semester, every two months and month to month. This would give a good idea of which usage features remain relatively stable (in terms of use) and which vary per user type. This knowledge would be particularly useful in detecting strong features that define a user type. For example, if the power user type always has a high value in  publisher material activity, this  might point to the fact that a high value in publisher material activity is a strong predictor of a 'power user' user type.
 \subsection{Limited use user type}
 \subsubsection{Semester-Semester trends}
+\begin{table}
+\caption{Usage feature values of during the spring semester of the 'Limited use' user type}
+\label{cluster0month}
+\begin{tabular}{|p{1cms}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+ Fall  semester & low & low  & mid & mid & low & low \\ \hline
+Spring semester & low & low  & mid & mid & low & low \\ \hline
+\end{tabular}
+\end{table}
+According to table \ref{cluster0month}, all usage feature values remain the same across both semesters
 \subsubsection{Bi-monthly trends}
+\begin{table}
+\caption{Bi-monthly usage feature values of the 'Limited use' user type}
+\label{cluster0bimonthly}
+\begin{tabular}{|p{1cms}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+Sept-Nov & low & low  & mid & mid & mid & mid \\ \hline
+Nov-Jan & low & mid  & mid & low & mid & low \\ \hline
+Jan-Mar & low & mid  & mid & mid & low & mid \\ \hline
+Mar-May & low & low  & mid & low & low & mid \\ \hline
+\end{tabular}
+\end{table}
 \subsubsection{Monthly trends}
 \begin{table}
 \caption{Monthly usage feature trends in the limited user type}
@@ -345,8 +366,33 @@ We explore the trend in usage pattern on a feature-by-feature basis. In this ana
 In this user type, the hours spent and publisher activity features seem to be very stable and hence good predictors of membership within ----. The other features number of sessions, shared stuff activity, interactive resource activity tend to vary quite a bit from month to month.
 
 \subsection{Community Seeker user type}
+
 \subsubsection{Semester-Semester trends}
+
+\begin{table}
+\caption{Usage feature values of during the spring semester of the 'Community seeker' user type}
+\label{cluster2month}
+\begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+Fall  semester & high & mid  & high & high & high & high \\ \hline
+Spring semester & mid & high  & mid & high & high & high \\ \hline
+\end{tabular}
+\end{table}
+
+As highlighted in table \ref{cluster2month}, within the community seeker user type, activity in my stuff, shared stuff and publisher material remained at a high level on average. However, frequency based features \(hours \& number of sessions\) moved from the high-mid and mid-high level ranges respectively. This might indicate that users logged spent less time across more sessions and more time across less sessions in the fall and spring semesters respectively. Also use of interactive resources dropped from high to mid from the fall to spring semesters
+
 \subsubsection{Bi-monthly trends}
+\begin{table}
+\caption{Bi-monthly usage feature values of the 'Community Seeker' user type}
+\label{cluster1bimonthly}
+\begin{tabular}{|p{1cms}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+Sept-Nov & mid & mid  & high & high & high & high \\ \hline
+Nov-Jan & high & mid  & mid & mid & mid & mid \\ \hline
+Jan-Mar & mid & mid  & mid & mid & mid & high \\ \hline
+Mar-May & mid & mid  & mid & high & mid & high \\ \hline
+\end{tabular}
+\end{table}
 \subsubsection{Monthly trends}
 \begin{table}
 \begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
@@ -379,9 +425,24 @@ Spring semester & high & high  & high & high & high & high \\ \hline
 \end{tabular}
 \end{table}
 
-
+All usage features trend at a high level for members of the power user category during the fall and spring semester on average. This is similar to the trend overall during the entire school year. We examine these features on a deeper level to discover if any differences in the values of these features can be observed on a bi-monthly or monthly level.
 
 \subsubsection{Trends every two months}
+\begin{table}
+\caption{Bi-monthly usage feature values of the 'Power User' user type}
+\label{cluster1bimonthly}
+\begin{tabular}{|p{1cms}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+Sept-Nov & high & high  & high & high & high & high \\ \hline
+Nov-Jan & high & high  & high & mid & high & high \\ \hline
+Jan-Mar & high & high  & high & high & high & high \\ \hline
+Mar-May & high & high  & high & mid & high & mid \\ \hline
+\end{tabular}
+\end{table}
+
+Considering 2-month time frames as illustrated in table \ref{cluster1bimonthly}, all usage features maintain a value of high apart from My Stuff and Shared Stuff activities during the school year. My stuff activity dips between time periods of September\-November and November\-January and again from between time periods January\-March and March\-May.
+My Stuff and Shared stuff activity dips to a low value range from a high-value range during the time of periods of January\-March and March\-May.
+
 \subsubsection{Monthly trends}
 \begin{table}
 \caption{Usage features month-month in the Power User user type}
