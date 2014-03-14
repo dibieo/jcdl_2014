@@ -207,7 +207,7 @@ The research questions outlined in this proposal will be examined in the context
 Our analysis  on the clickstream of a large urban school district with 80 science educators who used the CCS during the 2011-2012 school year. About 20,000 click actions were registered by users in the CCS by users in this district
 
 \subsubsection{Feature selection}
-Our study in this research is based on six features. These features cover the four core areas of the CCS which are: (1) Digital library resources, (2)Publisher material, (3)Community contributed resources (4)Personalization
+Our study in this research is based on six usage features highlighted in table \ref{usagefeatures}. These features cover the four core areas of the CCS which are: (1) Digital library resources, (2)Publisher material, (3)Community contributed resources (4)Personalization
  
 \textbf{Digital Library resources}:
 A core aim of the CCS is to enable users customize instruction with high-quality digital library resources. The CCS is designed to automatically pull educational resources from digital libraries such as the Digital Library for Earth System Education (DLESE) and align these resources to a curriculum and educational standards. Within the CCS' interface, these resources are collectively referred to as interactive resources(IR resources). IR resources are sub-grouped into four categories depending on its type. They are : Top Picks, Animations, Images/Visuals and Inquiry with Data. 
@@ -369,6 +369,18 @@ Within the 'power user' user type, usage features were examined in a semester-se
 
 \subsubsection{Semester-Semester trends}
 
+\begin{table}
+\caption{Usage feature values of during the spring semester of the 'Power User' user type}
+\label{cluster1month}
+\begin{tabular}{|p{1cms}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+ Num\_sessions & Hours & IR\_actv & My\_Stuff\_Actv & Publisher\_actv & Shared\_stuff\_actv \\ \hline
+Fall  semester & high & high  & high & high & high & high \\ \hline
+Spring semester & high & high  & high & high & high & high \\ \hline
+\end{tabular}
+\end{table}
+
+
+
 \subsubsection{Trends every two months}
 \subsubsection{Monthly trends}
 \begin{table}
@@ -387,7 +399,7 @@ Within the 'power user' user type, usage features were examined in a semester-se
 \textbf{May}       & high                                   & high  & low         & low             & high           & mid                
 \end{tabular}
 \end{table}
-From \ref{cluster1month}, it is clear that the number of sessions, hours and my stuff activity varies remain constantly high across all months. This indicates that a value of high in these three features is a strong predictor of membership within this cluster.  The values of interactive resource activity, my Stuff activity and shared stuff Activity vary quite a bit within the school year.
+From table \ref{cluster1month}, it is clear that the number of sessions, hours and my stuff activity varies remain constantly high across all months. This indicates that a value of high in these three features is a strong predictor of membership within this cluster.  The values of interactive resource activity, my Stuff activity and shared stuff Activity vary quite a bit within the school year.
 
 \section{FREQUENT PATTERNS OF USE}
 The aim of this study is to understand what actions of members of a specific user type usually go together. As an example, we would like to understand what members of the 'power user' user type are likely doing when they spend a high amount of time on publisher materials. This would give a good understanding of what usage feature correlations occur within a user type.
@@ -447,10 +459,12 @@ Although this group features a large of users (n=32), there were only 70 transac
 
 Three association strong association rules were discovered for members of this group. They are:
 
-$ 1. Hours_spent=low Shared_stuff_activity=low 27 ==> My_Stuff_Activity=low 26    conf:(0.96)
- 2. Publisher_activity=low Shared_stuff_activity=low 27 ==> My_Stuff_Activity=low 26    conf:(0.96)
- 3. Interactive_Resource_Act=low Shared_stuff_activity=low 34 ==> My_Stuff_Activity=low 31    conf:(0.91)$
+\begin{enumerate}
 
+\item $Hours\_spent=low  Shared\_stuff_Activity =low 27 ==> My\_Stuff\_Activity =low 26    conf:(0.96)$
+\item $Publisher\_activity=low Shared\_stuff\_activity=low 27 ==> My\_Stuff\_Activity = low 26    conf:(0.96)$
+\item $Interactive\_Resource\_Act=low Shared\_stuff\_activity=low 34 ==> My\_Stuff\_Activity=low 31    conf:(0.91)$
+\end{enumerate}
 Though not particularly interesting, these rules re-emphasize the fact that members of this user type had very low system usage.
 
  \section {PREDICTING USER BEHAVIOR}

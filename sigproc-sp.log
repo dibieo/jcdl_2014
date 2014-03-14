@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  13 MAR 2014 08:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  14 MAR 2014 07:49
 entering extended mode
 **sigproc-sp.tex
 (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.tex
@@ -413,7 +413,11 @@ Package newfloat Info: New float `copyrightbox' with options `' on input line 3
 Package newfloat Info: float type `copyrightbox'=8 on input line 38.
 \c@locopyrightboxdepth=\count142
 
-(C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.aux)
+(C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.aux
+
+LaTeX Warning: Label `cluster1month' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
@@ -426,8 +430,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
-
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
 \scratchdimen=\dimen158
@@ -561,6 +564,14 @@ File: ./ccsimage.png Graphic file (type png)
  <use ./ccsimage.png>
 Package pdftex.def Info: ./ccsimage.png used on input line 202.
 (pdftex.def)             Requested size: 240.0pt x 136.51529pt.
+
+
+Package caption Warning: \label without proper \caption on input line 228.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `usagefeatures' on page \thepage  undefined on input l
+ine 210.
 
 
 Package caption Warning: \label without proper \caption on input line 228.
@@ -720,49 +731,99 @@ Overfull \hbox (34.76912pt too wide) in paragraph at lines 352--364
  []
 
 
-Overfull \hbox (25.91522pt too wide) in paragraph at lines 378--378
-[]\T1/aer/m/n/9 Num_sessions| 
+Overfull \hbox (29.56012pt too wide) in paragraph at lines 376--376
+[]\T1/aer/m/n/9 sNum_sessions| 
  []
 
 
-Overfull \hbox (2.47081pt too wide) in paragraph at lines 378--378
+Overfull \hbox (2.47081pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 IR_actv| 
  []
 
 
-Overfull \hbox (30.83844pt too wide) in paragraph at lines 378--378
+Overfull \hbox (30.83844pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 My_Stuff_Actv| 
  []
 
 
-Overfull \hbox (30.52296pt too wide) in paragraph at lines 378--378
+Overfull \hbox (30.52296pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 Publisher_actv| 
  []
 
 
-Overfull \hbox (41.43091pt too wide) in paragraph at lines 378--378
+Overfull \hbox (41.43091pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 Shared_stuff_actv| 
  []
 
 
-Overfull \hbox (34.76912pt too wide) in paragraph at lines 377--389
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+[]\T1/aer/m/n/9 sFall
+ []
+
+
+Overfull \hbox (6.08861pt too wide) in paragraph at lines 377--377
+\T1/aer/m/n/9 semester| 
+ []
+
+
+Overfull \hbox (1.38152pt too wide) in paragraph at lines 378--378
+[]\T1/aer/m/n/9 sSpring
+ []
+
+
+Overfull \hbox (6.08861pt too wide) in paragraph at lines 378--378
+\T1/aer/m/n/9 semester| 
+ []
+
+
+Overfull \hbox (34.76912pt too wide) in paragraph at lines 375--380
 [][] 
  []
 
 
-Overfull \hbox (3.78668pt too wide) in paragraph at lines 401--404
+Overfull \hbox (25.91522pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 Num_sessions| 
+ []
+
+
+Overfull \hbox (2.47081pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 IR_actv| 
+ []
+
+
+Overfull \hbox (30.83844pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 My_Stuff_Actv| 
+ []
+
+
+Overfull \hbox (30.52296pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 Publisher_actv| 
+ []
+
+
+Overfull \hbox (41.43091pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 Shared_stuff_actv| 
+ []
+
+
+Overfull \hbox (34.76912pt too wide) in paragraph at lines 389--401
+[][] 
+ []
+
+
+Overfull \hbox (3.78668pt too wide) in paragraph at lines 413--416
 []\T1/aer/m/n/9 A min-i-mum sup-port is ap-plied to item-sets(transactions)
  []
 
 [6]
-Overfull \hbox (11.82574pt too wide) in paragraph at lines 423--430
+Overfull \hbox (11.82574pt too wide) in paragraph at lines 435--442
 $\OML/cmm/m/it/9 Publisher[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/c
 mr/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/
 n/9 96)2\OML/cmm/m/it/9 :Publisher[]ctivity \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (77.3045pt too wide) in paragraph at lines 423--430
+Overfull \hbox (77.3045pt too wide) in paragraph at lines 435--442
 $\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Number[]f[]essions \
 OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/
 cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)3\OML/cmm/m/it/9 :Number[]f[]e
@@ -770,7 +831,7 @@ ssions \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (66.3562pt too wide) in paragraph at lines 423--430
+Overfull \hbox (66.3562pt too wide) in paragraph at lines 435--442
 $\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Publisher[]ctivity \
 OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/
 cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)4\OML/cmm/m/it/9 :Publisher[]c
@@ -778,7 +839,7 @@ tivity \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (20.06326pt too wide) in paragraph at lines 423--430
+Overfull \hbox (20.06326pt too wide) in paragraph at lines 435--442
 $\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Hours[]pent \OT1/cmr
 /m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/cmr/m/n
 /9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)5\OML/cmm/m/it/9 :Hours[]pent \OT1/cm
@@ -786,20 +847,20 @@ r/m/n/9 =$
  []
 
 
-Overfull \hbox (4.50821pt too wide) in paragraph at lines 423--430
+Overfull \hbox (4.50821pt too wide) in paragraph at lines 435--442
 $\OML/cmm/m/it/9 highPublisher[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\O
 T1/cmr/m/n/9 29 ==\OML/cmm/m/it/9 > Number[]f[]essions \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (35.85837pt too wide) in paragraph at lines 423--430
+Overfull \hbox (35.85837pt too wide) in paragraph at lines 435--442
 $\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\
 OML/cmm/m/it/9 :\OT1/cmr/m/n/9 93)6\OML/cmm/m/it/9 :Number[]f[]essions \OT1/cmr
 /m/n/9 = \OML/cmm/m/it/9 highPublisher[]ctivity \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (48.68388pt too wide) in paragraph at lines 423--430
+Overfull \hbox (48.68388pt too wide) in paragraph at lines 435--442
 $\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29 ==\OML/cmm/m/it/9 > Hours[]pent \OT1/cmr
 /m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n
 /9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 93)7\OML/cmm/m/it/9 :Number[]f[]essions 
@@ -807,30 +868,30 @@ $\OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29 ==\OML/cmm/m/it/9 > Hours[]pent \OT1/cmr
  []
 
 
-Overfull \hbox (29.30154pt too wide) in paragraph at lines 440--441
+Overfull \hbox (29.30154pt too wide) in paragraph at lines 452--453
 []$\OML/cmm/m/it/9 Hours[]pent \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 lowPublisher[]c
 tivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 midShared[]tuff[]ctivity \OT1/cmr/m/n/9
  =$
  []
 
 
-Overfull \hbox (6.79987pt too wide) in paragraph at lines 450--453
-$\OML/cmm/m/it/9 My[]tuff[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\OT1/cmr
-/m/n/9 26\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/
-9 96)2\OML/cmm/m/it/9 :Publisher[]ctivity \OT1/cmr/m/n/9 =$
+Overfull \hbox (10.96725pt too wide) in paragraph at lines 464--465
+[]$\OML/cmm/m/it/9 Hours[]spent \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 lowShared[]stu
+ff[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\OT1/cmr/m/n/9 27 ==\OML/cmm/m/
+it/9 >$
  []
 
 
-Overfull \hbox (1.58818pt too wide) in paragraph at lines 450--453
-$\OML/cmm/m/it/9 lowShared[]tuff[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\
-OT1/cmr/m/n/9 27 ==\OML/cmm/m/it/9 > My[]tuff[]ctivity \OT1/cmr/m/n/9 =$
+Overfull \hbox (37.85468pt too wide) in paragraph at lines 465--466
+[]$\OML/cmm/m/it/9 Publisher[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 lowShar
+ed[]stuff[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\OT1/cmr/m/n/9 27 ==\OM
+L/cmm/m/it/9 >$
  []
 
 
-Overfull \hbox (59.25526pt too wide) in paragraph at lines 450--453
-$\OML/cmm/m/it/9 low\OT1/cmr/m/n/9 26\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\O
-ML/cmm/m/it/9 :\OT1/cmr/m/n/9 96)3\OML/cmm/m/it/9 :Interactive[]esource[]ct \OT
-1/cmr/m/n/9 = \OML/cmm/m/it/9 lowShared[]tuff[]ctivity \OT1/cmr/m/n/9 =$
+Overfull \hbox (18.10526pt too wide) in paragraph at lines 466--467
+[]$\OML/cmm/m/it/9 Interactive[]Resource[]Act \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 
+lowShared[]stuff[]activity \OT1/cmr/m/n/9 =$
  []
 
 (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.bbl
@@ -849,24 +910,28 @@ Overfull \hbox (22.39977pt too wide) in paragraph at lines 1--1
  Kumquat
  []
 
-[7])
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 41.
 See the caption package documentation for explanation.
 
-[8
-
-] (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.aux)
+[8] (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 7206 strings out of 493921
- 108514 string characters out of 3144882
- 214145 words of memory out of 3000000
- 10322 multiletter control sequences out of 15000+200000
- 51713 words of font info for 72 fonts, out of 3000000 for 9000
+ 7208 strings out of 493921
+ 108530 string characters out of 3144882
+ 217184 words of memory out of 3000000
+ 10323 multiletter control sequences out of 15000+200000
+ 53204 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,13n,75p,2264b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -883,7 +948,7 @@ s/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on sigproc-sp.pdf (8 pages, 298866 bytes).
+Output written on sigproc-sp.pdf (8 pages, 299784 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

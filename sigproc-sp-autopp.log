@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2014.2.25)  13 MAR 2014 08:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2014.2.25)  14 MAR 2014 07:49
 entering extended mode
 **\let \APPmakepictures \empty \input  sigproc-sp.tex
 (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.tex (C:\Users\OVO\Desktop\JCDL_late
@@ -621,6 +621,10 @@ Overfull \hbox (2.61684pt too wide) in paragraph at lines 196--197
  []
 
 
+LaTeX Warning: Reference `usagefeatures' on page \thepage  undefined on input l
+ine 210.
+
+
 LaTeX Warning: Citation `maullunderstanding' on page \thepage  undefined on inp
 ut line 225.
 
@@ -807,65 +811,115 @@ Overfull \hbox (34.76912pt too wide) in paragraph at lines 352--364
  []
 
 
-Overfull \hbox (25.91522pt too wide) in paragraph at lines 378--378
-[]\T1/aer/m/n/9 Num_sessions| 
+Overfull \hbox (29.56012pt too wide) in paragraph at lines 376--376
+[]\T1/aer/m/n/9 sNum_sessions| 
  []
 
 
-Overfull \hbox (2.47081pt too wide) in paragraph at lines 378--378
+Overfull \hbox (2.47081pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 IR_actv| 
  []
 
 
-Overfull \hbox (30.83844pt too wide) in paragraph at lines 378--378
+Overfull \hbox (30.83844pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 My_Stuff_Actv| 
  []
 
 
-Overfull \hbox (30.52296pt too wide) in paragraph at lines 378--378
+Overfull \hbox (30.52296pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 Publisher_actv| 
  []
 
 
-Overfull \hbox (41.43091pt too wide) in paragraph at lines 378--378
+Overfull \hbox (41.43091pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 Shared_stuff_actv| 
  []
 
 
-Overfull \hbox (34.76912pt too wide) in paragraph at lines 377--389
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+[]\T1/aer/m/n/9 sFall
+ []
+
+
+Overfull \hbox (6.08861pt too wide) in paragraph at lines 377--377
+\T1/aer/m/n/9 semester| 
+ []
+
+
+Overfull \hbox (1.38152pt too wide) in paragraph at lines 378--378
+[]\T1/aer/m/n/9 sSpring
+ []
+
+
+Overfull \hbox (6.08861pt too wide) in paragraph at lines 378--378
+\T1/aer/m/n/9 semester| 
+ []
+
+
+Overfull \hbox (34.76912pt too wide) in paragraph at lines 375--380
+[][] 
+ []
+
+
+Overfull \hbox (25.91522pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 Num_sessions| 
+ []
+
+
+Overfull \hbox (2.47081pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 IR_actv| 
+ []
+
+
+Overfull \hbox (30.83844pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 My_Stuff_Actv| 
+ []
+
+
+Overfull \hbox (30.52296pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 Publisher_actv| 
+ []
+
+
+Overfull \hbox (41.43091pt too wide) in paragraph at lines 390--390
+[]\T1/aer/m/n/9 Shared_stuff_actv| 
+ []
+
+
+Overfull \hbox (34.76912pt too wide) in paragraph at lines 389--401
 [][] 
  []
 
 
 LaTeX Warning: Reference `cluster1month' on page \thepage  undefined on input l
-ine 390.
+ine 402.
 
 
 LaTeX Warning: Citation `han2006data' on page \thepage  undefined on input line
- 395.
+ 407.
 
 
 LaTeX Warning: Reference `charusertypes' on page \thepage  undefined on input l
-ine 397.
+ine 409.
 
 
-LaTeX Warning: Citation `agrawal' on page \thepage  undefined on input line 397
+LaTeX Warning: Citation `agrawal' on page \thepage  undefined on input line 409
 .
 
 
-Overfull \hbox (3.78668pt too wide) in paragraph at lines 401--404
+Overfull \hbox (3.78668pt too wide) in paragraph at lines 413--416
 []\T1/aer/m/n/9 A min-i-mum sup-port is ap-plied to item-sets(transactions)
  []
 
 
-Overfull \hbox (11.82574pt too wide) in paragraph at lines 423--430
+Overfull \hbox (11.82574pt too wide) in paragraph at lines 435--442
 \OML/cmm/m/it/9 Publisher[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/cm
 r/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n
 /9 96)2\OML/cmm/m/it/9 :Publisher[]ctivity \OT1/cmr/m/n/9 =
  []
 
 
-Overfull \hbox (77.3045pt too wide) in paragraph at lines 423--430
+Overfull \hbox (77.3045pt too wide) in paragraph at lines 435--442
 \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Number[]f[]essions \O
 T1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/c
 mr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)3\OML/cmm/m/it/9 :Number[]f[]es
@@ -873,7 +927,7 @@ sions \OT1/cmr/m/n/9 =
  []
 
 
-Overfull \hbox (66.3562pt too wide) in paragraph at lines 423--430
+Overfull \hbox (66.3562pt too wide) in paragraph at lines 435--442
 \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Publisher[]ctivity \O
 T1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/c
 mr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)4\OML/cmm/m/it/9 :Publisher[]ct
@@ -881,7 +935,7 @@ ivity \OT1/cmr/m/n/9 =
  []
 
 
-Overfull \hbox (20.06326pt too wide) in paragraph at lines 423--430
+Overfull \hbox (20.06326pt too wide) in paragraph at lines 435--442
 \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 31 ==\OML/cmm/m/it/9 > Hours[]pent \OT1/cmr/
 m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/cmr/m/n/
 9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 94)5\OML/cmm/m/it/9 :Hours[]pent \OT1/cmr
@@ -889,20 +943,20 @@ m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29\OML/cmm/m/it/9 conf \OT1/cmr/m/n/
  []
 
 
-Overfull \hbox (4.50821pt too wide) in paragraph at lines 423--430
+Overfull \hbox (4.50821pt too wide) in paragraph at lines 435--442
 \OML/cmm/m/it/9 highPublisher[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high\OT
 1/cmr/m/n/9 29 ==\OML/cmm/m/it/9 > Number[]f[]essions \OT1/cmr/m/n/9 =
  []
 
 
-Overfull \hbox (35.85837pt too wide) in paragraph at lines 423--430
+Overfull \hbox (35.85837pt too wide) in paragraph at lines 435--442
 \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\O
 ML/cmm/m/it/9 :\OT1/cmr/m/n/9 93)6\OML/cmm/m/it/9 :Number[]f[]essions \OT1/cmr/
 m/n/9 = \OML/cmm/m/it/9 highPublisher[]ctivity \OT1/cmr/m/n/9 =
  []
 
 
-Overfull \hbox (48.68388pt too wide) in paragraph at lines 423--430
+Overfull \hbox (48.68388pt too wide) in paragraph at lines 435--442
 \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 29 ==\OML/cmm/m/it/9 > Hours[]pent \OT1/cmr/
 m/n/9 = \OML/cmm/m/it/9 high\OT1/cmr/m/n/9 27\OML/cmm/m/it/9 conf \OT1/cmr/m/n/
 9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 93)7\OML/cmm/m/it/9 :Number[]f[]essions \
@@ -910,30 +964,30 @@ OT1/cmr/m/n/9 =
  []
 
 
-Overfull \hbox (29.30154pt too wide) in paragraph at lines 440--441
+Overfull \hbox (29.30154pt too wide) in paragraph at lines 452--453
 []$\OML/cmm/m/it/9 Hours[]pent \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 lowPublisher[]c
 tivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 midShared[]tuff[]ctivity \OT1/cmr/m/n/9
  =
  []
 
 
-Overfull \hbox (6.79987pt too wide) in paragraph at lines 450--453
-\OML/cmm/m/it/9 My[]tuff[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\OT1/cmr/
-m/n/9 26\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9
- 96)2\OML/cmm/m/it/9 :Publisher[]ctivity \OT1/cmr/m/n/9 =
+Overfull \hbox (10.96725pt too wide) in paragraph at lines 464--465
+[]$\OML/cmm/m/it/9 Hours[]spent \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 lowShared[]stu
+ff[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\OT1/cmr/m/n/9 27 ==\OML/cmm/m/
+it/9 >
  []
 
 
-Overfull \hbox (1.58818pt too wide) in paragraph at lines 450--453
-\OML/cmm/m/it/9 lowShared[]tuff[]ctivity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\O
-T1/cmr/m/n/9 27 ==\OML/cmm/m/it/9 > My[]tuff[]ctivity \OT1/cmr/m/n/9 =
+Overfull \hbox (37.85468pt too wide) in paragraph at lines 465--466
+[]$\OML/cmm/m/it/9 Publisher[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 lowShar
+ed[]stuff[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 low\OT1/cmr/m/n/9 27 ==\OM
+L/cmm/m/it/9 >
  []
 
 
-Overfull \hbox (59.25526pt too wide) in paragraph at lines 450--453
-\OML/cmm/m/it/9 low\OT1/cmr/m/n/9 26\OML/cmm/m/it/9 conf \OT1/cmr/m/n/9 : (0\OM
-L/cmm/m/it/9 :\OT1/cmr/m/n/9 96)3\OML/cmm/m/it/9 :Interactive[]esource[]ct \OT1
-/cmr/m/n/9 = \OML/cmm/m/it/9 lowShared[]tuff[]ctivity \OT1/cmr/m/n/9 =
+Overfull \hbox (18.10526pt too wide) in paragraph at lines 466--467
+[]$\OML/cmm/m/it/9 Interactive[]Resource[]Act \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 
+lowShared[]stuff[]activity \OT1/cmr/m/n/9 =
  []
 
 No file sigproc-sp-autopp.bbl.
@@ -949,11 +1003,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6727 strings out of 493922
- 101609 string characters out of 3144905
+ 6729 strings out of 493922
+ 101625 string characters out of 3144905
  207176 words of memory out of 3000000
- 9885 multiletter control sequences out of 15000+200000
- 42247 words of font info for 55 fonts, out of 3000000 for 9000
+ 9886 multiletter control sequences out of 15000+200000
+ 43738 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,13n,75p,2301b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
 
