@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  14 MAR 2014 13:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  15 MAR 2014 11:57
 entering extended mode
 **sigproc-sp.tex
 (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.tex
@@ -666,7 +666,7 @@ Overfull \hbox (16.59558pt too wide) in paragraph at lines 303--314
 [][] 
  []
 
-
+[5 <C:/Users/OVO/Desktop/JCDL_latex/process_flow.png>]
 Overfull \hbox (29.56012pt too wide) in paragraph at lines 332--332
 []\T1/aer/m/n/9 sNum_sessions| 
  []
@@ -716,7 +716,7 @@ Overfull \hbox (34.76912pt too wide) in paragraph at lines 331--336
 [][] 
  []
 
-[5 <C:/Users/OVO/Desktop/JCDL_latex/process_flow.png>]
+
 Overfull \hbox (29.56012pt too wide) in paragraph at lines 343--343
 []\T1/aer/m/n/9 sNum_sessions| 
  []
@@ -1140,7 +1140,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  7211 strings out of 493921
  108594 string characters out of 3144882
- 224218 words of memory out of 3000000
+ 225218 words of memory out of 3000000
  10326 multiletter control sequences out of 15000+200000
  53204 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
