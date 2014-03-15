@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  15 MAR 2014 11:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  15 MAR 2014 12:32
 entering extended mode
 **sigproc-sp.tex
 (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.tex
@@ -1067,14 +1067,14 @@ Overfull \hbox (3.78668pt too wide) in paragraph at lines 474--477
 []\T1/aer/m/n/9 A min-i-mum sup-port is ap-plied to item-sets(transactions)
  []
 
-
+[7]
 Overfull \hbox (5.69794pt too wide) in paragraph at lines 497--498
 []$\OML/cmm/m/it/9 num[]sessions \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high  hours \
 OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high [][]\OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 pub[
 ]ctivity \OT1/cmr/m/n/9 =$
  []
 
-[7]
+
 Overfull \hbox (9.64893pt too wide) in paragraph at lines 501--502
 []$\OML/cmm/m/it/9 hours \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high  pub[]activity \
 OT1/cmr/m/n/9 = \OML/cmm/m/it/9 high [][]\OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 num[
@@ -1138,10 +1138,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7211 strings out of 493921
- 108594 string characters out of 3144882
- 225218 words of memory out of 3000000
- 10326 multiletter control sequences out of 15000+200000
+ 7212 strings out of 493921
+ 108615 string characters out of 3144882
+ 225226 words of memory out of 3000000
+ 10327 multiletter control sequences out of 15000+200000
  53204 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,13n,75p,2264b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1159,7 +1159,7 @@ s/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on sigproc-sp.pdf (9 pages, 303809 bytes).
+Output written on sigproc-sp.pdf (9 pages, 304157 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
