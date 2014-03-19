@@ -300,7 +300,7 @@ After clustering usage for all users we get a user typology as shown in table \r
 \label{usertypology}
 \begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
 \hline \textbf{Feature} & 1 &  2 & 3 \\ 
-\hline Sessions & Low(4.048)& high(97.2)  & high (26.5)  \\ 
+\hline Sessions & Low(4.048)& High(97.2)  & High (26.5)  \\ 
 \hline Hours & Low (0.649) & High (17.802) & High (3.946)  \\ 
 \hline IR Activity & Mid (3.867) & High (80.199) & High (18.275) \\ 
 \hline My Stuff Activity &  Low(0.781)  & High (10.2) & High (9.645)  \\ 
@@ -320,89 +320,93 @@ There were three clusters generated from our user type experiments. We describe 
 \textbf{Cluster 3}: This cluster of users also have a high rating on average in all usage features. However, the values of each of these features are in the low range of the high value bin. On average users in this clusters are not as intensely engaged with the CCS platform as the power users in cluster 2. We would categorize these users as Community Seeker specialists, because they feature higher use of shared stuff compared to users of the other two clusters (in terms of mean number of clicks).
 
 \section{USAGE PATTERN TRENDS}
-We explore the trend in usage pattern on a feature-by-feature basis. In this analysis we look into how the values of each usage feature per user type changes on three levels: semester to semester, every two months and month to month. This would give a good idea of which usage features remain relatively stable (in terms of use) and which vary per user type. This knowledge would be particularly useful in detecting strong features that define a user type. For example, if the power user type always has a high value in  publisher material activity, this  might point to the fact that a high value in publisher material activity is a strong predictor of a 'power user' user type.
+We explore the trend in usage pattern on a feature-by-feature basis. In this analysis we look into how the mean values of each usage feature per user type changes on three levels: semester to semester, every two months and month to month. This would give a good idea of which usage features remain relatively stable (in terms of use) and which vary per user type. This knowledge would be particularly useful in detecting strong features that define a user type. For example, if the power user type always has a high value in  publisher material activity, this  might indicate that a high value in publisher material activity is a strong predictor of a 'power user' user type.
 \subsection{Limited use user type}
 \subsubsection{Semester-Semester trends}
 \begin{table}
-\caption{Usage feature values of during the spring semester of the 'Limited use' user type}
+\caption{Usage feature values of during the fall \& spring semesters of the 'Limited use' user type}
 \label{cluster0month}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
- Fall  semester & Low & Low  & mid & mid & Low & Low \\ \hline
-Spring semester & Low & Low  & mid & mid & Low & Low \\ \hline
+ Fall  semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
+Spring semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 \end{tabular}
 \end{table}
-According to table \ref{cluster0month}, all usage feature values remain the same across both semesters
+According to table \ref{cluster0month}, all usage feature values remain the same across both semesters. This indicates that the mean usage among members of this group is stable across semesters.
 \subsubsection{Bi-monthly trends}
 \begin{table}
 \caption{Bi-monthly usage feature values of the 'Limited use' user type}
 \label{cluster0bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
-Sept-Nov & Low & Low  & mid & mid & mid & mid \\ \hline
-Nov-Jan & Low & mid  & mid & Low & mid & Low \\ \hline
-Jan-Mar & Low & mid  & mid & mid & Low & mid \\ \hline
-Mar-May & Low & Low  & mid & Low & Low & mid \\ \hline
+Sept-Nov & Low & Low  & Mid & Mid & Mid & Mid \\ \hline
+Nov-Jan & Low & Mid  & Mid & Low & Mid & Low \\ \hline
+Jan-Mar & Low & Mid  & Mid & Mid & Low & Mid \\ \hline
+Mar-May & Low & Low  & Mid & Low & Low & Mid \\ \hline
 \end{tabular}
 \end{table}
+To further investigate changes in the usage feature values, we considered mean values of these features on a bi-monthly basis as indicated in table \ref{cluster0bimonthly}. Like, our semester-semester analysis, the number of sessions and interactive resource activity remains stable across all four time windows.  However activity in my stuff, publisher material and shared stuff  varies between the mid and low value ranges. 
 \subsubsection{Monthly trends}
 \begin{table}
 \caption{Monthly usage feature trends in the limited user type}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Sess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
-\textbf{Sept} & Low                                    & mid   & mid         & Low             & mid            & Low                 \\  \hline
-\textbf{Oct}   & Low                                    & mid   & mid         & Low             & Low            & mid                 \\  \hline
-\textbf{Nov}  & mid                                    & mid   & mid         & Low             & mid            & Low                 \\  \hline
-\textbf{Dec}  & Low                                    & mid   & high        & mid             & mid            & mid                 \\  \hline
-\textbf{Jan}   & mid                                    & mid   & mid         & Low             & mid            & Low                 \\ \hline
-\textbf{Feb}  & mid                                    & mid   & Low         & Low             & mid            & Low                 \\  \hline
-\textbf{Mar}     & mid                                    & Low   & mid         & mid             & mid            & mid                 \\ \hline
-\textbf{Apr}     & Low                                    & mid   & mid         & Low             & mid            & Low                 \\ \hline
-\textbf{May}       & Low                                    & mid   & Low         & Low             & Low            &   Low                 
+\textbf{Sept} & Low                                    & Mid   & Mid         & Low             & Mid            & Low                 \\  \hline
+\textbf{Oct}   & Low                                    & Mid   & Mid         & Low             & Low            & Mid                 \\  \hline
+\textbf{Nov}  & Mid                                    & Mid   & Mid         & Low             & Mid            & Low                 \\  \hline
+\textbf{Dec}  & Low                                    & Mid   & High        & Mid             & Mid            & Mid                 \\  \hline
+\textbf{Jan}   & Mid                                    & Mid   & Mid         & Low             & Mid            & Low                 \\ \hline
+\textbf{Feb}  & Mid                                    & Mid   & Low         & Low             & Mid            & Low                 \\  \hline
+\textbf{Mar}     & Mid                                    & Low   & Mid         & Mid             & Mid            & Mid                 \\ \hline
+\textbf{Apr}     & Low                                    & Mid   & Mid         & Low             & Mid            & Low                 \\ \hline
+\textbf{May}       & Low                                    & Mid   & Low         & Low             & Low            &   Low                 
 \end{tabular}
 \end{table}
-In this user type, the hours spent and publisher activity features seem to be very stable and hence good predictors of membership within ----. The other features number of sessions, shared stuff activity, interactive resource activity tend to vary quite a bit from month to month.
+On a month-month basis, the hours spent and publisher activity features seem to be very stable and hence good predictors of membership within ----. The other features number of sessions, shared stuff activity and  interactive resource activity tend to vary quite a bit from month to month.
 
 \subsection{Community Seeker user type}
 
 \subsubsection{Semester-Semester trends}
 
 \begin{table}
-\caption{Usage feature values of during the spring semester of the 'Community seeker' user type}
+\caption{Usage feature values of the 'Community seeker' user type of during the fall and  spring semesters}
 \label{cluster2month}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
-Fall  semester & high & mid  & high & high & high & high \\ \hline
-Spring semester & mid & high  & mid & high & high & high \\ \hline
+Fall  semester & High & Mid  & High & High & High & High \\ \hline
+Spring semester & Mid & High  & Mid & High & High & High \\ \hline
 \end{tabular}
 \end{table}
 
-As highlighted in table \ref{cluster2month}, within the community seeker user type, activity in my stuff, shared stuff and publisher material remained at a high level on average. However, frequency based features \(hours \& number of sessions\) moved from the high-mid and mid-high level ranges respectively. This might indicate that users logged spent less time across more sessions and more time across less sessions in the fall and spring semesters respectively. Also use of interactive resources dropped from high to mid from the fall to spring semesters
+As highlighted in table \ref{cluster2month}, within the community seeker user type, activity in my stuff, shared stuff and publisher material remained at a high level on average. However, frequency based features \(hours \& number of sessions\) moved from the high-mid and mid-high level ranges respectively. This might indicate that users  spent less time across more sessions and more time across less sessions in the fall and spring semesters respectively. Also use of interactive resources dropped from high to mid from the fall to spring semesters
 
 \subsubsection{Bi-monthly trends}
+On a bi-monthly basis, the feature values of hours spent, interactive resource and publisher material activity remain fairly stable across all time windows. This could indicate the strength of these features in predicting membership within this class. The number of sessions, my stuff and shared stuff activity oscillate between the mid and high value ranges across the time chunks.  
 \begin{table}
 \caption{Bi-monthly usage feature values of the 'Community Seeker' user type}
 \label{cluster1bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
-Nov-Jan & high & mid  & mid & mid & mid & mid \\ \hline
-Jan-Mar & mid & mid  & mid & mid & mid & high \\ \hline
-Mar-May & mid & mid  & mid & high & mid & high \\ \hline
+Sept-Nov & Mid & Mid  & High & High & High & High \\ \hline
+Nov-Jan & High & Mid  & Mid & Mid & Mid & Mid \\ \hline
+Jan-Mar & Mid & Mid  & Mid & Mid & Mid & High \\ \hline
+Mar-May & Mid & Mid  & Mid & High & Mid & High \\ \hline
 \end{tabular}
 \end{table}
 \subsubsection{Monthly trends}
 \begin{table}
+\label{cluster2bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
-\textbf{Sept} & mid                                    & mid   & mid         & mid             & mid            & high                \\
-\textbf{Oct}   & mid                                    & mid   & mid         & mid             & mid            & high                \\
-\textbf{Nov}  & high                                   & high  & high        & high            & mid            & high                \\
-\textbf{Dec}  & high                                   & mid   & mid         & mid             & mid            & high                \\
-\textbf{Jan}   & high                                   & high  & high        & high            & high           & mid                 \\
-\textbf{Feb}  & mid                                    & mid   & high        & high            & mid            & high                \\
-\textbf{Mar}     & high                                   & mid   & high        & high            & mid            & mid                 \\
-\textbf{Apr}     & mid                                    & mid   & high        & high            & mid            & high                \\
-\textbf{May}       & mid                                    & high  & mid         & mid             & high           & mid                
+\textbf{Sept} & Mid                                    & Mid   & Mid         & Mid             & Mid            & High                \\
+\textbf{Oct}   & Mid                                    & Mid   & Mid         & Mid             & Mid            & High                \\
+\textbf{Nov}  & High                                   & High  & High        & High            & Mid            & High                \\
+\textbf{Dec}  & High                                   & Mid   & Mid         & Mid             & Mid            & High                \\
+\textbf{Jan}   & High                                   & High  & High        & High            & High           & Mid                 \\
+\textbf{Feb}  & Mid                                    & Mid   & High        & High            & Mid            & High                \\
+\textbf{Mar}     & High                                   & Mid   & High        & High            & Mid            & Mid                 \\
+\textbf{Apr}     & Mid                                    & Mid   & High        & High            & Mid            & High                \\
+\textbf{May}       & Mid                                    & High  & Mid         & Mid             & High           & mid                
 \end{tabular}
 \end{table}
 All usage features apart from interactive resource activity tend to vary quite a bit from month to month. Though, further introspection indicates that users in this category rank in the high range of mid interactive resource activity.
@@ -417,8 +421,8 @@ Within the 'power user' user type, usage features were examined in a semester-se
 \label{cluster1month}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
-Fall  semester & high & high  & high & high & high & high \\ \hline
-Spring semester & high & high  & high & high & high & high \\ \hline
+Fall  semester & High & High  & High & High & High & High \\ \hline
+Spring semester & High & High  & High & High & High & high \\ \hline
 \end{tabular}
 \end{table}
 
@@ -430,15 +434,15 @@ All usage features trend at a high level for members of the power user category 
 \label{cluster1bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
-Sept-Nov & high & high  & high & high & high & high \\ \hline
-Nov-Jan & high & high  & high & mid & high & high \\ \hline
-Jan-Mar & high & high  & high & high & high & high \\ \hline
-Mar-May & high & high  & high & mid & high & mid \\ \hline
+Sept-Nov & High & High  & High & High & High & High \\ \hline
+Nov-Jan & High & High  & High & Mid & High & High \\ \hline
+Jan-Mar & High & High  & High & High & High & High \\ \hline
+Mar-May & High & High  & High & Mid & High & Mid \\ \hline
 \end{tabular}
 \end{table}
 
-Considering 2-month time frames as illustrated in table \ref{cluster1bimonthly}, all usage features maintain a value of high apart from My Stuff and Shared Stuff activities during the school year. My stuff activity dips between time periods of September\-November and November\-January and again from between time periods January\-March and March\-May.
-My Stuff and Shared stuff activity dips to a Low value range from a high-value range during the time of periods of January\-March and March\-May.
+Considering 2-month time frames as illustrated in table \ref{cluster1bimonthly}, all usage features maintain a value of high apart from My Stuff and Shared Stuff activities during the school year. My stuff activity dips between time periods of September-November and November-January and again from between time periods January-March and March-May.
+My Stuff and Shared stuff activity dips to a Low value range from a high-value range during the time of periods of January-March and March-May.
 
 \subsubsection{Monthly trends}
 \begin{table}
@@ -446,15 +450,15 @@ My Stuff and Shared stuff activity dips to a Low value range from a high-value r
 \label{cluster1month}
 \begin{tabular}{|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
  & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
-\textbf{Sept} & high                                   & high  & high        & mid             & high           & high                \\ \hline
-\textbf{Oct}   & high                                   & high  & high        & high            & high           & mid                 \\ \hline
-\textbf{Nov}  & high                                   & high  & mid         & mid             & high           & mid                 \\ \hline
-\textbf{Dec}  & high                                   & high  & high        & Low             & high           & mid                 \\ \hline
-\textbf{Jan}   & high                                   & high  & high        & high            & high           & high                \\ \hline
-\textbf{Feb}  & high                                   & high  & Low         & mid             & high           & mid                 \\ \hline
-\textbf{Mar}     & high                                   & high  & high        & mid             & high           & high                \\ \hline
-\textbf{Apr}     & high                                   & high  & mid         & Low             & high           & Low                 \\ \hline
-\textbf{May}       & high                                   & high  & Low         & Low             & high           & mid                
+\textbf{Sept} & High                                   & High  & High        & Mid             & High           & High                \\ \hline
+\textbf{Oct}   & High                                   & High  & High        & High            & High           & Mid                 \\ \hline
+\textbf{Nov}  & High                                   & High  & Mid         & Mid             & High           & Mid                 \\ \hline
+\textbf{Dec}  & High                                   & High  & High        & Low             & High           & Mid                 \\ \hline
+\textbf{Jan}   & High                                   & High  & High        & High            & High           & High                \\ \hline
+\textbf{Feb}  & High                                   & High  & Low         & Mid             & High           & Mid                 \\ \hline
+\textbf{Mar}     & High                                   & High  & High        & Mid             & High           & High                \\ \hline
+\textbf{Apr}     & High                                   & High  & Mid         & Low             & High           & Low                 \\ \hline
+\textbf{May}       & High                                   & High  & Low         & Low             & High           & Mid                
 \end{tabular}
 \end{table}
 From table \ref{cluster1month}, it is clear that the number of sessions, hours and my stuff activity varies remain constantly high across all months. This indicates that a value of high in these three features is a strong predictor of membership within this cluster.  The values of interactive resource activity, my Stuff activity and shared stuff Activity vary quite a bit within the school year.
@@ -491,13 +495,13 @@ In our analysis we set a minimum support and confidence level of 0.9 for strong 
 We ran the Apriori algorithm on the set of all transactions of all users in the power user type and the ten strong rules (rules meeting the minimum support of 0.5 and minimum confidence of 0.9 thresholds) were generated. They are as follows:
 
 \begin{enumerate}
- \item $num\_sessions=high \;\; hours=high \longrightarrow pub_activity=high   \;\;conf:(0.96)$
- \item $pub\_activity=high \longrightarrow num\_sessions=high  \;\;  conf:(0.94)$
- \item $num\_sessions=high \longrightarrow pub\_activity=high   \;\; conf:(0.94)$
- \item $pub\_activity=high \longrightarrow hours=high  \;\;  conf:(0.94)$
- \item $hours=high \;\; pub\_activity=high \longrightarrow num\_sessions=high  \;\; conf:(0.93)$
- \item $num\_sessions=high \;\; pub\_activity=high \longrightarrow hours=high   \;\;conf:(0.93)$
- \item $num\_sessions=high  \longrightarrow hours=high \;\;  conf:(0.9)$
+ \item $num\_sessions=High \;\; hours=High \longrightarrow pub_activity=High   \;\;conf:(0.96)$
+ \item $pub\_activity=High \longrightarrow num\_sessions=High  \;\;  conf:(0.94)$
+ \item $num\_sessions=High \longrightarrow pub\_activity=High   \;\; conf:(0.94)$
+ \item $pub\_activity=High \longrightarrow hours=High  \;\;  conf:(0.94)$
+ \item $hours=High \;\; pub\_activity=High \longrightarrow num\_sessions=High  \;\; conf:(0.93)$
+ \item $num\_sessions=High \;\; pub\_activity=High \longrightarrow hours=High   \;\;conf:(0.93)$
+ \item $num\_sessions=High  \longrightarrow hours=High \;\;  conf:(0.9)$
 \end{enumerate}
 
 As a reminder, members of this user type  are categorized by a usage pattern: \{ \}
@@ -510,7 +514,7 @@ On average, members of this group did not exhibit consistent usage of the CCS co
 Only one strong association rule was generated from running Apriori on the set of transactions from this dataset:
 
 \begin{enumerate}
-\item $Hours=Low \;\; Pub\_Actv=mid \;\; Shared\_stuff\_Actv=Low  \longrightarrow IR\_Actv=Low  \;\;  conf:(0.93)$
+\item $Hours=Low \;\; Pub\_Actv=Mid \;\; Shared\_stuff\_Actv=Low  \longrightarrow IR\_Actv=Low  \;\;  conf:(0.93)$
 \end{enumerate}
 
 This pattern is interesting as users within this group are more inclined to use shared stuff resources. However, when they spend a Low amount of time on the system, they are more likely to be accessing publisher material than shared stuff materials.
