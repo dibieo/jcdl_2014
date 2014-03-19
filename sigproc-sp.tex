@@ -87,26 +87,26 @@
 %
 % 1st. author
 \alignauthor
-Ben Trovato\titlenote{Dr.~Trovato insisted his name be first.}\\
-       \affaddr{Institute for Clarity in Documentation}\\
-       \affaddr{1932 Wallamaloo Lane}\\
-       \affaddr{Wallamaloo, New Zealand}\\
-       \email{trovato@corporation.com}
+Ogheneovo Dibie \\
+       \affaddr{University of Colorado }\\
+       \affaddr{Institute of Cognitive Science}\\
+       \affaddr{Dept. of Computer Science}\\
+       \affaddr{Boulder, Colorado USA}\\
+       \email{ogheneovo.dibie@colorado.edu}
 % 2nd. author
 \alignauthor
-G.K.M. Tobin\titlenote{The secretary disavows
-any knowledge of this author's actions.}\\
-       \affaddr{Institute for Clarity in Documentation}\\
-       \affaddr{P.O. Box 1212}\\
-       \affaddr{Dublin, Ohio 43017-6221}\\
-       \email{webmaster@marysville-ohio.com}
+Keith Maull \\
+\affaddr{University Corporation for Atmospheric Research }\\
+\affaddr{Boulder, Colorado USA}\\
+\email{maull@ucar.edu}
 % 3rd. author
-\alignauthor Lars Th{\o}rv{\"a}ld\titlenote{This author is the
-one who did all the really hard work.}\\
-       \affaddr{The Th{\o}rv{\"a}ld Group}\\
-       \affaddr{1 Th{\o}rv{\"a}ld Circle}\\
-       \affaddr{Hekla, Iceland}\\
-       \email{larst@affiliation.org}
+\alignauthor
+Tamara Sumner \\
+ \affaddr{University of Colorado }\\
+\affaddr{Institute of Cognitive Science}\\
+\affaddr{Dept. of Computer Science}\\
+\affaddr{Boulder, Colorado USA}\\
+       \email{sumner@colorado.edu}
 }
 % There's nothing stopping you putting the seventh, eighth, etc.
 % author on the opening page (as the 'third row') but we ask,
@@ -122,9 +122,9 @@ email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
 
 \maketitle
 \begin{abstract}
-\textit{TODO: Working on this, still very preliminary...}
+\textit{TODO: Working on this, still preliminary...}
 
-In this paper, we present a computational approach for understanding and predicting the behavior of Earth Science educators using an online curriculum planning tool incorporating digital library resources. This paper expands on prior work on understanding educators' adoption and use of digital library resources \cite{maullunderstanding}, by extending the use-diffusion based methodology for characterizing use and understanding the trends that occur within user behaviors. . Furthermore, we show that a user's long-term behavior can be predicted to a certain extent from small window of time.
+In this paper, we present a computational approach for understanding and predicting the behavior of Earth Science educators using an online curriculum planning tool incorporating digital library resources. This paper expands on prior work on understanding educators' adoption and use of digital library resources \cite{maullunderstanding}. It introduces a methodology for characterizing user behaviors and understanding the trends and frequent patterns of use that are observable from these behaviors. Furthermore, we show that a user's type at the end of the school year can be predicted with an accuracy of 72.5\% from observing usage within the month of October
 \end{abstract}
 
 % A category with the (minimum) three required fields
@@ -140,7 +140,7 @@ In this paper, we present a computational approach for understanding and predict
 In today's classroom, educational digital libraries play an important role of supporting educators in customizing their instruction to meet the diverse needs of students\cite{sumner:team}. 
 They provide educators with high quality resources to supplement classic teaching materials such as textbooks and teaching guides. Also, digital libraries provide learners with avenues for informal learning--learning outside the classroom--as a way of augmenting knowledge and experiences gained in the classroom \cite{marchionini}. Given the importance of educational digital libraries to learning and teaching, it is necessary to improve our understanding of how resources within these libraries are used.  This knowledge would be beneficial in providing library providers and managers with information on how to support and improve the information needs of library patrons.
 
-Understanding technology use spans far beyond the realm of digital libraries. In marketing science there has been extensive research into technology adoption and use. A  theoretical framework for understanding technology use is the use-diffusion framework proposed by Shih and Venkatesh.Use-diffusion characterizes the uses of a product in two dimensions: the frequency of use and variety of use \cite{shih2004beyond}.  For example, following the use-diffusion model, the usage patterns of Facebook users can be characterized based on the amount of time spent on the Facebook platform and the various types of actions performed during that time. Other theories of use consider a user's content preference in addition to usage frequency and variety \cite{brandtzaeg2010towards}. We discuss the use-diffusion as well as other paradigms of technology use in greater detail in section \ref{section:relatedwork}. 
+Understanding technology use spans far beyond the realm of digital libraries. In marketing science there has been extensive research into technology adoption and use. A  theoretical framework for understanding technology use is the use-diffusion framework proposed by Shih and Venkatesh \cite{shih2004beyond}.Use-diffusion characterizes the uses of a product in two dimensions: the frequency of use and variety of use \cite{shih2004beyond}.  For example, following the use-diffusion model, the usage patterns of Facebook users can be characterized based on the amount of time spent on the Facebook platform and the various types of actions performed during that time. Other theories of use consider a user's content preference in addition to usage frequency and variety \cite{brandtzaeg2010towards}. We discuss the use-diffusion as well as other paradigms of technology use in greater detail in section \ref{section:relatedwork}. 
 
 Within the realm of digital libraries, recent research has focused on computational approaches for determining the behaviors of educators. Inspired by theories of technology use from Shih \& Venkatesh and Ram \& Jung \cite{shih2004beyond, ram1990conceptualization}, Maull et al. \cite{maullunderstanding} developed a use diffusion-based methodology for understanding how a group of middle and high school Earth Science educators used an online curriculum customization tool incorporating digital library resources \cite{maullunderstanding}. They used computational techniques such as clustering and clickstream entropy to produce user typologies \cite{maullunderstanding}. A user typology refers to the categorization of aggregate user behaviors into distinct user types \cite{brandtzaeg2010towards}. Each user type gives an overview of the manner of use of members of that type \cite{brandtzaeg2010towards}. For example a user of type \textit{power user} is one who spends a lot of time on a product and also uses it in a variety of contexts. Similar to the work of Maull et al. \cite{maullunderstanding}, Xu et al. studied the different  user types that emerged from teacher use of a educational digital library service, the Instructional Architect \cite{xu}. 
 
@@ -148,8 +148,8 @@ While, current usage theories give insight into user types, they do not account 
 
 Furthermore, current research on digital library use is mostly retrospective, i.e. a user's behavior is determined after a set period of use. Studies \cite{maullunderstanding,xu} were based on a year of use. We can however go a step further by predicting a user's behavior based on knowledge of a user typology. This could be especially useful for new users of the system as this knowledge can help system providers/managers with information on how to better support their needs based on predicted behaviors. In our domain (educational digital library resources), this could mean implementing better professional development (PD) training or accessibility to resources. For example, if after a couple months of usage, a user's behavior is predicted as likely being of the type \textit{limited use} (spends very little time on the system and likely to discontinue use), efforts could be made to encourage use or at least understand why the product is barely being used. In this paper, we develop computational models for predicting the long-term behaviors of users from small windows of time. In this paper, we posit long term behavior as a user's membership in a user type at the end of our observation period--one academic year. This knowledge would be beneficial in providing library administrators/managers with timely information on what system changes/user training would improve the use of their platforms.
 
-\textit{We state final results here}I state my results here and paper organization....
-
+The rest of this paper is organized in the following manner. In section 2, we discuss theoretical models and computational approaches for determining and predicting technology use. We state our research questions and the context for this study in sections 3 \& 4. Sections 5-8 highlight our approach and the results of our research studies addressing the questions posed in section 3. Section 9 discusses the limitations of this work and in section 10 we discuss its ramifications and future direction.
+ 
 \section{RELATED WORK} \label{section:relatedwork}
 This research draws upon theoretical models and computational approaches of determining technology use. We examine these theories in this section
 \subsection{Theoretical models of technology use}
@@ -194,6 +194,7 @@ the first month of use and first semester of use. We aim to discover what time f
 
 \section{RESEARCH CONTEXT}
 The research questions outlined in this proposal will be examined in the context of an instructional curriculum planning tool called the Curriculum Customization Service (CCS) \cite{sumner:team}. The CCS is a web based instructional planning tool which provides primarily middle and high school Earth Science teachers with access to digital versions of their class room text book, curriculum-relevant high quality, digital library resources and community-contributed resources. These resources are used in a multitude of pedagogical scenarios: from lesson planning to in-class projection and demonstration to customizing instruction to meet the needs of a diverse group of learners \cite{Saldivar:2012}. Educators use the CCS as a supplement to other instructional aids such as text books and teaching guides. Deployed since the fall of 2009, the CCS is now being used in six school districts across Colorado and Utah. The CCS is instrumented to capture the click actions of users. Click actions being tracked include all unique page elements such as clicks on links, toggles, tabs, and buttons. The aggregate data collected from the clicking activity of users is collectively known as clickstream. Clickstream data is useful in not only useful in showing a user's navigational path i.e. pages clicked on during a visit to a website, and click actions performed within a specific page (i.e. page elements that were clicked on within a particular page), but also a user browsing behavior \cite{montgomery2004modeling}. Clickstream analysis has proved to be very useful in developing user typologies from online usage as illustrated by Maull et al. \cite{maullunderstanding} with the CCS and xu et al.\cite{xu} with the Instructional Architect. The clickstream data under analysis for this research includes information such as the user identity (user id), time stamp, specific system components clicked on (within the CCS this could be an interactive resource from a digital library such as DLESE or a user-contributed resource), session length. A series of clicks performed over a period of time constitutes a session and a session is delineated by 45 minutes of inactivity or by the user logging out.
+
 
 \begin{figure}
 \includegraphics[width=1 \linewidth]{./ccsimage}
@@ -487,7 +488,7 @@ For example a rule $\mathbf{milk,diapers \Longrightarrow {beer}}$ with a support
 In our analysis we set a minimum support and confidence level of 0.9 for strong rules. We do this to generate the most likely rules and constrain the size of frequent items generated by the Apriori algorithm.
 
 \subsection {Frequent patterns within the Power User user type}
-We ran the Apriori algorithm on the set of all transactions of all users in the power user type and the ten strong rules (rules meeting the minimum support of 0.5 and minimum confidence of 0.9 thresholds) were generated. They are as folLows:
+We ran the Apriori algorithm on the set of all transactions of all users in the power user type and the ten strong rules (rules meeting the minimum support of 0.5 and minimum confidence of 0.9 thresholds) were generated. They are as follows:
 
 \begin{enumerate}
  \item $num\_sessions=high \;\; hours=high \longrightarrow pub_activity=high   \;\;conf:(0.96)$
@@ -538,7 +539,7 @@ This study would look at machine learning classifiers for predicting a user's be
 We consider the task of predicting a user's eventual type by considering features in the semester, bi-monthly and monthly basis.
 For each time window, we perform  classification with four algorithms: Naive Bayes, SVM, J48 Decisions Trees and Bagging. The accuracy of the best algorithm is reported here. Furthermore, we determine the most predictive features of a user type per time window automatically using the attribute selection filter in WEKA \footnote{www.cs.waikato.ac.nz/ml/weka/} We also perform classification tasks using just this set of features.
 \subsection{User type prediction per semester}
-On a semester-semester basis, we discovered that the fall semester is best predictive of a user's type at the end of the school year. Using all the usage features, we can predict the user type with an accuracy of 75.57\%. Using WEKA's attribute selection filter, we discovered that the number of sessions, hours spent and publisher material activity are most predictive of a user's type. We performed the classification task again using just these features and achieved an accuracy of 78.57\%. The results of all our experiments are shown in table \ref{semesterprediction}
+On a semester-semester basis, we discovered that the fall semester is best predictive of a user's type at the end of the school year. Using all the usage features, we can predict the user type with an accuracy of 75.57\%. Using WEKA's attribute selection filter, we discovered that the number of sessions, hours spent and publisher material activity are the most predictive features of a user's type. Using these features alone improved prediction to an accuracy of 78.57\%. The results of our classification experiments with different classifiers are shown in table \ref{semesterprediction}
 
 \begin{table}
 
@@ -555,16 +556,16 @@ On a semester-semester basis, we discovered that the fall semester is best predi
 \end{tabular}
 \end{table}
 
-\subsection{User type prediction bi-monthly}
-We whittled our prediction time window to time chunks of two months of use. Thus, we considered the probability of predicting a user's type from usage in two month chunks: September-November, November-January, January-March and March-May. We discovered that usage during March-May are best predictive of a user's type. Our experiments show that we can predict a user's type with an accuracy of about 84.15\% considering all usage features. Running the classification task with automatically selected best features did not boost the classification accuracy in comparison to using all the usage features.
+\subsection{User type prediction bi-monthly} \label{usertypepredictionbimonthly}
+We whittled our prediction time window to time chunks of two months of use. Thus, we considered the probability of predicting a user's type from usage in the following two month chunks: September-November, November-January, January-March and March-May. We discovered that usage during March-May are best predictive of a user's type. Our experiments show that we can predict a user's type with an accuracy of about 84.15\% considering all usage features. Running the classification task with the auto-selected best features did not boost the classification accuracy in comparison to using all the usage features.
 
 \subsection{User type prediction per month}
+Finally, we considered the task of predicting a user's type on a month by month basis. Thus given a user's usage for a month, which month is best predictive of the user's eventual type. Running the classification tasks with all usage features as described in table \ref{usagefeatures}, usage for the month of April is the most predictive of a user's eventual type given with an accuracy of 71.25\%. This is not surprising as our results in section \ref{usertypepredictionbimonthly} shows that the time window of March-May as the most predictive of a user's type.
 
-
-
+However, as in our previous analysis, using the best features of the number of sessions, shared stuff activity and publisher material activity (this feature subset was selected by WEKA's CfsSubsetEval function), we discovered that the month of October provides a higher prediction accuracy of 72.5\%.
 
 \section{LIMITATIONS}
-
+In this research, we made the assumption that user types discovered at the end of the school year represent the first year of usage for all users.However a sizeable portion of users in our study, had used the CCS in previous years. Thus the user types discovered at the end of the school year do not capture one year of fresh use. Usage patterns in previous years may have impacted the manner in which teachers used the platform during the 2011-2012 school year. It is reasonable to assume that a power user during his/her first year of use may not always remain so if teaching the same material year in, year out. This is because the user would already be very conversant with the system and resources it holds, and thus not need to spend a great amount of time on the platform
 \section{DISCUSSION AND CONCLUSION}
 
 \section{REFERENCES}
