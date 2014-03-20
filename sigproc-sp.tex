@@ -146,7 +146,7 @@ Within the realm of digital libraries, recent research has focused on computatio
 
 While, current usage theories give insight into user types, they do not account for the evolution of such behavior. For example, a user of the type \textit{power user} (spends a lot of time on a product and exercises most of its features) after a year of using a product, may not have exhibited this behavior from first use. We hypothesize that user behaviors as described by user types are not static but dynamic. In fact, Shih and Venkatesh posit a similar hypothesis in elaborating on user types they discover \cite{shih2004beyond}. In this research, we aim at shedding light on the evolution of a user type by understanding how the patterns of use that describe it change over time and what frequent patterns can be observed within it. Using a market-basket analysis type approach to analyze the usage patterns within a user type, we get a better understanding of the unique patterns of use that exist within that type. This would help in understanding the correlations that occur within specific user types. For example, when a user of a type \textit{power user} spends a high or low amount of time on the system, what actions are they likely to be performing etc.
 
-Furthermore, current research on digital library use is mostly retrospective, i.e. a user's behavior is determined after a set period of use. Studies \cite{maullunderstanding,xu} were based on a year of use. We can however go a step further by predicting a user's behavior based on knowledge of a user typology. This could be especially useful for new users of the system as this knowledge can help system providers/managers with information on how to better support their needs based on predicted behaviors. In our domain (educational digital library resources), this could mean implementing better professional development (PD) training or accessibility to resources. For example, if after a couple months of usage, a user's behavior is predicted as likely being of the type \textit{limited use} (spends very little time on the system and likely to discontinue use), efforts could be made to encourage use or at least understand why the product is barely being used. In this paper, we develop computational models for predicting the long-term behaviors of users from small windows of time. In this paper, we posit long term behavior as a user's membership in a user type at the end of our observation period--one academic year. This knowledge would be beneficial in providing library administrators/managers with timely information on what system changes/user training would improve the use of their platforms.
+Furthermore, current research on digital library use is mostly retrospective, i.e. a user's behavior is determined after a set period of use. Studies \cite{maullunderstanding,xu} were based on a year of use. We can however go a step further by predicting a user's behavior based on knowledge of a user typology. This could be especially useful for new users of the system as it could help system providers/managers with information on how to better support their needs based on predicted behaviors. In our domain (educational digital library resources), this could mean implementing better professional development (PD) training or improving accessibility to resources. For example, if after a couple months of usage, a user's behavior is predicted as likely being of the type \textit{limited use} (spends very little time on the system and likely to discontinue use), efforts could be made to encourage use or at least understand why the product is barely being used. In this paper, we develop computational models for predicting the long-term behaviors of users from small windows of time. We posit long term behavior as a user's membership in a user type at the end of our observation period--one academic year. 
 
 The rest of this paper is organized in the following manner. In section 2, we discuss theoretical models and computational approaches for determining and predicting technology use. We state our research questions and the context for this study in sections 3 \& 4. Sections 5-8 highlight our approach and the results of our research studies addressing the questions posed in section 3. Section 9 discusses the limitations of this work and in section 10 we discuss its ramifications and future direction.
  
@@ -155,7 +155,7 @@ This research draws upon theoretical models and computational approaches of dete
 \subsection{Theoretical models of technology use}
 Technology use research follows from a rich history of work in technology adoption. Technology adoption occurs when a user decides an innovation is of utility and decides to use it \cite{straub2009understanding}. Most research on technology adoption is focused on factors that influence a user's decision to adopt an innovation. They include Roger's innovation diffusion theory where the five "adopter categories", a user's propensity to adopt an innovation and the spread of that innovation within a social system are examined \cite{rogers2010diffusion}. Other models of technology adoption include the concerns based model which focuses on an an individual's specific reasoning behind adopting an innovation \cite{fuller1975concerns, hall1979concerns} and the technology acceptance model \cite{legris2003people} which takes into account the influence of an individual's self efficacy and expertise in deciding whether to adopt a technology or not \cite{legris2003people}.
 
-However technology adoption models do not account for how a technology is being used. Knowledge of how a product is used or not being used is key for manufacturers in making improvements/changes to the product. This need has led to the rise of theories that explain actual technology use.
+However technology adoption models do not account for how a technology is being used. Knowledge of how a product is used or not being used is key for producers in making improvements to the product. This need has led to the rise of theories that explain actual technology use.
 
 A key theory on technology use is the theory of use-diffusion. Originally proposed by Ram and Jung\cite{ram1990conceptualization}, it measures technology use on two dimensions: frequency and variety. Usage frequency refers to how often a product is being used while variety refers to the different applications or contexts within which a product is being used. For example, usage frequency for an Ipad will be based on how long it is being used while usage variety encompasses the various applications it is used for e.g. games, word processing, camera etc.
 
@@ -165,11 +165,11 @@ Users of type \textit{intense use} are characterized by high frequency and a hig
 \subsection{Computational approaches for determining user typologies}
 Recent research has focused on extending theoretical foundations on user typologies to educational contexts. Rather than determining user types solely based on self-reported usage as is the case in \cite{shih2004beyond,ram1990conceptualization}, these computational approaches generate a typology of user behavior via clustering of actual usage. Clustering is a data mining technique for automatically grouping related items into bins. Clustering algorithms normally group data based on two measures: the similarity between the data objects within the same cluster (minimal intra-cluster distance), and the dissimilarity between the data objects of different clusters (maximal inter-cluster distance) \cite{han2006data}. Xu \cite{xu} examined the use of clustering techniques to generate fine grained user typologies within a web based instructional tool known as the Instructional Architect (IA). The IA is an educational digital library service designed to facilitate the creation of simple instructional projects using web resources from the National Science Digital Library (NSDL) and the web in general[9]. Projects created can be kept as private, shared with just students and other teachers or made publicly available on the web. Three clusters of users were discovered namely: key brokers, insular classroom practitioners and ineffective islanders \cite{xu}.  Key brokers frequently browsed projects created by other users in IA and their own projects also received a lot of attention from other users; their public projects were of especial high quality \cite{xu}.Insular classroom practitioners did not create high quality projects because their projects were characterized by very little content and links to external resources. They had little interest in viewing projects created by other IA users and most of the projects they created were limited to use with students in their classrooms. Ineffective islanders were characterized by publishing a single project of supposedly good quality but these projects were not shared with neither students nor the public \cite{xu}.
 
-Working with the Curriculum Customization Service (CCS)--an online curriculum planning tool incorporating digital library resources \cite{sumner:team}, Maull et al. \cite{maullunderstanding} develop a typology of user behaviors observed in the CCS. This typology is inspired by a use-diffusion based  methodology and characterizes use based on  frequency and variety type metrics observable through server usage logs. Frequency based metrics include the number of session, hours spent, and variety based metrics include areas of the CCS that were accessed such as interactiveresources, publisher materials, and user-contributed resources. We provide detailed explanation of these features in section 4. 
+Working with the Curriculum Customization Service (CCS)--an online curriculum planning tool incorporating digital library resources \cite{sumner:team}, Maull et al. \cite{maullunderstanding} develop a typology of user behaviors observed in the CCS. This typology is inspired by a use-diffusion based  methodology and characterizes use based on  frequency and variety type metrics observable through server usage logs. Frequency based metrics include the number of session, hours spent, and variety based metrics include areas of the CCS that were accessed such as interactive resources, publisher materials, and user-contributed resources. We provide detailed explanation of these features in section 4. 
 
 Our work is based on the same context as Maull et al \cite{maullunderstanding} .This research extends the work of Maull et al. \cite{maullunderstanding} use-diffusion based methodology of understanding technology use in two keys ways: 
 \begin{enumerate}
-\item This work provides a deeper understanding of how usage features that characterize user types trend within the time period of the observed user type. Furthermore, this work introduces a market-basket analysis of usage features to understand how usage features correlate with each other within each user type. This answers the question of when a user is doing X, what else are they likely to be also doing.
+\item This work provides a deeper understanding of how usage features that characterize user types trend within the time period of the observed user type. Furthermore, this work introduces a market-basket analysis of usage features to understand how usage features correlate with each other within each user type. This answers the question of when users are doing X, what else are they likely to be also doing.
 
 \item This works explores computational models to predict an educator's behavior from small windows of time. It aims to answer the question of can we predict a user's type at the end of a year from an early window of usage?
 \end{enumerate}
@@ -193,7 +193,7 @@ the first month of use and first semester of use. We aim to discover what time f
 
 
 \section{RESEARCH CONTEXT}
-The research questions outlined in this proposal will be examined in the context of an instructional curriculum planning tool called the Curriculum Customization Service (CCS) \cite{sumner:team}. The CCS is a web based instructional planning tool which provides primarily middle and high school Earth Science teachers with access to digital versions of their class room text book, curriculum-relevant high quality, digital library resources and community-contributed resources. These resources are used in a multitude of pedagogical scenarios: from lesson planning to in-class projection and demonstration to customizing instruction to meet the needs of a diverse group of learners \cite{Saldivar:2012}. Educators use the CCS as a supplement to other instructional aids such as text books and teaching guides. Deployed since the fall of 2009, the CCS is now being used in six school districts across Colorado and Utah. The CCS is instrumented to capture the click actions of users. Click actions being tracked include all unique page elements such as clicks on links, toggles, tabs, and buttons. The aggregate data collected from the clicking activity of users is collectively known as clickstream. Clickstream data is useful in not only useful in showing a user's navigational path i.e. pages clicked on during a visit to a website, and click actions performed within a specific page (i.e. page elements that were clicked on within a particular page), but also a user browsing behavior \cite{montgomery2004modeling}. Clickstream analysis has proved to be very useful in developing user typologies from online usage as illustrated by Maull et al. \cite{maullunderstanding} with the CCS and xu et al.\cite{xu} with the Instructional Architect. The clickstream data under analysis for this research includes information such as the user identity (user id), time stamp, specific system components clicked on (within the CCS this could be an interactive resource from a digital library such as DLESE or a user-contributed resource), session length. A series of clicks performed over a period of time constitutes a session and a session is delineated by 45 minutes of inactivity or by the user logging out.
+The research questions outlined in this proposal will be examined in the context of an instructional curriculum planning tool called the Curriculum Customization Service (CCS) \cite{sumner:team}. The CCS is a web based instructional planning tool which provides primarily middle and high school Earth Science teachers with access to digital versions of their class room text book, curriculum-relevant high quality, digital library resources and community-contributed resources. These resources are used in a multitude of pedagogical scenarios: from lesson planning to in-class projection and demonstration to customizing instruction to meet the needs of a diverse group of learners \cite{Saldivar:2012}. Educators use the CCS as a supplement to other instructional aids such as text books, teaching guides and other electronic resources. Deployed since the fall of 2009, the CCS is now being used in six school districts across Colorado and Utah. The CCS is instrumented to capture the click actions of users. Click actions being tracked include all unique page elements such as clicks on links, toggles, tabs, and buttons. The aggregate data collected from the clicking activity of users is collectively known as clickstream. Clickstream data is useful in not only useful in showing a user's navigational path i.e. pages clicked on during a visit to a website, and click actions performed within a specific page (i.e. page elements that were clicked on within a particular page), but also a user browsing behavior \cite{montgomery2004modeling}. Clickstream analysis has proved to be very useful in developing user typologies from online usage as illustrated by Maull et al. \cite{maullunderstanding} with the CCS and xu et al.\cite{xu} with the Instructional Architect. The clickstream data under analysis for this research includes information such as the user identity (user id), time stamp, specific system components clicked on (within the CCS this could be an interactive resource from a digital library such as DLESE or a user-contributed resource) and session length. A series of clicks performed over a period of time constitutes a session and a session is delineated by 45 minutes of inactivity or by the user logging out.
 
 
 \begin{figure}
@@ -209,19 +209,19 @@ Our analysis is based on the clickstream of a large urban school district with 8
 Our study in this research is based on six usage features highlighted in table \ref{usagefeatures}. These features cover the four core areas of the CCS which are: (1) Digital library resources, (2)Publisher material, (3)Community contributed resources (4)Personalization
  
 \textbf{Digital Library resources}:
-A core aim of the CCS is to enable users customize instruction with high-quality digital library resources. The CCS is designed to automatically pull educational resources from digital libraries such as the Digital Library for Earth System Education (DLESE) and align these resources to a curriculum and educational standards. Within the CCS' interface, these resources are collectively referred to as interactive resources(IR resources). IR resources are sub-grouped into four categories depending on its type. They are : Top Picks, Animations, Images/Visuals and Inquiry with Data. 
+A core aim of the CCS is to enable users customize instruction with high-quality digital library resources. The CCS is designed to automatically pull educational resources from digital libraries such as the Digital Library for Earth System Education (DLESE) and align these resources to a curriculum and educational standards. Within the CCS' interface, these resources are collectively referred to as interactive resources(IR resources). IR resources are sub-grouped into four categories depending on its type as indicated in figure \ref{fig:ccsimage}. They are: Top Picks, Animations, Images/Visuals and Inquiry with Data. 
 
 \textbf{Publisher Materials}:
 Publisher materials are digitized versions of primarily paper-based instructional materials. Publisher materials include a digitized version of the student textbook, and supplemental teaching materials such as instructional support materials, teaching tips and embedded assessments. Access to digitized version of classic teaching materials within the CCS makes curriculum planning and in-class usage more accessible and convenient.
 
 \textbf{Personalization}:
-The CCS provides a host of personalization features which we refer to as \textbf{My Stuff}. As users go through the CCS platform, My Stuff features they can save publisher materials, digital library and community-shared resources to their My Stuff area. In addition to saving other system components, users can also upload their own resources to My Stuff and retrieve as needed at a later time.
+The CCS provides a host of personalization features which we refer to as \textbf{My Stuff}. As users go through the CCS platform, they can save publisher materials, digital library and community-shared resources to their My Stuff area. In addition to saving other system components, users can also upload their own resources to My Stuff and retrieve as needed at a later time.
 
 \textbf{Community Features}:
 The CCS promotes social behavior such as sharing resources among users. Within each section of the curriculum, users are able to share resources such as documents, links and rich media with others. Other users who find these resources useful can use or save these resources in My Stuff for later use.
 
 \section{CHARACTERIZING USER TYPES}\label{charusertypes}
-Before proceeding with our analysis on understanding and predicting the evolution of user types, we introduce a framework for characterizing the user types of a typology. We follow a similar approach to generating a user typology as Maull et al \cite{maullunderstanding}.The expectation maximization (EM) clustering algorithm is applied to the usage logs of all users during the months of September - May to generate a typology of user behaviors. Typically, the school calendar runs from August-June, but usage in August and June are partial as school begins in late August and ends in early June. Thus, we omit them from our analysis. We examine usage through six  features which cover the main components of the CCS platform. These features are highlighted in table \ref{usagefeatures} with the feature type i.e. whether this a frequency or variety based feature indicated in parenthesis.
+Before proceeding with our analysis on understanding and predicting the evolution of user types, we introduce a framework for characterizing the user types of a typology. We follow a similar approach to generating a user typology as Maull et al \cite{maullunderstanding}.The expectation maximization (EM) clustering algorithm is applied to the usage logs of all users during the months of September - May to generate a typology of user behaviors. Typically, the school calendar runs from August-June, but usage in August and June are partial as school begins in late August and ends in early June. Thus, we omit them from our analysis. We examine usage through six  features which cover the main components of the CCS platform. These features are highlighted in table \ref{usagefeatures}. Number of sessions and Hours spent on the site are frequency based measures while activity in My Stuff, Publisher material, Shared Stuff and Interactive Resources are variety based metrics.
 
 \begin{table}
 
@@ -231,21 +231,20 @@ Before proceeding with our analysis on understanding and predicting the evolutio
 \begin{tabular}{|l|l|} 
 \hline
 Num & Feature \\ \hline
-1 & Total number of sessions (frequency) \\ \hline
-2 & Total number of hours spent on the site (variety) \\ \hline
-3 & Total "My Stuff" activity (variety) \\ \hline
-4 & Total activity within publisher material (variety)\\ \hline
-5 & Total Shared stuff activity (variety) \\ \hline
-6 & Total Interactive Resources activity (variety)	\\ \hline
+1 & Total number of sessions (Num Sess) \\ \hline
+2 & Total number of hours spent on the site (Hrs) \\ \hline
+3 & Total "My Stuff" activity (MS Act) \\ \hline
+4 & Total activity within publisher material (Pub Actv)\\ \hline
+5 & Total Shared stuff activity (SS Actv) \\ \hline
+6 & Total Interactive Resources activity (IR Act)	\\ \hline
 \end{tabular}
 \end{table}
 
 In prior computational approaches for generating user typologies, user types discovered via clustering are labeled in a manual ad-hoc fashion \cite{maullunderstanding, xu}. There are no set rules for mapping a cluster to a specific user type. In this work we introduce an equal frequency binning discretization based approach for mapping clusters to a specific user type. Discretization based framework has successfully been used in defining feature values that describe user type archetypes in prior studies \cite{brandtzaeg2010towards,angeletou2011modelling}
 
-The discretization works as follows:
+Our discretization based approach works as follows:
 \begin{enumerate}
-
-\item For each usage feature, we perform equal frequency discretization on its continuous value into three bins: low, medium and high. Using a naive binning approach such as splitting a feature range into thirds can lead to large frequency skews within a single bin. Equal frequency binning avoids this and provides a distribution-dependent notion of levels \cite{han2006data}.  
+\item For each usage feature, we perform equal frequency binning to discretize its continuous value into three bins of low, medium and high. Using a naive binning approach such as splitting a feature range into thirds can lead to large frequency skews within a single bin. Equal frequency binning avoids this and provides a distribution-dependent notion of levels \cite{han2006data}.  
 
 \item We use the user types developed by Maull et al. \cite{maullunderstanding} and their discretized user types as archetypes for characterizing usage as illustrated in table \ref{maull_features}
 
@@ -269,11 +268,11 @@ The discretization works as follows:
 \begin{tabular}{|l|l|l|l|l|l|} \\ \hline
 % Add cluster label for cluster columns here
 \textbf{Feature} & 1 & 2 & 3 & 4 & 5 \\ \hline
-Sessions & Low & Mid-High & High & High & High \\ \hline
-Hours & Low & Mid-High & High & High & High \\ \hline
-IR Activity & Low & Low-mid & High & Mid & Low \\ \hline
-My Stuff Activity & Low & Mid-High & High & Mid & High \\ \hline
-Shared Stuff Activity & Low & High & High & High & High \\ \hline
+Num sess & Low & Mid-High & High & High & High \\ \hline
+Hrs & Low & Mid-High & High & High & High \\ \hline
+IR Actv & Low & Low-mid & High & Mid & Low \\ \hline
+MS Actv & Low & Mid-High & High & Mid & High \\ \hline
+SS Actv & Low & High & High & High & High \\ \hline
 Publisher Activity & Low & Low & High & Mid & Low \\ \hline
 \end{tabular}
 \end{table}
@@ -298,14 +297,14 @@ After clustering usage for all users we get a user typology as shown in table \r
 \begin{table}
 \caption{Output of clustering experiments}
 \label{usertypology}
-\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
 \hline \textbf{Feature} & 1 &  2 & 3 \\ 
-\hline Sessions & Low(4.048)& High(97.2)  & High (26.5)  \\ 
-\hline Hours & Low (0.649) & High (17.802) & High (3.946)  \\ 
-\hline IR Activity & Mid (3.867) & High (80.199) & High (18.275) \\ 
-\hline My Stuff Activity &  Low(0.781)  & High (10.2) & High (9.645)  \\ 
-\hline Shared Stuff Activity & Low(1.6524) & High(21.6) & High(39.6) \\
-\hline Publisher Activity & Low(6.438) & High (162) & High (40.045)  \\
+\hline Num sess & Low(4.048)& High(97.2)  & High (26.5)  \\ 
+\hline Hrs & Low (0.649) & High (17.802) & High (3.946)  \\ 
+\hline IR Actv & Mid (3.867) & High (80.199) & High (18.275) \\ 
+\hline MS Actv &  Low(0.781)  & High (10.2) & High (9.645)  \\ 
+\hline SS Actv  & Low(1.6524) & High(21.6) & High(39.6) \\
+\hline Pub Actv & Low(6.438) & High (162) & High (40.045)  \\
 \hline \textbf{N} & 32 & 5 & 43
 
 \end{tabular}
@@ -327,7 +326,7 @@ We explore the trend in usage pattern on a feature-by-feature basis. In this ana
 \caption{Usage feature values of during the fall \& spring semesters of the 'Limited use' user type}
 \label{cluster0month}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
  Fall  semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 Spring semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 \end{tabular}
@@ -338,7 +337,7 @@ According to table \ref{cluster0month}, all usage feature values remain the same
 \caption{Bi-monthly usage feature values of the 'Limited use' user type}
 \label{cluster0bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Sept-Nov & Low & Low  & Mid & Mid & Mid & Mid \\ \hline
 Nov-Jan & Low & Mid  & Mid & Low & Mid & Low \\ \hline
 Jan-Mar & Low & Mid  & Mid & Mid & Low & Mid \\ \hline
@@ -350,7 +349,7 @@ To further investigate changes in the usage feature values, we considered mean v
 \begin{table}
 \caption{Monthly usage feature trends in the limited user type}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Sess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num Sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 \textbf{Sept} & Low                                    & Mid   & Mid         & Low             & Mid            & Low                 \\  \hline
 \textbf{Oct}   & Low                                    & Mid   & Mid         & Low             & Low            & Mid                 \\  \hline
 \textbf{Nov}  & Mid                                    & Mid   & Mid         & Low             & Mid            & Low                 \\  \hline
@@ -372,7 +371,7 @@ On a month-month basis, the hours spent and publisher activity features seem to 
 \caption{Usage feature values of the 'Community seeker' user type of during the fall and  spring semesters}
 \label{cluster2month}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Fall  semester & High & Mid  & High & High & High & High \\ \hline
 Spring semester & Mid & High  & Mid & High & High & High \\ \hline
 \end{tabular}
@@ -386,7 +385,7 @@ On a bi-monthly basis, the feature values of hours spent, interactive resource a
 \caption{Bi-monthly usage feature values of the 'Community Seeker' user type}
 \label{cluster1bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Sept-Nov & Mid & Mid  & High & High & High & High \\ \hline
 Nov-Jan & High & Mid  & Mid & Mid & Mid & Mid \\ \hline
 Jan-Mar & Mid & Mid  & Mid & Mid & Mid & High \\ \hline
@@ -397,7 +396,7 @@ Mar-May & Mid & Mid  & Mid & High & Mid & High \\ \hline
 \begin{table}
 \label{cluster2bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 \textbf{Sept} & Mid                                    & Mid   & Mid         & Mid             & Mid            & High                \\
 \textbf{Oct}   & Mid                                    & Mid   & Mid         & Mid             & Mid            & High                \\
 \textbf{Nov}  & High                                   & High  & High        & High            & Mid            & High                \\
@@ -420,7 +419,7 @@ Within the 'power user' user type, usage features were examined in a semester-se
 \caption{Usage feature values of during the spring semester of the 'Power User' user type}
 \label{cluster1month}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Fall  semester & High & High  & High & High & High & High \\ \hline
 Spring semester & High & High  & High & High & High & high \\ \hline
 \end{tabular}
@@ -433,7 +432,7 @@ All usage features trend at a high level for members of the power user category 
 \caption{Bi-monthly usage feature values of the 'Power User' user type}
 \label{cluster1bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Sept-Nov & High & High  & High & High & High & High \\ \hline
 Nov-Jan & High & High  & High & Mid & High & High \\ \hline
 Jan-Mar & High & High  & High & High & High & High \\ \hline
@@ -449,7 +448,7 @@ My Stuff and Shared stuff activity dips to a Low value range from a high-value r
 \caption{Usage features month-month in the Power User user type}
 \label{cluster1month}
 \begin{tabular}{|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
- & Num Ssess & Hrs & IR Actv & MS Actv & Pub Actv & Shared Stuff \\ \hline
+ & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 \textbf{Sept} & High                                   & High  & High        & Mid             & High           & High                \\ \hline
 \textbf{Oct}   & High                                   & High  & High        & High            & High           & Mid                 \\ \hline
 \textbf{Nov}  & High                                   & High  & Mid         & Mid             & High           & Mid                 \\ \hline

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  19 MAR 2014 11:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  20 MAR 2014 13:06
 entering extended mode
 **sigproc-sp.tex
 (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.tex
@@ -566,20 +566,39 @@ File: ./ccsimage.png Graphic file (type png)
 Package pdftex.def Info: ./ccsimage.png used on input line 200.
 (pdftex.def)             Requested size: 240.0pt x 136.51529pt.
 
+Overfull \hbox (10.97827pt too wide) in paragraph at lines 231--241
+ [][] 
+ []
+
 [4 <C:/Users/OVO/Desktop/JCDL_latex/ccsimage.png>]
 <./process_flow.png, id=25, 722.7pt x 542.025pt>
 File: ./process_flow.png Graphic file (type png)
  <use ./process_flow.png>
-Package pdftex.def Info: ./process_flow.png used on input line 261.
+Package pdftex.def Info: ./process_flow.png used on input line 260.
 (pdftex.def)             Requested size: 240.0pt x 180.00188pt.
 
-Overfull \hbox (23.81326pt too wide) in paragraph at lines 269--279
+Overfull \hbox (11.94246pt too wide) in paragraph at lines 268--278
 [][] 
  []
 
 
-Overfull \hbox (2.35626pt too wide) in paragraph at lines 303--303
+Overfull \hbox (2.35626pt too wide) in paragraph at lines 302--302
 []\T1/aer/m/n/9 Low(4.048)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+[]\T1/aer/m/n/9 High
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]\T1/aer/m/n/9 Low
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]\T1/aer/m/n/9 High
  []
 
 
@@ -589,7 +608,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]\T1/aer/m/n/9 Low
+[]\T1/aer/m/n/9 Mid
  []
 
 
@@ -603,8 +622,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--305
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-[]\T1/aer/m/n/9 Mid
+Overfull \hbox (2.35626pt too wide) in paragraph at lines 305--305
+[]\T1/aer/m/n/9 Low(0.781)| 
  []
 
 
@@ -618,289 +637,259 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--306
  []
 
 
-Overfull \hbox (2.35626pt too wide) in paragraph at lines 306--306
-[]\T1/aer/m/n/9 Low(0.781)| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
-[]\T1/aer/m/n/9 High
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-[]\T1/aer/m/n/9 High
- []
-
-
-Overfull \hbox (6.97319pt too wide) in paragraph at lines 307--307
+Overfull \hbox (6.97319pt too wide) in paragraph at lines 306--306
 []\T1/aer/m/n/9 Low(1.6524)| 
  []
 
 
-Overfull \hbox (2.35626pt too wide) in paragraph at lines 308--308
+Overfull \hbox (2.35626pt too wide) in paragraph at lines 307--307
 []\T1/aer/m/n/9 Low(6.438)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 []\T1/aer/m/n/9 High
  []
 
-
-Overfull \hbox (16.59558pt too wide) in paragraph at lines 301--312
-[][] 
- []
-
 [5 <C:/Users/OVO/Desktop/JCDL_latex/process_flow.png>]
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 330--330
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 329--329
 []\T1/aer/m/n/9 Num
  []
 
 
-Overfull \hbox (3.10565pt too wide) in paragraph at lines 330--330
-\T1/aer/m/n/9 Ssess| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 330--330
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 329--329
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 330--330
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 329--329
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 330--330
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+[]\T1/aer/m/n/9 SS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 []\T1/aer/m/n/9 Fall
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
 []\T1/aer/m/n/9 Spring
  []
 
 
-Overfull \hbox (3.65236pt too wide) in paragraph at lines 335--336
+Overfull \hbox (3.65236pt too wide) in paragraph at lines 334--335
 \T1/aer/m/n/9 us-age among mem-bers of this group is sta-ble across semesters. 
 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 341--341
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 340--340
 []\T1/aer/m/n/9 Num
  []
 
 
-Overfull \hbox (3.10565pt too wide) in paragraph at lines 341--341
-\T1/aer/m/n/9 Ssess| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 341--341
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 340--340
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 341--341
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 340--340
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 341--341
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 353--353
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 352--352
 []\T1/aer/m/n/9 Num
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--353
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 353--353
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 352--352
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--353
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 353--353
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 352--352
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--353
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 353--353
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
+[]\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 357--357
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 356--356
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 375--375
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 374--374
 []\T1/aer/m/n/9 Num
  []
 
 
-Overfull \hbox (3.10565pt too wide) in paragraph at lines 375--375
-\T1/aer/m/n/9 Ssess| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 375--375
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 374--374
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 375--375
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 374--374
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 375--375
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
+[]\T1/aer/m/n/9 SS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--376
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []\T1/aer/m/n/9 Fall
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 376--376
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 375--375
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 376--376
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 375--375
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 376--376
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 375--375
 []\T1/aer/m/n/9 High| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []\T1/aer/m/n/9 Spring
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 377--377
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 377--377
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 376--376
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 389--389
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 388--388
 []\T1/aer/m/n/9 Num
  []
 
 
-Overfull \hbox (3.10565pt too wide) in paragraph at lines 389--389
-\T1/aer/m/n/9 Ssess| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 389--389
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 388--388
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 389--389
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 388--388
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 389--389
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[]\T1/aer/m/n/9 SS
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 389--389
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 389--389
+[]\T1/aer/m/n/9 High| 
  []
 
 
@@ -909,62 +898,62 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 390--390
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 390--390
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 392--392
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 391--391
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 393--393
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 400--400
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 399--399
 []\T1/aer/m/n/9 Num
  []
 
 
-Overfull \hbox (3.10565pt too wide) in paragraph at lines 400--400
-\T1/aer/m/n/9 Ssess| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 400--400
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 399--399
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 400--400
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 399--399
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 400--400
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 403--403
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 402--402
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 402--402
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 402--402
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 402--402
 []\T1/aer/m/n/9 High| 
  []
 
@@ -974,12 +963,17 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 403--403
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 403--403
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 404--404
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 403--403
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 404--404
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 404--404
 []\T1/aer/m/n/9 High| 
  []
 
@@ -999,16 +993,6 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 405--405
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 405--405
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 405--405
-[]\T1/aer/m/n/9 High| 
- []
-
-
 Overfull \hbox (2.16982pt too wide) in paragraph at lines 406--406
 []\T1/aer/m/n/9 High| 
  []
@@ -1019,7 +1003,7 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 406--406
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 407--407
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 406--406
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1035,151 +1019,146 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 407--407
 
 
 Overfull \hbox (2.16982pt too wide) in paragraph at lines 408--408
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 408--408
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 409--409
 []\T1/aer/m/n/9 High| 
  []
 
 [6]
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 423--423
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 422--422
 []\T1/aer/m/n/9 Num
  []
 
 
-Overfull \hbox (3.10565pt too wide) in paragraph at lines 423--423
-\T1/aer/m/n/9 Ssess| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 423--423
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 423--423
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 422--422
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--423
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 423--423
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 422--422
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--423
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 423--423
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+[]\T1/aer/m/n/9 SS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--424
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
 []\T1/aer/m/n/9 Fall
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 423--423
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 423--423
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 423--423
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 423--423
 []\T1/aer/m/n/9 High| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\T1/aer/m/n/9 Spring
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 425--425
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 425--425
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 425--425
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 425--425
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 436--436
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 435--435
 []\T1/aer/m/n/9 Num
  []
 
 
-Overfull \hbox (3.10565pt too wide) in paragraph at lines 436--436
-\T1/aer/m/n/9 Ssess| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 436--436
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 435--435
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 436--436
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 435--435
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 436--436
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
+[]\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 437--437
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 436--436
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 436--436
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 436--436
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 436--436
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1214,7 +1193,7 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 438--438
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 439--439
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 438--438
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1234,67 +1213,57 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 439--439
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 440--440
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 440--440
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 440--440
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 452--452
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 451--451
 []\T1/aer/m/n/9 Num
  []
 
 
-Overfull \hbox (3.10565pt too wide) in paragraph at lines 452--452
-\T1/aer/m/n/9 Ssess| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 452--452
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 451--451
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 452--452
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 451--451
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
 []\T1/aer/m/n/9 Pub
  []
 
 
-Overfull \hbox (4.97507pt too wide) in paragraph at lines 452--452
-[]\T1/aer/m/n/9 Shared
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (3.7719pt too wide) in paragraph at lines 453--453
+Overfull \hbox (3.7719pt too wide) in paragraph at lines 452--452
 []\T1/aer/bx/n/9 Sept| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 453--453
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 452--452
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 452--452
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 452--452
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1309,47 +1278,47 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 453--453
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 454--454
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 453--453
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 454--454
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 453--453
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 454--454
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 454--454
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.03499pt too wide) in paragraph at lines 455--455
+Overfull \hbox (2.03499pt too wide) in paragraph at lines 454--454
 []\T1/aer/bx/n/9 Nov| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 455--455
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 454--454
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 455--455
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 454--454
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (0.68501pt too wide) in paragraph at lines 456--456
+Overfull \hbox (0.68501pt too wide) in paragraph at lines 455--455
 []\T1/aer/bx/n/9 Dec| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 456--456
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 455--455
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 455--455
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 455--455
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1364,7 +1333,12 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 456--456
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 457--457
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 456--456
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 456--456
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1379,123 +1353,108 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 457--457
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 457--457
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 458--458
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 458--458
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.58406pt too wide) in paragraph at lines 459--459
+Overfull \hbox (2.58406pt too wide) in paragraph at lines 458--458
 []\T1/aer/bx/n/9 Mar| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 458--458
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 458--458
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 458--458
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (1.26103pt too wide) in paragraph at lines 460--460
+Overfull \hbox (1.26103pt too wide) in paragraph at lines 459--459
 []\T1/aer/bx/n/9 Apr| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (3.66402pt too wide) in paragraph at lines 461--461
+Overfull \hbox (3.66402pt too wide) in paragraph at lines 460--460
 []\T1/aer/bx/n/9 May| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 461--461
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 460--460
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 461--461
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 460--460
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (3.78668pt too wide) in paragraph at lines 475--478
+Overfull \hbox (3.78668pt too wide) in paragraph at lines 474--477
 []\T1/aer/m/n/9 A min-i-mum sup-port is ap-plied to item-sets(transactions)
  []
 
 [7]
-Overfull \hbox (11.77151pt too wide) in paragraph at lines 498--499
+Overfull \hbox (11.77151pt too wide) in paragraph at lines 497--498
 []$\OML/cmm/m/it/9 num[]sessions \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High  hours \
 OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High [][]\OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 pub[
 ]ctivity \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (6.7583pt too wide) in paragraph at lines 499--500
+Overfull \hbox (6.7583pt too wide) in paragraph at lines 498--499
 []$\OML/cmm/m/it/9 pub[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High [][]\OMS
 /cmsy/m/n/9 ! \OML/cmm/m/it/9 num[]sessions \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Hi
 gh  conf \OT1/cmr/m/n/9 :$
  []
 
 
-Overfull \hbox (6.7583pt too wide) in paragraph at lines 500--501
+Overfull \hbox (6.7583pt too wide) in paragraph at lines 499--500
 []$\OML/cmm/m/it/9 num[]sessions \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High [][]\OMS
 /cmsy/m/n/9 ! \OML/cmm/m/it/9 pub[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Hi
 gh  conf \OT1/cmr/m/n/9 :$
  []
 
 
-Overfull \hbox (15.7225pt too wide) in paragraph at lines 502--503
+Overfull \hbox (15.7225pt too wide) in paragraph at lines 501--502
 []$\OML/cmm/m/it/9 hours \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High  pub[]activity \
 OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High [][]\OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 num[
 ]sessions \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (8.92108pt too wide) in paragraph at lines 517--518
+Overfull \hbox (8.92108pt too wide) in paragraph at lines 516--517
 []$\OML/cmm/m/it/9 Hours \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Low  Pub[]Actv \OT1/c
 mr/m/n/9 = \OML/cmm/m/it/9 Mid  Shared[]stuff[]Actv \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (10.38007pt too wide) in paragraph at lines 530--531
+Overfull \hbox (10.38007pt too wide) in paragraph at lines 529--530
 []$\OML/cmm/m/it/9 Hours[]spent \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Low  Shared[]s
 tuff[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Low [][]\OMS/cmsy/m/n/9 !$
  []
 
 
-Overfull \hbox (26.62878pt too wide) in paragraph at lines 532--533
+Overfull \hbox (26.62878pt too wide) in paragraph at lines 531--532
 []$\OML/cmm/m/it/9 Interactive[]Resource[]Act \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 
 Low  Shared[]stuff[]activity \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 543--545
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 542--544
 \T1/aer/m/n/9 con-sid-er-ing fea-tures in the semester, bi-monthly and monthly
  []
 
@@ -1534,7 +1493,7 @@ Here is how much of TeX's memory you used:
  10331 multiletter control sequences out of 15000+200000
  55717 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,11n,75p,2243b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,11n,75p,2274b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program F
@@ -1550,7 +1509,7 @@ s/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on sigproc-sp.pdf (10 pages, 311668 bytes).
+Output written on sigproc-sp.pdf (10 pages, 311572 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
