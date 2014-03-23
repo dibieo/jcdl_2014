@@ -251,9 +251,10 @@ We generate a typology of user types as follows:
 \begin{table}
 \caption{Discretized feature values for aggregate usage data across all users during the 2011-2012 school year}
 \label{aggfeaturebins}
-\begin{tabular}{|l|l|l|l|} \\ \hline
+\begin{tabular}{|l|l|l|l|} 
 % Add cluster label for cluster columns here
-& \multicolumn{2}{c}{\textbf{Bins}}  \\ \hline
+\hline
+& \multicolumn{3}{c|}{\textbf{Bins}}  \\ \hline
 \textbf{Feature} & Low & Mid & High \\ \hline
 Num sess & -inf-6.5 & 6.5-20.5 & 20.5-inf \\ \hline
 Hrs & -inf-0.89 &0.89-3.67 & 3.67-inf \\ \hline
@@ -286,9 +287,10 @@ Publisher Activity & -inf-9 & 9-30.5 & 30.5-inf \\ \hline
 \begin{table}
 \caption{Discretized feature values from cluster results of Maull et al. \cite{maullunderstanding}}
 \label{maull_features}
-\begin{tabular}{|l|l|l|l|l|l|} \\ \hline
+\begin{tabular}{|l|l|l|l|l|l|}
 % Add cluster label for cluster columns here
-& \multicolumn{2}{r}{\textbf{Clusters}}  \\ \hline
+\hline
+& \multicolumn{5}{c|}{\textbf{Clusters}}  \\ \hline
 \textbf{Feature} & 1 & 2 & 3 & 4 & 5 \\ \hline
 Num sess & Low & Mid-High & High & High & High \\ \hline
 Hrs & Low & Mid-High & High & High & High \\ \hline
@@ -319,8 +321,9 @@ After clustering usage for all users we get a user typology as shown in table \r
 \begin{table}
 \caption{Output of clustering experiments.The mean value of each feature is indicated in parenthesis}
 \label{usertypology}
-\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
-& \multicolumn{2}{r}{\textbf{Clusters}}  \\ \hline
+\begin{tabular}{|p{1.7cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|}
+\hline
+& \multicolumn{3}{c|}{\textbf{Clusters}}  \\ \hline
  \textbf{Feature} & 1 &  2 & 3 \\ 
 \hline Num sess & Low(4.048)& High(97.2)  & High (26.5)  \\ 
 \hline Hrs & Low (0.649) & High (17.802) & High (3.946)  \\ 
@@ -328,8 +331,8 @@ After clustering usage for all users we get a user typology as shown in table \r
 \hline MS Actv &  Low(0.781)  & High (10.2) & High (9.645)  \\ 
 \hline SS Actv  & Low(1.6524) & High(21.6) & High(39.6) \\
 \hline Pub Actv & Low(6.438) & High (162) & High (40.045)  \\
-\hline \textbf{N} & 32 & 5 & 43
-
+\hline \textbf{$N$} & 32 & 5 & 43 \\
+\hline
 \end{tabular}
 \end{table} 
 
@@ -348,9 +351,10 @@ We explore the trend in usage pattern on a feature-by-feature basis. In this ana
 \begin{table}
 \caption{Usage feature values of during the fall \& spring semesters of the `Limited use' user type}
 \label{cluster0semester}
-\begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
- \textbf{Semester} & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
+\begin{tabular}{|p{1.4cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
+ \textbf{Period} & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
  Fall  semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 Spring semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 \end{tabular}
@@ -358,10 +362,11 @@ Spring semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 According to table \ref{cluster0semester}, all usage feature values remain the same across both semesters. This indicates that the mean usage among members of this group is stable across semesters.
 \subsubsection{Bi-monthly trends}
 \begin{table}
-\caption{Bi-monthly usage feature values of the `Limited use' user type}
+\caption{Bi-monthly usage feature values of the `Limited use' user type.}
 \label{cluster0bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Period} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Sept-Nov & Low & Low  & Mid & Mid & Mid & Mid \\ \hline
@@ -375,8 +380,9 @@ To further investigate changes in the usage feature values, we considered mean v
 \begin{table}
 \label{cluster0month}
 \caption{Monthly usage feature trends in the limited use user type}
-\begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\begin{tabular}{|p{1.2cm}|p{0.7cm}|p{0.7cm}|p{0.7cm}|p{0.7cm}|p{0.8cm}|p{0.8cm}|}
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Month} 
  & Num Sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 \textbf{Sept} & Low                                    & Mid   & Mid         & Low             & Mid            & Low                 \\  \hline
@@ -400,7 +406,8 @@ On a month-month basis, the hours spent and publisher activity features seem to 
 \caption{Usage feature values of the ``Community seeker'' user type of during the fall and  spring semesters}
 \label{cluster2semester}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Semester} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Fall  semester & High & Mid  & High & High & High & High \\ \hline
@@ -584,7 +591,7 @@ This study examines machine learning classifiers for predicting a user's behavio
 We consider the task of predicting a user's eventual type by considering features on a semester, bi-monthly and monthly basis.
 For each time window, we perform  classification with four algorithms: Na\"ive Bayes, SVM, J48 Decisions Trees and Bagging. The accuracy of the best algorithm is reported here. Furthermore, we determine the most predictive features of a user type per time window automatically using the attribute selection filter in WEKA \footnote{www.cs.waikato.ac.nz/ml/weka/} We also perform classification tasks using just this set of features.
 \subsection{User type prediction per semester}
-On a semester-semester basis, we discovered that the fall semester is best predictive of a user's type at the end of the school year. Using all the usage features, we can predict the user type with an accuracy of $75.57\%$. Using WEKA's attribute selection filter, we discovered that the number of sessions, hours spent and publisher material activity are the most predictive features of a user's type during this period. Using these features alone improved prediction to an accuracy of 78.57\%. The results of our classification experiments with different classifiers are shown in table \ref{semesterprediction}
+On a semester-semester basis, we discovered that the fall semester is best predictive of a user's type at the end of the school year. Using all the usage features, we can predict the user type with an accuracy of $75.57\%$. Using WEKA's attribute selection filter, we discovered that the number of sessions, hours spent and publisher material activity are the most predictive features of a user's type during this period. Using these features alone improved prediction to an accuracy of 78.57\%. The results of our classification experiments with different classifiers are shown in table \ref{semesterprediction}.
 
 \begin{table}
 
