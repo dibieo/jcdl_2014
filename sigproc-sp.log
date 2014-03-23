@@ -1,47 +1,47 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.25)  21 MAR 2014 03:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.19)  23 MAR 2014 14:26
 entering extended mode
 **sigproc-sp.tex
-(C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.tex
+(C:\Users\Keith\Desktop\kmcode\jcdl_2014\sigproc-sp.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
 ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
  lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\OVO\Desktop\JCDL_latex\acm_proc_article-sp.cls
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+(C:\Users\Keith\Desktop\kmcode\jcdl_2014\acm_proc_article-sp.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count79
@@ -52,10 +52,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen104
 \epsfysize=\dimen105
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
@@ -63,24 +63,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip41
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen106
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count80
@@ -148,7 +148,7 @@ Excerpts were taken from (Journal Style) 'esub2acm.cls'.
 \titleboxnoteflag=\count100
 Document Class: acm_proc_article-sp 2009/04/22 - V3.2SP - based on esub2acm.sty
  <23 April 96>
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
@@ -180,40 +180,40 @@ LaTeX Info: Redefining \cite on input line 1236.
 \acmcopyr=\toks33
 \boilerplate=\toks34
 \copyrightetc=\toks35
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -222,11 +222,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -240,13 +240,13 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen123
@@ -284,23 +284,31 @@ f {#1: #2}\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil }\par \fi .
 \c@lotdepth=\count116
 \sf@top=\skip49
 \sf@bottom=\skip50
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty"
-Package: pstricks 2013/12/12 v0.60 LaTeX wrapper for `PSTricks' (RN,HV)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty"
+Package: pstricks 2012/08/24 v0.53 LaTeX wrapper for `PSTricks' (RN,HV)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\base\pstricks.tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex"
+>>> Loading package auto-pst-pdf <<<
+
+Package pstricks Warning: ************************************ 
+(pstricks)                Option pdf needs a "pdflatex -shell-escape <file>" 
+(pstricks)                or a "pdflatex -enable-write18 <file>" 
+(pstricks)                (if you are using MikTeX) 
+(pstricks)                ************************************.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\base\pstricks.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex"
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 \XKV@toks=\toks36
 \XKV@tempa@toks=\toks37
 \XKV@depth=\count117
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\base\pst-fp.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\base\pst-fp.tex"
 `pst-fp' v0.05, 2010/01/17 (hv)
 \pstFP@xs=\count118
 \pstFP@xia=\count119
@@ -312,83 +320,138 @@ File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 \pstFP@regs=\count125
 \pstFP@times=\count126
 )
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-comm
-on.tex
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\\tex\generic\pgf\utilities\pgfutil-c
+ommon.tex
 \pgfutil@everybye=\toks38
-)
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.code
-.tex
+\pgfutil@tempdima=\dimen131
+\pgfutil@tempdimb=\dimen132
+
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+mmon-lists.tex))
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
+de.tex
 \pgfkeys@pathtoks=\toks39
 \pgfkeys@temptoks=\toks40
 
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfilte
-red.code.tex
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfil
+tered.code.tex
 \pgfkeys@tmptoks=\toks41
 ))
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.code.
-tex
-\pgffor@iter=\dimen131
-\pgffor@skip=\dimen132
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.cod
+e.tex
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+x
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.cod
+e.tex
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.cod
+e.tex
+\pgf@x=\dimen133
+\pgf@xa=\dimen134
+\pgf@xb=\dimen135
+\pgf@xc=\dimen136
+\pgf@y=\dimen137
+\pgf@ya=\dimen138
+\pgf@yb=\dimen139
+\pgf@yc=\dimen140
+\c@pgf@counta=\count127
+\c@pgf@countb=\count128
+\c@pgf@countc=\count129
+\c@pgf@countd=\count130
+\pgfutil@tempcnta=\count131
+\pgfutil@tempcntb=\count132
 )
-\psLoopIndex=\count127
-
-`PSTricks' v2.49b  <2013/12/21> (tvz)
-\pst@dima=\dimen133
-\pst@dimb=\dimen134
-\pst@dimc=\dimen135
-\pst@dimd=\dimen136
-\pst@dimg=\dimen137
-\pst@dimh=\dimen138
-\pst@dimm=\dimen139
-\pst@dimn=\dimen140
-\pst@dimo=\dimen141
-\pst@dimp=\dimen142
-\pst@hbox=\box30
-\pst@ibox=\box31
-\pst@boxg=\box32
-\pst@cnta=\count128
-\pst@cntb=\count129
-\pst@cntc=\count130
-\pst@cntd=\count131
-\pst@cntg=\count132
-\pst@cnth=\count133
-\pst@cntm=\count134
-\pst@cntn=\count135
-\pst@cnto=\count136
-\pst@cntp=\count137
-\@zero=\count138
-\pst@toks=\toks44
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\base\pstricks.con")
-\psunit=\dimen143
-\psxunit=\dimen144
-\psyunit=\dimen145
-\pst@C@@rType=\count139
-\pslinewidth=\dimen146
-\psk@startLW=\dimen147
-\psk@endLW=\dimen148
-\pst@customdefs=\toks45
-\pslinearc=\dimen149
-\pst@symbolStep=\dimen150
-\pst@symbolWidth=\dimen151
-\pst@symbolLinewidth=\dimen152
-\everypsbox=\toks46
-\psframesep=\dimen153
-\pslabelsep=\dimen154
-\sh@wgridXunit=\dimen155
-\sh@wgridYunit=\dimen156
-\pst@shift=\dimen157
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.c
+ode.tex
+\pgfmath@dimen=\dimen141
+\pgfmath@count=\count133
+\pgfmath@box=\box30
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
 )
-File: pstricks.tex 2013/12/21 v2.49b `PSTricks' (tvz,hv)
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.code.tex
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.basic.code.tex)
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.trigonometric.code.tex)
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.random.code.tex)
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.comparison.code.tex)
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.base.code.tex)
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.round.code.tex)
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.misc.code.tex)
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.integerarithmetics.code.tex)))
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.co
+de.tex
+\c@pgfmathroundto@lastzeros=\count134
+))
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+)
+\psLoopIndex=\count135
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\base\pst-fp.tex")
-File: pst-fp.tex 2013/12/21 v2.49b `PST-fp' (hv)
+`PSTricks' v2.35  <2012/12/21> (tvz)
+\pst@dima=\dimen144
+\pst@dimb=\dimen145
+\pst@dimc=\dimen146
+\pst@dimd=\dimen147
+\pst@dimg=\dimen148
+\pst@dimh=\dimen149
+\pst@dimm=\dimen150
+\pst@dimn=\dimen151
+\pst@dimo=\dimen152
+\pst@dimp=\dimen153
+\pst@hbox=\box31
+\pst@ibox=\box32
+\pst@boxg=\box33
+\pst@cnta=\count136
+\pst@cntb=\count137
+\pst@cntc=\count138
+\pst@cntd=\count139
+\pst@cntg=\count140
+\pst@cnth=\count141
+\pst@cntm=\count142
+\pst@cntn=\count143
+\pst@cnto=\count144
+\pst@cntp=\count145
+\@zero=\count146
+\pst@toks=\toks47
+("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\base\pstricks.con")
+\psunit=\dimen154
+\psxunit=\dimen155
+\psyunit=\dimen156
+\pst@C@@rType=\count147
+\pslinewidth=\dimen157
+\psk@startLW=\dimen158
+\psk@endLW=\dimen159
+\pst@customdefs=\toks48
+\pslinearc=\dimen160
+\pst@symbolStep=\dimen161
+\pst@symbolWidth=\dimen162
+\pst@symbolLinewidth=\dimen163
+\everypsbox=\toks49
+\psframesep=\dimen164
+\pslabelsep=\dimen165
+\pst@shift=\dimen166
+\theoverlaybox=\box34
+)
+File: pstricks.tex 2012/12/21 v2.35 `PSTricks' (tvz,hv)
 
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\base\pst-fp.tex")
+File: pst-fp.tex 2012/12/21 v2.35 `PST-fp' (hv)
+
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Package option `pdf' ignored on input line 216.
@@ -403,24 +466,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\newfloat.sty
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\newfloat.sty
 Package: newfloat 2013/05/11 v1.1-91 Defining new floating environments (AR)
 )
 Package newfloat Info: New float `copyrightbox' with options `' on input line 3
 8.
-\c@copyrightbox=\count140
-\newfloat@ftype=\count141
+\c@copyrightbox=\count148
+\newfloat@ftype=\count149
 Package newfloat Info: float type `copyrightbox'=8 on input line 38.
-\c@locopyrightboxdepth=\count142
+\c@locopyrightboxdepth=\count150
 
-(C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.aux
-
-LaTeX Warning: Label `cluster1bimonthly' multiply defined.
-
-
-LaTeX Warning: Label `cluster1month' multiply defined.
-
-)
+(C:\Users\Keith\Desktop\kmcode\jcdl_2014\sigproc-sp.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
@@ -433,101 +489,92 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
- (C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count143
-\scratchdimen=\dimen158
-\scratchbox=\box33
-\nofMPsegments=\count144
-\nofMParguments=\count145
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count146
-\MPscratchDim=\dimen159
-\MPnumerator=\count147
-\makeMPintoPDFobject=\count148
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count151
+\scratchdimen=\dimen167
+\scratchbox=\box35
+\nofMPsegments=\count152
+\nofMParguments=\count153
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count154
+\MPscratchDim=\dimen168
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
+\everyMPtoPDFconversion=\toks51
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\auto-pst-pdf\auto-pst-pdf.st
-y
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\auto-pst-pdf\auto-pst-pdf.
+sty
 Package: auto-pst-pdf 2009/04/26 v0.6 Wrapper for pst-pdf
- (C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\ifplatform\ifplatform.sty
+
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\ifplatform\ifplatform.sty
 Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty"
 Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
-))
-\c@app@runs=\count149
-runsystem(echo " ")...executed.
+)
 
-runsystem(echo "-------------------------------------------------")...executed.
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
 
-runsystem(echo "auto-pst-pdf: Auxiliary LaTeX compilation")...executed.
-
-runsystem(echo "-------------------------------------------------")...executed.
-
-runsystem(del "sigproc-sp-autopp.log")...executed.
-
-runsystem(del "sigproc-sp-autopp.aux")...executed.
-
-runsystem(latex -disable-write18 -jobname="sigproc-sp-autopp" -interaction=batc
-hmode  "\let \APPmakepictures \empty \input  sigproc-sp.tex")...executed.
+)
+\c@app@runs=\count157
 
 
+! Package auto-pst-pdf Error: 
+    "shell escape" (or "write18") is not enabled:
+    auto-pst-pdf will not work!
+.
 
-Package auto-pst-pdf Warning: 
-    Creation of sigproc-sp-autopp.dvi failed.
-This warning occured on input line 124.
+See the auto-pst-pdf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134         Or turn off auto-pst-pdf.}
+                                        %
+You need to run LaTeX with the equivalent of "pdflatex -shell-escape"
+    Or turn off auto-pst-pdf.
 
-
-Package auto-pst-pdf Warning: 
-    Could not create sigproc-sp-pics.pdf. Auxiliary files not deleted.
-This warning occured on input line 124.
-
-runsystem(echo "-------------------------------------------------")...executed.
-
-runsystem(echo "auto-pst-pdf: End auxiliary LaTeX compilation")...executed.
-
-runsystem(echo "-------------------------------------------------")...executed.
-
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\pst-pdf\pst-pdf.sty
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\pst-pdf\pst-pdf.sty
 Package: pst-pdf 2008/10/09 v1.1v PS graphics for pdfLaTeX (RN,HjG)
-\c@pspicture=\count150
+\c@pspicture=\count158
 Package pst-pdf Info: MODE: 1 (pdfTeX mode) on input line 214.
-\ppf@output=\toks49
+\ppf@output=\toks52
 
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\preview\preview.sty
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\preview\preview.sty
 Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
-\pr@snippet=\count151
-\pr@box=\box34
-\pr@output=\toks50
+\pr@snippet=\count159
+\pr@box=\box36
+\pr@output=\toks53
 
 Preview: Fontsize 9pt
 Preview: PDFoutput 1
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvips.def"
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 )
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\environ\environ.sty
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\environ\environ.sty
 Package: environ 2013/04/01 v0.3 A new environment syntax
 
-(C:\Users\OVO\AppData\Roaming\MiKTeX\2.9\tex\latex\trimspaces\trimspaces.sty
+(C:\Users\Keith\AppData\Roaming\MiKTeX\2.9\tex\latex\trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))))
 LaTeX Font Info:    Try loading font information for U+msa on input line 120.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 120.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 120.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Overfull \hbox (32.0463pt too wide) in paragraph at lines 120--120
@@ -543,10 +590,9 @@ Overfull \hbox (1.26794pt too wide) in paragraph at lines 128--129
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{C:/Users/OVO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/Keith/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -569,16 +615,10 @@ Overfull \hbox (10.97827pt too wide) in paragraph at lines 231--241
  [][] 
  []
 
-[4 <C:/Users/OVO/Desktop/JCDL_latex/ccsimage.png>]
+[4 <C:/Users/Keith/Desktop/kmcode/jcdl_2014/ccsimage.png>]
 Overfull \hbox (1.65387pt too wide) in paragraph at lines 246--247
 []\T1/aer/m/n/9 Discretized fea-ture val-ues in-form our char-ac-ter-i-za-tion 
 of clus-
- []
-
-
-Overfull \hbox (4.70612pt too wide) in paragraph at lines 270--271
-\T1/aer/bx/n/9 Specialized Use\T1/aer/m/n/9 "Moderate Gen-er-al-ist" cat-e-gory
-. They
  []
 
 <./process_flow.png, id=25, 722.7pt x 542.025pt>
@@ -661,7 +701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--331
 []\T1/aer/m/n/9 High
  []
 
-[5 <C:/Users/OVO/Desktop/JCDL_latex/process_flow.png>]
+[5 <C:/Users/Keith/Desktop/kmcode/jcdl_2014/process_flow.png>]
 Overfull \hbox (2.69194pt too wide) in paragraph at lines 353--353
 []\T1/aer/m/n/9 Num
  []
@@ -758,167 +798,170 @@ Overfull \hbox (15.2494pt too wide) in paragraph at lines 363--372
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 380--380
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 381--381
 []\T1/aer/m/n/9 Num
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 380--380
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 381--381
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 380--380
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 381--381
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []\T1/aer/m/n/9 Pub
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 384--384
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 385--385
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (15.2494pt too wide) in paragraph at lines 377--391
+Overfull \hbox (15.2494pt too wide) in paragraph at lines 378--392
 [][] 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 404--404
+Package caption Warning: \label without proper \caption on input line 376.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `cluster0month' on page \thepage  undefined on input l
+ine 393.
+
+
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 405--405
 []\T1/aer/m/n/9 Num
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]\T1/aer/m/n/9 IR
- []
-
-
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 404--404
-\T1/aer/m/n/9 Actv| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]\T1/aer/m/n/9 MS
- []
-
-
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 404--404
-\T1/aer/m/n/9 Actv| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]\T1/aer/m/n/9 Pub
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]\T1/aer/m/n/9 SS
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 405--405
-[]\T1/aer/m/n/9 Fall
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 405--405
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 405--405
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 405--405
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
-[]\T1/aer/m/n/9 Spring
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 406--406
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 406--406
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (15.2494pt too wide) in paragraph at lines 401--408
-[][] 
- []
-
-[6]
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 420--420
-[]\T1/aer/m/n/9 Num
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 420--420
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 405--405
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 420--420
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 405--405
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []\T1/aer/m/n/9 Pub
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 421--421
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[]\T1/aer/m/n/9 Fall
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 406--406
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 421--421
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 406--406
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 406--406
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]\T1/aer/m/n/9 Spring
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 407--407
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 407--407
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (15.2494pt too wide) in paragraph at lines 402--409
+[][] 
+ []
+
+[6]
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 421--421
+[]\T1/aer/m/n/9 Num
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]\T1/aer/m/n/9 IR
+ []
+
+
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 421--421
+\T1/aer/m/n/9 Actv| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]\T1/aer/m/n/9 MS
+ []
+
+
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 421--421
+\T1/aer/m/n/9 Actv| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]\T1/aer/m/n/9 Pub
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
+[]\T1/aer/m/n/9 SS
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 422--422
 []\T1/aer/m/n/9 High| 
  []
 
@@ -928,76 +971,56 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 422--422
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 424--424
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 423--423
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (15.2494pt too wide) in paragraph at lines 417--426
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 425--425
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (15.2494pt too wide) in paragraph at lines 418--427
 [][] 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 433--433
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 435--435
 []\T1/aer/m/n/9 Num
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 433--433
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 435--435
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 433--433
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 435--435
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/aer/m/n/9 Pub
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 436--436
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 436--436
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 436--436
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 436--436
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 437--437
-[]\T1/aer/m/n/9 High| 
- []
-
-
 Overfull \hbox (2.16982pt too wide) in paragraph at lines 438--438
 []\T1/aer/m/n/9 High| 
  []
@@ -1023,7 +1046,7 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 439--439
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 439--439
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 440--440
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1058,171 +1081,161 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 442--442
  []
 
 
-Overfull \hbox (15.2494pt too wide) in paragraph at lines 430--444
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 442--442
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 442--442
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 443--443
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 443--443
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 444--444
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (15.2494pt too wide) in paragraph at lines 432--446
 [][] 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 458--458
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 460--460
 []\T1/aer/m/n/9 Num
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
-[]\T1/aer/m/n/9 IR
- []
-
-
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 458--458
-\T1/aer/m/n/9 Actv| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
-[]\T1/aer/m/n/9 MS
- []
-
-
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 458--458
-\T1/aer/m/n/9 Actv| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
-[]\T1/aer/m/n/9 Pub
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
-[]\T1/aer/m/n/9 SS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
-[]\T1/aer/m/n/9 Fall
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 459--459
-[]\T1/aer/m/n/9 High| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]\T1/aer/m/n/9 IR
+ []
+
+
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 460--460
+\T1/aer/m/n/9 Actv| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]\T1/aer/m/n/9 MS
+ []
+
+
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 460--460
+\T1/aer/m/n/9 Actv| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]\T1/aer/m/n/9 Pub
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]\T1/aer/m/n/9 SS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
+[]\T1/aer/m/n/9 Fall
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 461--461
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 461--461
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 461--461
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 461--461
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []\T1/aer/m/n/9 Spring
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 462--462
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 462--462
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 462--462
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 462--462
 []\T1/aer/m/n/9 High| 
  []
 
 
-Overfull \hbox (15.2494pt too wide) in paragraph at lines 455--462
+Overfull \hbox (15.2494pt too wide) in paragraph at lines 457--464
 [][] 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 473--473
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 475--475
 []\T1/aer/m/n/9 Num
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 473--473
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 475--475
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 473--473
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 475--475
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 []\T1/aer/m/n/9 Pub
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 []\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 474--474
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 474--474
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 474--474
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 474--474
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 475--475
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 475--475
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 475--475
-[]\T1/aer/m/n/9 High| 
- []
-
-
 Overfull \hbox (2.16982pt too wide) in paragraph at lines 476--476
 []\T1/aer/m/n/9 High| 
  []
@@ -1258,77 +1271,82 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 477--477
  []
 
 
-Overfull \hbox (15.2494pt too wide) in paragraph at lines 470--479
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 478--478
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 478--478
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 478--478
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 478--478
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 479--479
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 479--479
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 479--479
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (15.2494pt too wide) in paragraph at lines 472--481
 [][] 
  []
 
 
-Overfull \hbox (2.69194pt too wide) in paragraph at lines 491--491
+Overfull \hbox (2.69194pt too wide) in paragraph at lines 493--493
 []\T1/aer/m/n/9 Num
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []\T1/aer/m/n/9 IR
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 491--491
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 493--493
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []\T1/aer/m/n/9 MS
  []
 
 
-Overfull \hbox (2.43083pt too wide) in paragraph at lines 491--491
+Overfull \hbox (2.43083pt too wide) in paragraph at lines 493--493
 \T1/aer/m/n/9 Actv| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []\T1/aer/m/n/9 Pub
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []\T1/aer/m/n/9 SS
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 492--492
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 492--492
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 492--492
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 493--493
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 493--493
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 493--493
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 493--493
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 494--494
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1358,12 +1376,7 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 495--495
  []
 
 
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 496--496
-[]\T1/aer/m/n/9 High| 
- []
-
-
-Overfull \hbox (2.16982pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 495--495
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1384,6 +1397,16 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 497--497
 
 
 Overfull \hbox (2.16982pt too wide) in paragraph at lines 497--497
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 497--497
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 498--498
 []\T1/aer/m/n/9 High| 
  []
 
@@ -1423,99 +1446,113 @@ Overfull \hbox (2.16982pt too wide) in paragraph at lines 500--500
  []
 
 
-Overfull \hbox (15.2494pt too wide) in paragraph at lines 488--502
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 500--500
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 501--501
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 501--501
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 502--502
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (2.16982pt too wide) in paragraph at lines 502--502
+[]\T1/aer/m/n/9 High| 
+ []
+
+
+Overfull \hbox (15.2494pt too wide) in paragraph at lines 490--504
 [][] 
  []
 
 [7]
-Overfull \hbox (3.78668pt too wide) in paragraph at lines 514--517
+Overfull \hbox (3.78668pt too wide) in paragraph at lines 516--519
 []\T1/aer/m/n/9 A min-i-mum sup-port is ap-plied to item-sets(transactions)
  []
 
 
-Overfull \hbox (11.77151pt too wide) in paragraph at lines 537--538
+Overfull \hbox (11.77151pt too wide) in paragraph at lines 539--540
 []$\OML/cmm/m/it/9 num[]sessions \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High  hours \
 OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High [][]\OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 pub[
 ]ctivity \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (6.7583pt too wide) in paragraph at lines 538--539
+Overfull \hbox (6.7583pt too wide) in paragraph at lines 540--541
 []$\OML/cmm/m/it/9 pub[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High [][]\OMS
 /cmsy/m/n/9 ! \OML/cmm/m/it/9 num[]sessions \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Hi
 gh  conf \OT1/cmr/m/n/9 :$
  []
 
 
-Overfull \hbox (6.7583pt too wide) in paragraph at lines 539--540
+Overfull \hbox (6.7583pt too wide) in paragraph at lines 541--542
 []$\OML/cmm/m/it/9 num[]sessions \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High [][]\OMS
 /cmsy/m/n/9 ! \OML/cmm/m/it/9 pub[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Hi
 gh  conf \OT1/cmr/m/n/9 :$
  []
 
 
-Overfull \hbox (15.7225pt too wide) in paragraph at lines 541--542
+Overfull \hbox (15.7225pt too wide) in paragraph at lines 543--544
 []$\OML/cmm/m/it/9 hours \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High  pub[]activity \
 OT1/cmr/m/n/9 = \OML/cmm/m/it/9 High [][]\OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 num[
 ]sessions \OT1/cmr/m/n/9 =$
  []
 
 
-Overfull \hbox (8.92108pt too wide) in paragraph at lines 556--557
+Overfull \hbox (8.92108pt too wide) in paragraph at lines 558--559
 []$\OML/cmm/m/it/9 Hours \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Low  Pub[]Actv \OT1/c
 mr/m/n/9 = \OML/cmm/m/it/9 Mid  Shared[]stuff[]Actv \OT1/cmr/m/n/9 =$
  []
 
 [8]
-Overfull \hbox (10.38007pt too wide) in paragraph at lines 569--570
-[]$\OML/cmm/m/it/9 Hours[]spent \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Low  Shared[]s
-tuff[]activity \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Low [][]\OMS/cmsy/m/n/9 !$
+Overfull \hbox (3.86656pt too wide) in paragraph at lines 571--572
+[]$\OML/cmm/m/it/9 Hours[]spent \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Low  SS[]Actv 
+\OT1/cmr/m/n/9 = \OML/cmm/m/it/9 Low [][]\OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 MS[]
+Actv \OT1/cmr/m/n/9 =$
  []
 
-
-Overfull \hbox (26.62878pt too wide) in paragraph at lines 571--572
-[]$\OML/cmm/m/it/9 Interactive[]Resource[]Act \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 
-Low  Shared[]stuff[]activity \OT1/cmr/m/n/9 =$
- []
-
-
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 582--584
-\T1/aer/m/n/9 con-sid-er-ing fea-tures in the semester, bi-monthly and monthly
- []
-
-(C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.bbl [9])
+[9] (C:\Users\Keith\Desktop\kmcode\jcdl_2014\sigproc-sp.bbl)
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 41.
 See the caption package documentation for explanation.
 
-[10] (C:\Users\OVO\Desktop\JCDL_latex\sigproc-sp.aux)
+[10] (C:\Users\Keith\Desktop\kmcode\jcdl_2014\sigproc-sp.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7198 strings out of 493921
- 108376 string characters out of 3144882
- 219251 words of memory out of 3000000
- 10315 multiletter control sequences out of 15000+200000
+ 11464 strings out of 493921
+ 194876 string characters out of 3147281
+ 278789 words of memory out of 3000000
+ 14536 multiletter control sequences out of 15000+200000
  55229 words of font info for 74 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,11n,75p,2120b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on sigproc-sp.pdf (10 pages, 303074 bytes).
+ 44i,11n,75p,2120b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
+times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on sigproc-sp.pdf (10 pages, 305375 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
