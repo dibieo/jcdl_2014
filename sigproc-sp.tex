@@ -216,7 +216,7 @@ The CCS provides a host of personalization features which we refer to as \textbf
 The CCS promotes social behavior such as sharing resources among users. Within each section of the curriculum, users are able to share resources such as documents, links and rich media with others. Other users who find these resources useful can use or save these resources in My Stuff for later use.
 
 \subsection{Data}
-Our analysis is based on the clickstream of a large urban school district with 80 science educators which used the CCS during the 2011-2012 school year. About 20,000 click actions were registered by members of this district. We restrict our data set to the usage logs of all users during the months of September - May. Typically, the school calendar runs from August-June, but usage in August and June are partial as school begins in late August and ends in early June. Thus, we omit them from our analysis
+Our analysis is based on the clickstream of a large urban school district with 80 science educators which used the CCS during the 2011-2012 school year. About 20,000 click actions were registered by members of this district. We restrict our data set to the usage logs of all users during the months of September-May. Typically, the school calendar runs from August-June, but usage in August and June are partial as school begins in late August and ends in early June. Thus, we omit them from our analysis.
 
 \subsubsection{Feature selection}\label{usagefeaturesection}
 Our study is based on six usage features highlighted in table \ref{usagefeatures}. These features cover the four core areas of the CCS referred to in section \ref{researchcontext} and were used in clustering experiments by Maull et al \cite{maullunderstanding}. The total number of sessions and hours spent (features 1 \& 2) represent frequency based features while total activity within my stuff, publisher materials, shared stuff and interactive resources are variety based features. 
@@ -251,9 +251,10 @@ We generate a typology of user types as follows:
 \begin{table}
 \caption{Discretized feature values for aggregate usage data across all users during the 2011-2012 school year}
 \label{aggfeaturebins}
-\begin{tabular}{|l|l|l|l|} \\ \hline
+\begin{tabular}{|l|l|l|l|} 
 % Add cluster label for cluster columns here
-& \multicolumn{2}{c}{\textbf{Bins}}  \\ \hline
+\hline
+& \multicolumn{3}{c|}{\textbf{Bins}}  \\ \hline
 \textbf{Feature} & Low & Mid & High \\ \hline
 Num sess & -inf-6.5 & 6.5-20.5 & 20.5-inf \\ \hline
 Hrs & -inf-0.89 &0.89-3.67 & 3.67-inf \\ \hline
@@ -267,9 +268,9 @@ Publisher Activity & -inf-9 & 9-30.5 & 30.5-inf \\ \hline
 \begin{enumerate}
 \item The aggregate value for each usage feature across all users is discretized into equal frequency bins of high, medium and low as illustrated in table \ref{aggfeaturebins}.
 
-\item We use the five user types discovered by Maull et al. \cite{maullunderstanding} and their discretized feature values as user type archetypes for characterizing usage as illustrated in table \ref{maull_features}. In table \ref{maull_features}, Cluster 1 refers to the \textbf{Limited use} "uninterested adopter" category. Members of this category have very low overall use of the CCS. Cluster 2 refers to the \textbf{Specialize use} "Interactive Resource specialists." Members of this category make heavy use of interactive resources relative to other system features. Cluster 3 refers to the \textbf{Intense use} "Ardent Power User" category. Members of this group feature heavy robust use of all system features. Cluster 4 is the \textbf{Non-Specialized Use}"Moderate Generalist" category. They exhibit moderate overall system use. Cluster 5 is the \textbf{Specialized Use} "Community Seeker Specialist" category. They make heavy use of shared stuff and interactive resources relative to publisher materials
+\item We use the five user types discovered by Maull et al. \cite{maullunderstanding} and their discretized feature values as user type archetypes for characterizing usage as illustrated in table \ref{maull_features}. In table \ref{maull_features}, Cluster 1 refers to the \textbf{Limited use} ``uninterested adopter'' category. Members of this category have very low overall use of the CCS. Cluster 2 refers to the \textbf{Specialize use} ``Interactive Resource specialists.'' Members of this category make heavy use of interactive resources relative to other system features. Cluster 3 refers to the \textbf{Intense use} ``Ardent Power User'' category. Members of this group feature heavy robust use of all system features. Cluster 4 is the \textbf{Non-Specialized Use} ``Moderate Generalist'' category. They exhibit moderate overall system use. Cluster 5 is the \textbf{Specialized Use} ``Community Seeker Specialist'' category. They make heavy use of shared stuff and interactive resources relative to publisher materials
 
-\item The EM algorithm is run against the total aggregate usage of all users to generate unique clusters. The output of EM clustering is a set of clusters(user types) with the cluster's mean value for each feature. We use the bin intervals discovered in step 1 to map each cluster's feature value to low, medium or high.
+\item The EM algorithm is run against the total aggregate usage of all users to generate unique clusters. The output of EM clustering is a set of clusters (user types) with the cluster's mean value for each feature. We use the bin intervals discovered in step 1 to map each cluster's feature value to low, medium or high.
 
 \item Finally, we attempt a mapping of the discretized feature values of each cluster to the user type archetypes from Maull et al. \cite{maullunderstanding}. If a mapping to a user type does not exist, we introduce a new label that describes the cluster based on its feature values.
 
@@ -286,9 +287,10 @@ Publisher Activity & -inf-9 & 9-30.5 & 30.5-inf \\ \hline
 \begin{table}
 \caption{Discretized feature values from cluster results of Maull et al. \cite{maullunderstanding}}
 \label{maull_features}
-\begin{tabular}{|l|l|l|l|l|l|} \\ \hline
+\begin{tabular}{|l|l|l|l|l|l|}
 % Add cluster label for cluster columns here
-& \multicolumn{2}{r}{\textbf{Clusters}}  \\ \hline
+\hline
+& \multicolumn{5}{c|}{\textbf{Clusters}}  \\ \hline
 \textbf{Feature} & 1 & 2 & 3 & 4 & 5 \\ \hline
 Num sess & Low & Mid-High & High & High & High \\ \hline
 Hrs & Low & Mid-High & High & High & High \\ \hline
@@ -319,8 +321,9 @@ After clustering usage for all users we get a user typology as shown in table \r
 \begin{table}
 \caption{Output of clustering experiments.The mean value of each feature is indicated in parenthesis}
 \label{usertypology}
-\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
-& \multicolumn{2}{r}{\textbf{Clusters}}  \\ \hline
+\begin{tabular}{|p{1.7cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|}
+\hline
+& \multicolumn{3}{c|}{\textbf{Clusters}}  \\ \hline
  \textbf{Feature} & 1 &  2 & 3 \\ 
 \hline Num sess & Low(4.048)& High(97.2)  & High (26.5)  \\ 
 \hline Hrs & Low (0.649) & High (17.802) & High (3.946)  \\ 
@@ -328,14 +331,14 @@ After clustering usage for all users we get a user typology as shown in table \r
 \hline MS Actv &  Low(0.781)  & High (10.2) & High (9.645)  \\ 
 \hline SS Actv  & Low(1.6524) & High(21.6) & High(39.6) \\
 \hline Pub Actv & Low(6.438) & High (162) & High (40.045)  \\
-\hline \textbf{N} & 32 & 5 & 43
-
+\hline \textbf{$N$} & 32 & 5 & 43 \\
+\hline
 \end{tabular}
 \end{table} 
 
 There were three clusters generated by the EM clustering algorithm. The number of clusters was decided using v-fold cross validation \footnote{In our case, v-fold cross validation works by setting the number of clusters to starting seed value of 1. The training set is split randomly into 10 folds. EM is performed across all folds sets and the loglikelihood is averaged over all 10 results. If the loglikelihood has increased the number of clusters is increased by 1 and the training set is split into another random 10 folds.}. We describe them as follows:
 
-\textbf{Cluster 1}: With all its features with a value of \textit{Low} apart from interactive resources with a value of \textit{Mid}, this cluster is closest to the user archetype of limited use "uninterested adopter." An introspection into the login frequency of members of this type, reveals that a good portion of users stopped using the CCS after the first few months of the school year.
+\textbf{Cluster 1}: With all its features with a value of \textit{Low} apart from interactive resources with a value of \textit{Mid}, this cluster is closest to the user archetype of limited use ``uninterested adopter.'' An introspection into the login frequency of members of this type, reveals that a good portion of users stopped using the CCS after the first few months of the school year.
 
 \textbf{Cluster 2}: The usage pattern of cluster 2 with all feature values having a value of high is most closely related to the power user archetype.
 
@@ -346,11 +349,12 @@ We explore the trend in usage pattern on a feature-by-feature basis. In this ana
 \subsection{Limited use user type}
 \subsubsection{Semester-Semester trends}
 \begin{table}
-\caption{Usage feature values of during the fall \& spring semesters of the 'Limited use' user type}
+\caption{Usage feature values of during the fall \& spring semesters of the `Limited use' user type}
 \label{cluster0semester}
-\begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
- \textbf{Semester} & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
+\begin{tabular}{|p{1.4cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
+ \textbf{Period} & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
  Fall  semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 Spring semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 \end{tabular}
@@ -358,10 +362,11 @@ Spring semester & Low & Low  & Mid & Mid & Low & Low \\ \hline
 According to table \ref{cluster0semester}, all usage feature values remain the same across both semesters. This indicates that the mean usage among members of this group is stable across semesters.
 \subsubsection{Bi-monthly trends}
 \begin{table}
-\caption{Bi-monthly usage feature values of the 'Limited use' user type}
+\caption{Bi-monthly usage feature values of the `Limited use' user type.}
 \label{cluster0bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Period} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Sept-Nov & Low & Low  & Mid & Mid & Mid & Mid \\ \hline
@@ -370,13 +375,14 @@ Jan-Mar & Low & Mid  & Mid & Mid & Low & Mid \\ \hline
 Mar-May & Low & Low  & Mid & Low & Low & Mid \\ \hline
 \end{tabular}
 \end{table}
-To further investigate changes in the usage feature values, we considered mean values of these features on a bi-monthly basis as indicated in table \ref{cluster0bimonthly}. Like our semester-semester analysis, the number of sessions and interactive resource activity remains stable across all four time windows.  However activity in my stuff, publisher material and shared stuff  varies between the mid and low value ranges. 
+To further investigate changes in the usage feature values, we considered mean values of these features on a bi-monthly basis as indicated in table \ref{cluster0bimonthly}. Like our semester-semester analysis, the number of sessions and interactive resource activity remains stable across all four time windows.  However, activity in my stuff, publisher material and shared stuff  varies between the mid and low value ranges. 
 \subsubsection{Monthly trends}
 \begin{table}
 \label{cluster0month}
 \caption{Monthly usage feature trends in the limited use user type}
-\begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\begin{tabular}{|p{1.2cm}|p{0.7cm}|p{0.7cm}|p{0.7cm}|p{0.7cm}|p{0.8cm}|p{0.8cm}|}
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Month} 
  & Num Sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 \textbf{Sept} & Low                                    & Mid   & Mid         & Low             & Mid            & Low                 \\  \hline
@@ -397,10 +403,11 @@ On a month-month basis, the hours spent and publisher activity features seem to 
 \subsubsection{Semester-Semester trends}
 
 \begin{table}
-\caption{Usage feature values of the 'Community seeker' user type of during the fall and  spring semesters}
+\caption{Usage feature values of the ``Community seeker'' user type of during the fall and  spring semesters}
 \label{cluster2semester}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Semester} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Fall  semester & High & Mid  & High & High & High & High \\ \hline
@@ -413,7 +420,7 @@ As highlighted in table \ref{cluster2semester}, within the community seeker user
 \subsubsection{Bi-monthly trends}
 On a bi-monthly basis, the feature values of hours spent, interactive resource and publisher material activity remain fairly stable across all time windows. This could indicate the strength of these features in predicting membership within this class. The number of sessions, my stuff and shared stuff activity oscillate between the mid and high value ranges across the time chunks. This is illustrated in table \ref{cluster2bimonthly} 
 \begin{table}
-\caption{Bi-monthly usage feature values of the 'Community Seeker' user type}
+\caption{Bi-monthly usage feature values of the ``Community Seeker'' user type}
 \label{cluster2bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
 & \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
@@ -447,12 +454,12 @@ Mar-May & Mid & Mid  & Mid & High & Mid & High \\ \hline
 Apart from the months of September and October where all usage features maintained the same values, the usage features tend oscillate between the mid and high value range bins as indicated in table \ref{cluster2month} .
 
 \subsection {Power user user type}
-Within the 'power user' user type, usage features were examined in a semester-semester, bi-monthly and monthly basis.
+Within the ``power user'' user type, usage features were examined in a semester-semester, bi-monthly and monthly basis.
 
 \subsubsection{Semester-Semester trends}
 
 \begin{table}
-\caption{Usage feature values of during the spring semester of the 'Power User' user type}
+\caption{Usage feature values of during the spring semester of the ``Power User'' user type}
 \label{cluster1semester}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
 & \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
@@ -467,7 +474,7 @@ All usage features trend at a high level for members of the power user category 
 
 \subsubsection{Trends every two months}
 \begin{table}
-\caption{Bi-monthly usage feature values of the 'Power User' user type}
+\caption{Bi-monthly usage feature values of the ``Power User'' user type}
 \label{cluster1bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
 & \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
@@ -502,18 +509,18 @@ My Stuff and Shared stuff activity dips to a Low value range from a high-value r
 \textbf{May}       & High                                   & High  & Low         & Low             & High           & Mid         \\  \hline     
 \end{tabular}
 \end{table}
-From table \ref{cluster1month}, it is clear that the number of sessions, hours and my stuff activity values retain a high value across all months. This indicates that a value of high in these three features is a strong predictor of membership within this cluster.  The values of interactive resource activity, my Stuff activity and shared stuff Activity vary quite a bit within the school year.
+From table \ref{cluster1month}, it is clear that the number of sessions, hours and My Stuff Activity values retain a high value across all months. This indicates that a value of high in these three features is a strong predictor of membership within this cluster.  The values of interactive resource activity, My Stuff activity and shared stuff Activity vary quite a bit within the school year.
 
 \section{FREQUENT PATTERNS OF USE}
-The aim of this study is to understand what actions of members of a specific user type usually go together. As an example, we would like to understand what members of the 'power user' user type are likely doing when they spend a high amount of time on publisher materials. This would give a good understanding of what usage feature correlations occur within a user type.
+The aim of this study is to understand what actions of members of a specific user type usually go together. As an example, we would like to understand what members of the ``power user'' user type are likely doing when they spend a high amount of time on publisher materials. This would give a good understanding of what usage feature correlations occur within a user type.
 
 We take a market basket analysis approach to understanding the frequent patterns that occur within each user type. Market basket analysis is a data mining technique for understanding consumer behavior through their transaction patterns \cite{han2006data}. It seeks to uncover meaningful and interesting associations in customer purchase data. A canonical example of the use of  market basket analysis is a grocery store analyzing consumer purchases to understand what items shoppers usually purchased together. Upon discovery that beer and diapers occur frequently in consumer purchases, the store may decide to place these items next to each other or have a group sale of both items together to further encourage this shopping behavior.
 
-To implement a market basket analysis on user behavior, we consider each member of a user type's monthly usage as a 6-item transaction (a transaction can also be referred to as an itemset) of the form \{num sess, hrs, ir actv, ss actv, ms actv, pub actv\} representing each of the usage features we analyze. Each item has a discretized value of either high, medium or low as described in section \ref{charusertypes}. Finally, we run the Apriori frequent pattern mining algorithm on all transactions within a user type to find frequent patterns that are interesting. Apriori is a seminal algorithm introduced by Agrawal and Srikant \cite{agrawal} for performing fast frequent itemset minning in large transaction databases to discover association rules of the form $\mathbf{{X} \Longrightarrow {Y}}$ where $\mathbf{X, Y \subseteq I}$. $\mathbf{I}$ is an itemset of the form $\mathbf{I = \{a,b,c,d,\}}$ within the set of transactions $\mathbf{D}$.
+To implement a market basket analysis on user behavior, we consider each member of a user type's monthly usage as a 6-item transaction (a transaction can also be referred to as an itemset) of the form \{num sess, hrs, ir actv, ss actv, ms actv, pub actv\} representing each of the usage features we analyze. Each item has a discretized value of either high, medium or low as described in section \ref{charusertypes}. Finally, we run the Apriori frequent pattern mining algorithm on all transactions within a user type to find frequent patterns that are interesting. Apriori is a seminal algorithm introduced by Agrawal and Srikant \cite{agrawal} for performing fast frequent itemset mining in large transaction databases to discover association rules of the form $\mathbf{{X} \Longrightarrow {Y}}$ where $\mathbf{X, Y \subseteq I}$. $\mathbf{I}$ is an itemset of the form $\mathbf{I = \{a,b,c,d,\}}$ within the set of transactions $\mathbf{D}$.
 The association rules generation process of the Apriori algorithm can be summarized in two steps:
 
 \begin{enumerate}
-\item A minimum support is applied to itemsets(transactions) to find all \textit{frequent itemsets} in the set of transactions.
+\item A minimum support is applied to itemsets (transactions) to find all \textit{frequent itemsets} in the set of transactions.
 The support, $\mathbf{supp(X)}$ of an itemset $X$, is defined as the proportion of itemsets in the data set which contain the 
 itemset.
 
@@ -530,10 +537,10 @@ For example a rule $\mathbf{milk,diapers \Longrightarrow {beer}}$ with a support
  A rule is identified as \textit{strong} (i.e. a likely occurrence) if it meets the minimum support and confidence levels.
 \end{enumerate}
 
-In our analysis we set a minimum support of 0.5 and minimum confidence level of 0.9 for strong rules. We do this to generate the most likely rules and constrain the size of frequent items generated by the Apriori algorithm.
+In our analysis we set a minimum support of $0.5$ and minimum confidence level of $0.9$ for strong rules. We do this to generate the most likely rules and constrain the size of frequent items generated by the Apriori algorithm.
 
 \subsection {Frequent patterns within the Power User user type}
-We ran the Apriori algorithm on the set of all transactions of all users in the power user type and the ten strong rules (rules meeting the minimum support of 0.5 and minimum confidence of 0.9 thresholds) were generated. They are as follows:
+We ran the Apriori algorithm on the set of all transactions of all users in the power user type and the ten strong rules (rules meeting the minimum support of $0.5$ and minimum confidence of $0.9$ thresholds) were generated. They are as follows:
 
 \begin{enumerate}
  \item $num\_sessions=High \;\; hours=High \longrightarrow pub_activity=High   \;\;conf:(0.96)$
@@ -547,7 +554,7 @@ We ran the Apriori algorithm on the set of all transactions of all users in the 
 
 As a reminder, members of this user type  are categorized by a usage pattern: \{high,high,high,high,high,high\} for all features.
 As expected, most rules show strong correlations between usage features with a 'high' rating.
-Rules (1),(2)\& (3) indicate an interesting correlation between Publisher Activity, Hours spent and Number of sessions. It indicates that per month usage of the CCS, when most users have a high frequency of use (spend alot of time on the CCS relative to everyone else), they are likely to be spending most of their time on publisher materials.
+Rules (1),(2)\& (3) indicate an interesting correlation between Publisher Activity, Hours spent and Number of sessions. It indicates that per month usage of the CCS, when most users have a high frequency of use (spend a lot of time on the CCS relative to everyone else), they are likely to be spending most of their time on publisher materials.
 
 \subsection {Frequent patterns within the Community seeker user type}
 On average, members of this group did not exhibit consistent usage of the CCS compared to the power user group. A small proportion of users did not use the CCS during every month under analysis.
@@ -562,7 +569,7 @@ This pattern is interesting as users within this group are more inclined to use 
 
 \subsection {Frequent patterns within the limited use user type}
 This cluster represents the sets of limited users i.e., users whom had a low frequency and variety of use. 
-Although this group features a large of users (n=32), there were only 70 transactions recorded during the 9 month study period, an average of 2.19 transactions per user. There were many users within this group who either registered use only in the month of September or had very sparse use throughout the school year.
+Although this group features a large of users ($n=32$), there were only $70$ transactions recorded during the $9$ month study period, an average of $2.19$ transactions per user. There were many users within this group who either registered use only in the month of September or had very sparse use throughout the school year.
 
 Three strong association rules were discovered for members of this group. They are:
 
@@ -575,16 +582,16 @@ Three strong association rules were discovered for members of this group. They a
 Though not particularly interesting, these rules re-emphasize the fact that members of this user type had very low system usage.
 
  \section {PREDICTING USER BEHAVIOR}
-This study would look at machine learning classifiers for predicting a user's behavior from small windows of time. The goal of this study is two fold:
+This study examines machine learning classifiers for predicting a user's behavior from small windows of time. The goal of this study is two fold:
 \begin{itemize}
 \item Determine the earliest window of time that provides the best prediction of a user's eventual class. A user's eventual class is the user type they hold membership in at the end of the year.
-\item Determine the usage feature(s) that are most predictive of a user's eventual type
+\item Determine the usage feature(s) that are most predictive of a user's eventual type.
 \end{itemize}
 
 We consider the task of predicting a user's eventual type by considering features on a semester, bi-monthly and monthly basis.
-For each time window, we perform  classification with four algorithms: Naive Bayes, SVM, J48 Decisions Trees and Bagging. The accuracy of the best algorithm is reported here. Furthermore, we determine the most predictive features of a user type per time window automatically using the attribute selection filter in WEKA \footnote{www.cs.waikato.ac.nz/ml/weka/} We also perform classification tasks using just this set of features.
+For each time window, we perform  classification with four algorithms: Na\"ive Bayes, SVM, J48 Decisions Trees and Bagging. The accuracy of the best algorithm is reported here. Furthermore, we determine the most predictive features of a user type per time window automatically using the attribute selection filter in WEKA \footnote{www.cs.waikato.ac.nz/ml/weka/} We also perform classification tasks using just this set of features.
 \subsection{User type prediction per semester}
-On a semester-semester basis, we discovered that the fall semester is best predictive of a user's type at the end of the school year. Using all the usage features, we can predict the user type with an accuracy of 75.57\%. Using WEKA's attribute selection filter, we discovered that the number of sessions, hours spent and publisher material activity are the most predictive features of a user's type during this period. Using these features alone improved prediction to an accuracy of 78.57\%. The results of our classification experiments with different classifiers are shown in table \ref{semesterprediction}
+On a semester-semester basis, we discovered that the fall semester is best predictive of a user's type at the end of the school year. Using all the usage features, we can predict the user type with an accuracy of $75.57\%$. Using WEKA's attribute selection filter, we discovered that the number of sessions, hours spent and publisher material activity are the most predictive features of a user's type during this period. Using these features alone improved prediction to an accuracy of 78.57\%. The results of our classification experiments with different classifiers are shown in table \ref{semesterprediction}.
 
 \begin{table}
 
