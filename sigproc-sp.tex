@@ -70,7 +70,7 @@
 % without further effort on your part as the last section in
 % the body of your article BEFORE References or any Appendices.
 
-\numberofauthors{8} %  in this sample file, there are a *total*
+\numberofauthors{3} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
 %
@@ -609,13 +609,20 @@ Finally, we considered the task of predicting a user's type on a month by month 
 
 However, as in our previous analysis, using the best features of the number of sessions, shared stuff activity and publisher material activity (this feature subset was selected by WEKA's CfsSubsetEval function), we discovered that the month of October provides a higher prediction accuracy of 72.5\%.
 
-\section{LIMITATIONS}
+\section{LIMITATIONS}\label{limitations}
 In this research, we made the assumption that user types discovered at the end of the school year represent the first year of usage for all users. However a large proportion of users in our study had used the CCS in previous years. Thus the user types discovered at the end of the school year do not capture one year of fresh use. Usage patterns in previous years may have impacted the manner in which teachers used the platform during the 2011-2012 school year. It is reasonable to assume that a power user during his/her first year of use may not always remain so if teaching the same material year in, year out. This is because the user would already be very conversant with the system and resources it holds, and thus not need to spend a great amount of time on the platform.
 
-Usage patterns described in this paper do not imply educators' affinity for using digital resources in teaching. The CCS is one of many online platforms through which educators can access digital resources to supplement their teaching. As an example, it may not be the case that users in the limited use category care less about using digital resources in their teaching. They could be accessing these resources from elsewhere online and thus not need to use as actively as others.
+Furthermore, usage patterns described in this paper do not imply educators' affinity for using digital resources in teaching. The CCS is one of many online platforms through which educators can access digital resources to supplement their teaching. As an example, it may not be the case that users in the limited use category care less about using digital resources in their teaching. They could be accessing these resources from elsewhere and thus not need to use the CCS as actively as others.
+
 \section{DISCUSSION AND CONCLUSION}
-\textit{Still working on this section...}
-\section{REFERENCES}
+In this paper, we have introduced a methodology for characterizing user types, detecting trends in usage via changes in usage feature values, understanding frequent patterns of use and predicting long-term usage behavior as described by user types.
+
+An extension to this work would be to consider a different metric for usage time. In this work, we explored usage in terms of months of use (September 2011 - May 2012). However, as mentioned in section \ref{limitations}, a good proportion of our user base had used the platform for a while prior to our observation period. Thus the user types, and patterns we discovered may be influenced by prior usage which we did not analyze in this research. As an example, a user of type limited use may have been a power user during the first year of CCS use, but regressed into the limited use category in subsequent years. Instead of considering usage in terms of time periods, an alternative metric could be the number of click actions registered by a user. We can consider a user base consisting of the first 1000 clicks for every user. This alternative would allow us to normalize for the influence of prior system exposure to usage patterns we study. 
+
+Studying usage under a metric such as the number of click actions would also give an understanding of the notion of velocity of use. Given the first 1000 click actions of a user, interesting questions could explore the distribution of click actions and the correlation/if any between click actions and eventual user type at the end of the observation period.
+
+As stated in the introduction, a major goal of this research is to provide district administrators and researchers with actionable information on trends in user behaviors. To this end, future work will explore a visual analytics platform to effectively communicate the results of our studies to researchers and district administrators. Currently, the CCS platform features an analytics dashboard that captures the clickstream of users. We plan on extending this dashboard to incorporate changes in usage patterns and the ability to predict future use. This will provide actionable information that could be used to better support educators using the CCS.
+
 \bibliographystyle{abbrv}
 \bibliography{sigproc-sp}  
 
