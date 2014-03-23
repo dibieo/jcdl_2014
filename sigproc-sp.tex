@@ -226,9 +226,9 @@ Our study is based on six usage features highlighted in table \ref{usagefeatures
 \begin{table}
 
 \centering
-\caption{CCS usage features that characterize a user type}
+\caption{CCS usage features that characterize a user type.  }
 \label{usagefeatures}
-\begin{tabular}{|l|l|} 
+\begin{tabular}{|c|p{6.75cm}|} 
 \hline
 Num & Feature \\ \hline
 1 & Total number of sessions (Num Sess) \\ \hline
@@ -251,7 +251,7 @@ We generate a typology of user types as follows:
 \begin{table}
 \caption{Discretized feature values for aggregate usage data across all users during the 2011-2012 school year}
 \label{aggfeaturebins}
-\begin{tabular}{|l|l|l|l|} 
+\begin{tabular}{|p{3.5cm}|l|l|l|} 
 % Add cluster label for cluster columns here
 \hline
 & \multicolumn{3}{c|}{\textbf{Bins}}  \\ \hline
@@ -287,7 +287,7 @@ Publisher Activity & -inf-9 & 9-30.5 & 30.5-inf \\ \hline
 \begin{table}
 \caption{Discretized feature values from cluster results of Maull et al. \cite{maullunderstanding}}
 \label{maull_features}
-\begin{tabular}{|l|l|l|l|l|l|}
+\begin{tabular}{|p{2.5cm}|l|l|l|l|l|}
 % Add cluster label for cluster columns here
 \hline
 & \multicolumn{5}{c|}{\textbf{Clusters}}  \\ \hline
@@ -423,7 +423,8 @@ On a bi-monthly basis, the feature values of hours spent, interactive resource a
 \caption{Bi-monthly usage feature values of the ``Community Seeker'' user type}
 \label{cluster2bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Period} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Sept-Nov & Mid & Mid  & High & High & High & High \\ \hline
@@ -437,7 +438,8 @@ Mar-May & Mid & Mid  & Mid & High & Mid & High \\ \hline
 \caption{Usage feature values on a month-month basis in the Community Seeker user type}
 \label{cluster2month}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Month} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 \textbf{Sept} & Mid                                    & Mid   & Mid         & Mid             & Mid            & High              \\  \hline 
@@ -462,7 +464,8 @@ Within the ``power user'' user type, usage features were examined in a semester-
 \caption{Usage feature values of during the spring semester of the ``Power User'' user type}
 \label{cluster1semester}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Semester} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Fall  semester & High & High  & High & High & High & High \\ \hline
@@ -477,7 +480,8 @@ All usage features trend at a high level for members of the power user category 
 \caption{Bi-monthly usage feature values of the ``Power User'' user type}
 \label{cluster1bimonthly}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Period} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 Sept-Nov & High & High  & High & High & High & High \\ \hline
@@ -490,12 +494,13 @@ Mar-May & High & High  & High & Mid & High & Mid \\ \hline
 Considering 2-month time frames as illustrated in table \ref{cluster1bimonthly}, all usage features maintain a value of high apart from My Stuff and Shared Stuff activities during the school year. My stuff activity dips between time periods of September-November and November-January and again from between time periods January-March and March-May.
 My Stuff and Shared stuff activity dips to a Low value range from a high-value range during the time of periods of January-March and March-May.
 
-\subsubsection{Monthly trends}
-\begin{table}
+
+\begin{table}[htbp!]
 \caption{Usage features month-month in the Power User user type}
 \label{cluster1month}
 \begin{tabular}{|p{1.5cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.6cm}|p{0.8cm}|p{0.8cm}|}
-& \multicolumn{2}{r}{\textbf{Usage features}}  \\ \hline
+\hline
+& \multicolumn{6}{c|}{\textbf{Usage features}}  \\ \hline
  \textbf{Month} 
  & Num sess & Hrs & IR Actv & MS Actv & Pub Actv & SS Actv \\ \hline
 \textbf{Sept} & High                                   & High  & High        & Mid             & High           & High                \\ \hline
@@ -509,6 +514,7 @@ My Stuff and Shared stuff activity dips to a Low value range from a high-value r
 \textbf{May}       & High                                   & High  & Low         & Low             & High           & Mid         \\  \hline     
 \end{tabular}
 \end{table}
+\subsubsection{Monthly trends}
 From table \ref{cluster1month}, it is clear that the number of sessions, hours and My Stuff Activity values retain a high value across all months. This indicates that a value of high in these three features is a strong predictor of membership within this cluster.  The values of interactive resource activity, My Stuff activity and shared stuff Activity vary quite a bit within the school year.
 
 \section{FREQUENT PATTERNS OF USE}
